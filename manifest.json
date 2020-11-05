@@ -1,5 +1,5 @@
 {
- "name": "Pokedex",
+ "name": "App",
  "icons": [
   {
    "src": "\/android-icon-36x36.png",
@@ -38,18 +38,4 @@
    "density": "4.0"
   }
  ]
-}
-
-{
-  "background_color": "blue",
-  "description": "A Pokedex for Pokemon",
-  "display": "fullscreen",
-  "icons": [
-    {
-      "src": "favicon.ico",
-    }
-  ],
-  "name": "Pokemon Pokedex",
-  "short_name": "Pokedex",
-  "start_url": "/index.html"
 }
