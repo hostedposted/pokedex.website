@@ -39,11 +39,11 @@
         height: 15%;
     }
     .tabContainer .buttonContainer button{
-        width: 50%;
+        width: 33.333333333333333333333333333333333333333333333333333333333333333333333%;
         height: 100%;
         float: left;
         border: none;
-        outline:none;
+        outline: none;
         cursor: pointer;
         padding: 10px;
         font-family: sans-serif;
@@ -178,6 +178,7 @@
     <div class="buttonContainer">
         <button onclick="showPanel(0,'#0000FF')">Pokemon</button>
         <button onclick="showPanel(1,'#0000FF')">Berries</button>
+        <button onclick="showPanel(2,'#0000FF')">Moves</button>
     </div>
     <div class="tabPanel"><link
         href="https://fonts.googleapis.com/css?family=Rubik&display=swap"
@@ -452,9 +453,188 @@
                     
                     fetchPokemon1();
                     </script>
-                    <h3>Copyright © 2020 <a href="https://Pokedex.website/">Pokedex website</a> - All Rights Reserved.<br>Thanks to <a href="https://PokeApi.co/">PokeApi</a> and <a href="https://Serebii.net/">Serebii. </a>.<br>All content is © Nintendo, Game Freak, and The Pokémon Company.</h3></div>
+                    <h3>Copyright © 2020 <a href="https://Pokedex.website/">Pokedex website</a> - All Rights Reserved.<br>Thanks to <a href="https://PokeApi.co/">PokeApi</a> and <a href="https://Serebii.net/">Serebii. </a>.<br>All content is © Nintendo, Game Freak, and The Pokémon Company.</h3>
             </body>
         </html></div>
+        <div class="tabPanel"><!DOCTYPE html>
+            <html lang="en">
+                <head>
+                    <meta charset="UTF-8" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+                    <title>Hostedposted's Pokedex</title>
+                    <style>body {
+                        background-color: blue;
+                        color: white;
+                        margin: 0;
+                        font-family: rubik;
+                    }
+                    
+                    .container {
+                        padding: 40px;
+                        margin: 0 auto;
+                    }
+                    
+                    h1 {
+                        text-transform: uppercase;
+                        text-align: center;
+                        font-size: 54px;
+                    }
+                    
+                    h3 {
+                        text-align: center;
+                        font-size: 14px;
+                    }
+                     
+                    
+                    #search2 {
+                        width: 85%;
+                        color: orangered;
+                        background-color: rgb(0, 255, 213);
+                    }     
+                    
+                    #pokedex2 {
+                        display: grid;
+                        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+                        grid-gap: 20px;
+                        padding-inline-start: 0;
+                    }
+                    
+                    .card {
+                        list-style: none;
+                        padding: 40px;
+                        background-color: #f4f4f4;
+                        color: #222;
+                      text-align: center;
+                    }
+                    
+                    .card:hover {
+                        animation: bounce 0.5s linear;
+                    }
+                    
+                    .card-title {
+                        text-transform: capitalize;
+                        margin-bottom: 0px;
+                        font-size: 32px;
+                        font-weight: normal;
+                    }
+                    .card-subtitle {
+                        margin-top: 5px;
+                        color: #666;
+                        font-weight: lighter;
+                    }
+                    
+                    .card-image {
+                        height: 180px;
+                    }
+                    
+                    @keyframes bounce {
+                        20% {
+                            transform: translateY(-6px);
+                        }
+                        40% {
+                            transform: translateY(0px);
+                        }
+                    
+                        80% {
+                            transform: translateY(-2px);
+                        }
+                        100% {
+                            transform: translateY(0);
+                        }
+                    }
+                    
+                    
+                        
+            
+                    
+                    </style>
+                    <link
+                        href="https://fonts.googleapis.com/css?family=Rubik&display=swap"
+                        rel="stylesheet"
+                    />
+                </head>
+                <body>
+                    <div class="container">
+                        <h1>Move Pokedex</h1>
+                        <input id = search2 type=“text” placeholder="Type here to search by pokemon name">
+                        <button id = searchbut2> Search</button>
+                        <button id = clearbut2> Main menu</button>
+                        <ul id="pokedex2"></ul>
+                    </div>
+                    <script>
+                            document.getElementById("searchbut2").addEventListener("click", function() {
+                            const searcher2 = document.getElementById("search2").value.toLowerCase()
+                            for (const pokeman of moves) {document.getElementById(pokeman.name).style.display = ""}
+                            for (const pokeman of moves) {
+                                if (!pokeman.name.startsWith(searcher2))
+                                {document.getElementById(pokeman.name).style.display = "none"}
+                            }
+                        });
+
+
+
+                        document.getElementById("clearbut2").addEventListener("click", function() {
+                            document.getElementById("search2").value = "";
+                            document.getElementById("searchbut2").click();
+                        });
+
+                        var input = document.getElementById("search2");
+
+
+                        input.addEventListener("keyup", function(event) {
+
+                            if (event.keyCode === 13) {
+            
+                                event.preventDefault();
+            
+                                document.getElementById("searchbut2").click();
+                            }
+                        });
+
+
+                        const pokedex2 = document.getElementById('pokedex2');
+                        
+                        let moves;
+
+                        const fetchPokemon2 = () => {
+                            const promises = [];
+                            for (let i = 1; i <= 784; i++) {
+                                const url2 = `https://pokeapi.co/api/v2/move/${i}`;
+                                promises.push(fetch(url2).then((res) => res.json()));
+                            }
+                            Promise.all(promises).then((results) => {
+                                moves = results.map((result) => ({
+                                    name: result.name,
+                                    pp: result.pp,
+                                    accuracy: result.accuracy,
+                                    priority: result.priority,
+                                    power: result.power,
+                                }));
+                                displayPokemon2(moves);
+                            });
+                        };
+                        
+                        const displayPokemon2 = (moves) => {
+                            console.log(moves);
+                            const pokemonHTMLString = moves
+                                .map(
+                                    (pokeman) => `
+                                <li class="card" id = "${pokeman.name}">
+                                    <h2 class="card-title">${pokeman.name}</h2>
+                                    <p class="card-subtitle">PP: ${pokeman.pp} <br> Accuracy: ${pokeman.accuracy} <br> Priority: ${pokeman.priority} <br> Power: ${pokeman.power}</p>
+                                </li>
+                            `
+                                )
+                                .join('');
+                            pokedex2.innerHTML = pokemonHTMLString;
+                        };
+                        
+                        fetchPokemon2();
+                        </script>
+                        <h3>Copyright © 2020 <a href="https://Pokedex.website/">Pokedex website</a> - All Rights Reserved.<br>Thanks to <a href="https://PokeApi.co/">PokeApi</a> and <a href="https://Serebii.net/">Serebii. </a>.<br>All content is © Nintendo, Game Freak, and The Pokémon Company.</h3>
+                </div>
+                </div>
 <script>var tabButtons=document.querySelectorAll(".tabContainer .buttonContainer button");
     var tabPanels=document.querySelectorAll(".tabContainer  .tabPanel");
     
