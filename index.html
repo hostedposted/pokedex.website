@@ -289,9 +289,19 @@
                     text-align: center;
                     font-size: 54px;
                 }
+                
+                h3 {
+                    text-align: center;
+                    font-size: 14px;
+                }
                  
                      
-                
+                #search1 {
+                width: 85%;
+                color: orangered;
+                background-color: rgb(0, 255, 213);
+                }
+
                 #pokedex1 {
                     display: grid;
                     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -342,6 +352,18 @@
                         transform: translateY(0);
                     }
                 }
+
+                #closeBtn {
+                position: absolute;
+                top: 20px;
+                right: 20px;
+                background-color: orangered;
+                padding: 10px 20px;
+                border: none;
+                color: white;
+                border-radius: 3px;
+                transition: transform 100ms;
+                }
                 
                 
                     
@@ -356,10 +378,45 @@
             <body>
                 <div class="container">
                     <h1>Berry Pokedex</h1>
+                    <input id = search1 type=“text” placeholder="Type here to search by pokemon name">
+                    <button id = searchbut1> Search</button>
+                    <button id = clearbut1> Main menu</button>
                     <ol id="pokedex1"></ol>
                 </div>
                 <script> 
+                        document.getElementById("searchbut1").addEventListener("click", function() {
+                            const searcher1 = document.getElementById("search1").value.toLowerCase()
+                            for (const pokeman of berries) {document.getElementById(pokeman.name).style.display = ""}
+                            for (const pokeman of berries) {
+                                if (!pokeman.name.startsWith(searcher1))
+                                {document.getElementById(pokeman.name).style.display = "none"}
+                            }
+                        });
+
+
+
+                        document.getElementById("clearbut1").addEventListener("click", function() {
+                            document.getElementById("search1").value = "";
+                            document.getElementById("searchbut1").click();
+                        });
+
+                        var input = document.getElementById("search1");
+
+
+                        input.addEventListener("keyup", function(event) {
+
+                            if (event.keyCode === 13) {
+            
+                                event.preventDefault();
+            
+                                document.getElementById("searchbut1").click();
+                            }
+                        });
+
                     const pokedex1 = document.getElementById('pokedex1');
+
+                    let berries;
+
                     const fetchPokemon1 = () => {
                         const promises = [];
                         for (let i = 1; i <= 64; i++) {
@@ -367,13 +424,13 @@
                             promises.push(fetch(url1).then((res) => res.json()));
                         }
                         Promise.all(promises).then((results) => {
-                            const pokemon = results.map((result) => ({
+                            berries = results.map((result) => ({
                                 name: result.name,
-                              firmness: result.firmness.name,
-                              natural_gift_type: result.natural_gift_type.name,
-                              id: result.id,
+                                firmness: result.firmness.name,
+                                natural_gift_type: result.natural_gift_type.name,
+                                id: result.id,
                             }))
-                            displayPokemon1(pokemon);
+                            displayPokemon1(berries);
                         });
                     };
                     
@@ -382,7 +439,7 @@
                         const pokemonHTMLString = pokemon
                             .map(
                                 (pokeman) => `
-                            <li class="card">
+                            <li class="card" id = "${pokeman.name}">
                                 <img class="card-image" src="https://raw.githubusercontent.com/hostedposted/Pokedex-data/main/${pokeman.id}.png"/>
                                 <h2 class="card-title">${pokeman.name}</h2>
                                 <p class="card-subtitle">Firmness: ${pokeman.firmness} <br> Natural Gift Type: ${pokeman.natural_gift_type}</p>
@@ -397,8 +454,7 @@
                     </script>
                     <h3>Copyright © 2020 <a href="https://Pokedex.website/">Pokedex website</a> - All Rights Reserved.<br>Thanks to <a href="https://PokeApi.co/">PokeApi</a> and <a href="https://Serebii.net/">Serebii. </a>.<br>All content is © Nintendo, Game Freak, and The Pokémon Company.</h3></div>
             </body>
-        </html>
-        </div>
+        </html></div>
 <script>var tabButtons=document.querySelectorAll(".tabContainer .buttonContainer button");
     var tabPanels=document.querySelectorAll(".tabContainer  .tabPanel");
     
