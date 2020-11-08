@@ -229,9 +229,9 @@
     let pokemon
         const fetchPokemon = () => {
             const promises = [];
-            const url = 'https://raw.githubusercontent.com/hostedposted/Pokedex-data/main/output1.json'
+            const url = 'output1.json'
             fetch(url).then((res) => res.json()).then((results)  => {
-                const url = "https://raw.githubusercontent.com/hostedposted/Pokedex-data/main/gen8.json";
+                const url = "gen8.json";
                 fetch(url).then((res) => res.json()).then((gen8pokemon) => {
                     results.sort((a, b) => (a.id - b.id))
                     pokemon = results.map((result) => ({
@@ -441,7 +441,7 @@
                             .map(
                                 (pokeman) => `
                             <li class="card" id = "${pokeman.name}">
-                                <img class="card-image" src="https://raw.githubusercontent.com/hostedposted/Pokedex-data/main/${pokeman.id}.png"/>
+                                <img class="card-image" src="{pokeman.id}.png"/>
                                 <h2 class="card-title">${pokeman.name}</h2>
                                 <p class="card-subtitle">Firmness: ${pokeman.firmness} <br> Natural Gift Type: ${pokeman.natural_gift_type}</p>
                             </li>
