@@ -77,6 +77,19 @@
                 animation: bounce 0.5s linear;
                 cursor: pointer;
             }
+
+            .move {
+                list-style: none;
+                padding: 40px;
+                background-color: #30da0e;
+                color: #222;
+                text-align: center;
+            }
+            
+            .move:hover {
+                animation: bounce 0.5s linear;
+                cursor: pointer;
+            }
             
             @keyframes bounce {
                 20% {
@@ -597,30 +610,35 @@
                         
                         let moves;
 
+                        const never = "Never Fails"
+
                         const fetchPokemon2 = () => {
                             const promises = [];
                             for (let i = 1; i <= 784; i++) {
                                 const url2 = `https://pokeapi.co/api/v2/move/${i}`;
                                 promises.push(fetch(url2).then((res) => res.json()));
                             }
+
                             Promise.all(promises).then((results) => {
                                 moves = results.map((result) => ({
                                     name: result.name,
                                     pp: result.pp,
-                                    accuracy: result.accuracy,
+                                    accuracy: result.accuracy || never,
                                     priority: result.priority,
-                                    power: result.power,
+                                    power: result.power || 0,
+                                    effect: result.effect_entries.map((short_effect) => short_effect.short_effect).join(', '),
+                                    
                                 }));
                                 displayPokemon2(moves);
                             });
                         };
-                        
+
                         const displayPokemon2 = (moves) => {
                             console.log(moves);
                             const pokemonHTMLString = moves
                                 .map(
                                     (pokeman) => `
-                                <li class="card" id = "${pokeman.name}">
+                                <li class="move" id = "${pokeman.name}">
                                     <h2 class="card-title">${pokeman.name}</h2>
                                     <p class="card-subtitle">PP: ${pokeman.pp} <br> Accuracy: ${pokeman.accuracy} <br> Priority: ${pokeman.priority} <br> Power: ${pokeman.power}</p>
                                 </li>
