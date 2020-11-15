@@ -24,6 +24,10 @@
     <style>body{
         background-color: blue;
     }
+
+    p {
+        text-transform: capitalize;
+    }
     
     .title{
         font-family: sans-serif;
@@ -68,7 +72,7 @@
             .card {
                 list-style: none;
                 padding: 40px;
-                background-color: #f4f4f4;
+                background-color: #3acfd4;
                 color: #222;
                 text-align: center;
             }
@@ -81,7 +85,7 @@
             .move {
                 list-style: none;
                 padding: 40px;
-                background-color: #30da0e;
+                background-color: #3acfd4;
                 color: #222;
                 text-align: center;
             }
@@ -308,6 +312,10 @@
                     text-align: center;
                     font-size: 14px;
                 }
+
+                p {
+                    text-transform: capitalize;
+                }
                  
                      
                 #search1 {
@@ -326,7 +334,7 @@
                 .card {
                     list-style: none;
                     padding: 40px;
-                    background-color: #f4f4f4;
+                    background-color: #3acfd4;
                     color: #222;
                   text-align: center;
                 }
@@ -442,7 +450,9 @@
                                 name: result.name,
                                 firmness: result.firmness.name,
                                 natural_gift_type: result.natural_gift_type.name,
+                                natural_gift_power: result.natural_gift_power,
                                 id: result.id,
+                                effect_chance: result.effect_chance,
                             }))
                             displayPokemon1(berries);
                         });
@@ -456,7 +466,7 @@
                             <li class="card" id = "${pokeman.name}">
                                 <img class="card-image" src="https://raw.githubusercontent.com/hostedposted/Pokedex-data/main/${pokeman.id}.png"/>
                                 <h2 class="card-title">${pokeman.name}</h2>
-                                <p class="card-subtitle">Firmness: ${pokeman.firmness} <br> Natural Gift Type: ${pokeman.natural_gift_type}</p>
+                                <p class="card-subtitle">Firmness: ${pokeman.firmness} <br> Natural Gift Type: ${pokeman.natural_gift_type} <br> Natural Gift Power: ${pokeman.natural_gift_power} </p>
                             </li>
                         `
                             )
@@ -516,7 +526,7 @@
                     .card {
                         list-style: none;
                         padding: 40px;
-                        background-color: #f4f4f4;
+                        background-color: #3acfd4;
                         color: #222;
                       text-align: center;
                     }
@@ -610,7 +620,6 @@
                         
                         let moves;
 
-                        const never = "Never Fails"
 
                         const fetchPokemon2 = () => {
                             const promises = [];
@@ -623,15 +632,18 @@
                                 moves = results.map((result) => ({
                                     name: result.name,
                                     pp: result.pp,
-                                    accuracy: result.accuracy || never,
+                                    accuracy: result.accuracy || "Never Fails",
                                     priority: result.priority,
                                     power: result.power || 0,
                                     effect: result.effect_entries.map((short_effect) => short_effect.short_effect).join(', '),
-                                    
+                                    effect_chance: result.effect_chance,
+                                    type: result.type.name,
+                                    id: result.id,
                                 }));
                                 displayPokemon2(moves);
                             });
                         };
+                    
 
                         const displayPokemon2 = (moves) => {
                             console.log(moves);
@@ -640,7 +652,7 @@
                                     (pokeman) => `
                                 <li class="move" id = "${pokeman.name}">
                                     <h2 class="card-title">${pokeman.name}</h2>
-                                    <p class="card-subtitle">PP: ${pokeman.pp} <br> Accuracy: ${pokeman.accuracy} <br> Priority: ${pokeman.priority} <br> Power: ${pokeman.power}</p>
+                                    <p class="card-subtitle">PP: ${pokeman.pp} <br> Accuracy: ${pokeman.accuracy} <br> Priority: ${pokeman.priority} <br> Power: ${pokeman.power} <br> Move type: ${pokeman.type}</p>
                                 </li>
                             `
                                 )
@@ -663,7 +675,6 @@ if('serviceWorker' in navigator) {
 
   registerServiceWorker();
 }
-
     var tabButtons=document.querySelectorAll(".tabContainer .buttonContainer button");
     var tabPanels=document.querySelectorAll(".tabContainer  .tabPanel");
     
