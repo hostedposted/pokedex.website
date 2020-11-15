@@ -1,33 +1,44 @@
-// give your cache a name
-const cacheName = 'my-cache';
-
-// put the static assets and routes you want to cache here
-const filesToCache = [
-  '/',
-  '/404.html',
-  '/index.html',
-  '/gen8.json',
-  '/output1.json',
-  '/Favicon/manifest.json'
+var CACHE_NAME = 'example';
+var urlsToCache = [
+  '/'
 ];
 
-// the event handler for the activate event
-self.addEventListener('activate', e => self.clients.claim());
-
-// the event handler for the install event 
-// typically used to cache assets
-self.addEventListener('install', e => {
-  e.waitUntil(
-    caches.open(cacheName)
-    .then(cache => cache.addAll(filesToCache))
+self.addEventListener('install', function(event) {
+  // Perform install steps
+  event.waitUntil(
+    caches.open(CACHE_NAME)
+      .then(function(cache) {
+        console.log('Opened cache');
+        return cache.addAll(urlsToCache);
+      })
   );
 });
 
-// the fetch event handler, to intercept requests and serve all 
-// static assets from the cache
-self.addEventListener('fetch', e => {
-  e.respondWith(
-    caches.match(e.request)
-    .then(response => response ? response : fetch(e.request))
-  )
+self.addEventListener('fetch', function(event) {
+  event.respondWith(
+    caches.match(event.request)
+      .then(function(response) {
+        // Cache hit - return response
+        if (response) {
+          return response;
+        }
+        return fetch(event.request);
+      }
+    )
+  );
+});
+
+self.addEventListener('activate', function(event) {
+  var cacheWhitelist = ['example'];
+  event.waitUntil(
+    caches.keys().then(function(cacheNames) {
+      return Promise.all(
+        cacheNames.map(function(cacheName) {
+          if (cacheWhitelist.indexOf(cacheName) === -1) {
+            return caches.delete(cacheName);
+          }
+        })
+      );
+    })
+  );
 });
