@@ -2,22 +2,22 @@
 <html>
 <head>
     <meta name="google-site-verification" content="yhnyDOWzzg-Pf9vx1xneBkgqYJ_UjSdOmbqwvJ1cfNo" />
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon" sizes="57x57" href="/Favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/Favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/Favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/Favicon/favicon-16x16.png">
+    <link rel="manifest" href="/Favicon/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="/Favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <meta charset="UTF-8">
     <title>Hostedposted's Pokedex</title>
@@ -277,7 +277,7 @@
         };
         
         fetchPokemon();</script>
-        <h3>Copyright © 2020 <a href="https://Pokedex.website/">Pokedex website</a> - All Rights Reserved.<br>Thanks to <a href="https://PokeApi.co/">PokeApi</a> and <a href="https://Serebii.net/">Serebii. </a>.<br>All content is © Nintendo, Game Freak, and The Pokémon Company.</h3></div>
+        <h3>Copyright © 2020 <a href="https://Pokedex.website/">Pokedex website</a> - All Rights Reserved.<br>Thanks to <a href="https://PokeApi.co/">PokeApi</a>.<br>All content is © Nintendo, Game Freak, and The Pokémon Company.</h3></div>
     
     <div class="tabPanel"><!DOCTYPE html>
         <html lang="en">
@@ -466,7 +466,7 @@
                     
                     fetchPokemon1();
                     </script>
-                    <h3>Copyright © 2020 <a href="https://Pokedex.website/">Pokedex website</a> - All Rights Reserved.<br>Thanks to <a href="https://PokeApi.co/">PokeApi</a> and <a href="https://Serebii.net/">Serebii. </a>.<br>All content is © Nintendo, Game Freak, and The Pokémon Company.</h3>
+                    <h3>Copyright © 2020 <a href="https://Pokedex.website/">Pokedex website</a> - All Rights Reserved.<br>Thanks to <a href="https://PokeApi.co/">PokeApi</a>.<br>All content is © Nintendo, Game Freak, and The Pokémon Company.</h3>
             </body>
         </html></div>
         <div class="tabPanel"><!DOCTYPE html>
@@ -650,10 +650,21 @@
                         
                         fetchPokemon2();
                         </script>
-                        <h3>Copyright © 2020 <a href="https://Pokedex.website/">Pokedex website</a> - All Rights Reserved.<br>Thanks to <a href="https://PokeApi.co/">PokeApi</a> and <a href="https://Serebii.net/">Serebii. </a>.<br>All content is © Nintendo, Game Freak, and The Pokémon Company.</h3>
+                        <h3>Copyright © 2020 <a href="https://Pokedex.website/">Pokedex website</a> - All Rights Reserved.<br>Thanks to <a href="https://PokeApi.co/">PokeApi</a>.<br>All content is © Nintendo, Game Freak, and The Pokémon Company.</h3>
                 </div>
                 </div>
-<script>var tabButtons=document.querySelectorAll(".tabContainer .buttonContainer button");
+<script>
+if('serviceWorker' in navigator) {
+  let registration;
+
+  const registerServiceWorker = async () => {
+    registration = await          navigator.serviceWorker.register('./sw.js');
+  };
+
+  registerServiceWorker();
+}
+
+    var tabButtons=document.querySelectorAll(".tabContainer .buttonContainer button");
     var tabPanels=document.querySelectorAll(".tabContainer  .tabPanel");
     
     function showPanel(panelIndex,colorCode) {
