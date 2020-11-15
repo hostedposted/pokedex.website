@@ -9,6 +9,16 @@ To go to the Pokedex go to [Pokedex.website](https://pokedex.website/)
  The sections are Pokemon, Berries and Moves.
 
 
+# Localy
+
+If you would like to use edit this website or use it offline, Please use these commands.
+
+```
+git clone https://github.com/Pokedex-website/Pokedex-website.github.io.git
+```
+There you go you have the code for the site!
+
+
 
  # Thanks
 
