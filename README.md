@@ -39,7 +39,7 @@ ctrl + shift + backspace.
 
 It depends on computer. It is normally del.
 
-Then choose the first two options then press Clear Data. This will remove cookies, history and cache making it get the newest update of the site.
+Then choose the second option then press Clear Data. This will remove cookies, history and cache making it get the newest update of the site.
 
  # Thanks
 
