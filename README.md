@@ -9,7 +9,7 @@ To go to the Pokedex go to [Pokedex.website](https://pokedex.website/)
  The sections are Pokemon, Berries and Moves.
 
 
-# Localy
+# Locally
 
 If you would like to use edit this website or use it offline, Please use these commands.
 
