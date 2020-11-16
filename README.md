@@ -30,6 +30,14 @@ f5 + ctrl
 
 Or you can press ctrl + shift + r.
 
+Also you can completly clear it so you do not need to soft reload by pressing
+ctrl + shift + del
+
+or 
+
+ctrl + shift + backspace.
+
+It depends on computer. It is normally del.
 
  # Thanks
 
