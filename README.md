@@ -31,9 +31,6 @@ f5 + ctrl
 Or you can press ctrl + shift + r.
 
 
-Also for a version that does not keep cache please go to [Pokedex.website/no.html](https://pokedex.website/no.html)
-
-
  # Thanks
 
  Please thank
