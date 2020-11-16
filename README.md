@@ -19,6 +19,20 @@ git clone https://github.com/Pokedex-website/Pokedex-website.github.io.git
 There you go you have the code for the site!
 
 
+# Cache
+
+This website uses cache so it works offline. 
+
+But cache will not let you use the newest version enless you soft reload the site.
+
+You can do this by pressing:
+f5 + ctrl
+
+Or you can press ctrl + shift + r.
+
+
+Also for a version that does not keep cache please go to [Pokedex.website/no.html](https://pokedex.website/no.html)
+
 
  # Thanks
 
