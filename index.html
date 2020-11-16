@@ -648,7 +648,7 @@
                                     accuracy: result.accuracy || "Never Fails",
                                     priority: result.priority,
                                     power: result.power || 0,
-                                    effect: result.effect_entries.map((short_effect) => short_effect.short_effect).join(', '),
+                                    effect: result.effect_entries.map((short_effect) => short_effect.short_effect).join(', ').replace('$effect_chance', result.effect_chance),
                                     effect_chance: result.effect_chance,
                                     type: result.type.name,
                                     id: result.id,
@@ -665,7 +665,7 @@
                                     (pokeman) => `
                                 <li class="move" id = "${pokeman.name}">
                                     <h2 class="card-title">${pokeman.name}</h2>
-                                    <p class="card-subtitle">PP: ${pokeman.pp} <br> Accuracy: ${pokeman.accuracy} <br> Priority: ${pokeman.priority} <br> Power: ${pokeman.power} <br> Move type: ${pokeman.type}</p>
+                                    <p class="card-subtitle">PP: ${pokeman.pp} <br> Accuracy: ${pokeman.accuracy} <br> Priority: ${pokeman.priority} <br> Power: ${pokeman.power} <br> Effect: ${pokeman.effect} <br> Move type: ${pokeman.type}</p>
                                 </li>
                             `
                                 )
