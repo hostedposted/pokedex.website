@@ -3,7 +3,6 @@
 	"name": "Pokemon Pokedex",
 	"lang": "en",
 	"description": "A Pokedex for Pokemon.",
-	"start_url": "https://pokedex.website/",
 	"background_color": "#0000ff",
 	"theme_color": "#0000ff",
 	"dir": "ltr",
@@ -75,6 +74,5 @@
 			"type": "image/png",
 			"sizes": "16x16"
 		}
-	],
-	"prefer_related_applications": "false"
+	]
 }
