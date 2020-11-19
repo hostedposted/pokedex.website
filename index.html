@@ -95,7 +95,6 @@
             .move {
                 list-style: none;
                 padding: 40px;
-                background-color: #3acfd4;
                 color: #222;
                 text-align: center;
             }
@@ -656,14 +655,34 @@
                                 displayPokemon2(moves);
                             });
                         };
-                    
+                        
+                        const colors = {
+                            "ground": "#B9BB68",
+                            "fire": "orange",
+                            "grass": "green",
+                            "fairy": "#E89CD4",
+                            'normal': "#F3F6DA",
+                            'fighting': "#D55811",
+                            'ice': "#3EE8EC",
+                            'electric': "#EAFF0C",
+                            'flying': "#0CACFF",
+                            'poison': "#E60CFF",
+                            'bug': "#86FF0C",
+                            'dark': "#462C5B",
+                            'water': "#40A3D9",
+                            'psychic': "#D740D9",
+                            "rock": "#B9BB68",
+                            "ghost": "purple",
+                            "dragon": "#436FDF",
+                            "steel": "silver",
+                        }
 
                         const displayPokemon2 = (moves) => {
                             console.log(moves);
                             const pokemonHTMLString = moves
                                 .map(
                                     (pokeman) => `
-                                <li class="move" id = "${pokeman.name}">
+                                <li class="card" id = "${pokeman.name}" style="background-color: ${colors[pokeman.type]};>
                                     <h2 class="card-title">${pokeman.name}</h2>
                                     <p class="card-subtitle">PP: ${pokeman.pp} <br> Accuracy: ${pokeman.accuracy} <br> Priority: ${pokeman.priority} <br> Power: ${pokeman.power} <br> Effect: ${pokeman.effect} <br> Move type: ${pokeman.type}</p>
                                 </li>
