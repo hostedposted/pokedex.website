@@ -5,6 +5,7 @@
 	"description": "A Pokedex for Pokemon.",
 	"background_color": "#0000ff",
 	"theme_color": "#0000ff",
+	"start_url": "https://pokedex.website/",
 	"dir": "ltr",
 	"display": "standalone",
 	"orientation": "any",
