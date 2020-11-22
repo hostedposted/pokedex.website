@@ -95,6 +95,8 @@
                 background-color: #3acfd4;
                 color: #222;
                 text-align: center;
+                max-height: 100%;
+                overflow: auto;
             }
             
             .card:hover {
@@ -182,12 +184,11 @@
                 left: 0;
                 height: 100vh;
                 width: 100vw;
-                background: #3acfd4;
+                background: #0000ff;
                 opacity: 0.95;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                overflow: auto;
             }
 
             #closeBtn {
@@ -316,12 +317,11 @@
         
         const displayPokemanPopup = (pokeman) => {
             document.body.style.overflow = 'hidden';
-            console.log(pokeman);
             const type = pokeman.types.map((type) => type.type.name).join(', ');
             const stats = pokeman.stats.map((stat) =>
                 `${stat.stat.name}: ${stat.base_stat}`
             ).join('<br>');
-            const movers = pokeman.moves.map((move) => move.move.name).join(', ');
+            const movers = pokeman.moves.map((move) => move.move.name).join(', <br>');
             const ability = pokeman.abilities.map((ability) => ability.ability.name).join(', ')
             const htmlString = `
                 <div class="popup">
@@ -333,7 +333,7 @@
                         <img class="card-image" src="${
                             pokeman.sprites['front_shiny']
                         }"/>
-                        <h2 class="card-title">${pokeman.name}</h2>
+                        <h2 class="card-title">${pokeman.id}. ${pokeman.name}</h2>
                         <p>Type: ${type} <br>Height in decimetres: ${pokeman.height} <br> Weight in hectograms: ${
                 pokeman.weight
             }<br> Abilities: ${ability}<br> Base Stats: <br>${stats}<br> Moves ${pokeman.name} can learn are: <br>${movers}</p>
