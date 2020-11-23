@@ -316,13 +316,15 @@
         };
         
         const displayPokemanPopup = (pokeman) => {
+            const url = "gen8.json";
+            fetch(url).then((res) => res.json()).then((gen8pokemon) => {
             document.body.style.overflow = 'hidden';
             const type = pokeman.types.map((type) => type.type.name).join(', ');
             const stats = pokeman.stats.map((stat) =>
                 `${stat.stat.name}: ${stat.base_stat}`
             ).join('<br>');
             const movers = pokeman.moves.map((move) => move.move.name).join(', <br>');
-            const ability = pokeman.abilities.map((ability) => ability.ability.name).join(', ')
+            const ability = pokeman.abilities.map((ability) => ability.ability.name).join(', ') || gen8pokemon[pokeman.id-808].abilities.join(', ')
             const htmlString = `
                 <div class="popup">
                     <button id="closeBtn" onclick="closePopup()">Close</button>
@@ -341,6 +343,7 @@
                 </div>
             `;
             pokedex.innerHTML = htmlString + pokedex.innerHTML;
+            })
         };
         
         const closePopup = () => {
