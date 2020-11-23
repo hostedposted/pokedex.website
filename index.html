@@ -333,7 +333,7 @@
                         <img class="card-image" src="${
                             pokeman.sprites['front_shiny']
                         }"/>
-                        <h2 class="card-title">${pokeman.id}. ${pokeman.name}</h2>
+                        <h2 class="card-title">${pokeman.id}. ${pokeman.name.replace('mr', 'mr-rime').replace('mr-rime-mime', 'mr-mime')}</h2>
                         <p>Type: ${type} <br>Height in decimetres: ${pokeman.height} <br> Weight in hectograms: ${
                 pokeman.weight
             }<br> Abilities: ${ability}<br> Base Stats: <br>${stats}<br> Moves ${pokeman.name} can learn are: <br>${movers}</p>
