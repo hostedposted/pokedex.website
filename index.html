@@ -275,7 +275,7 @@
     let pokemon
         const fetchPokemon = () => {
             const promises = [];
-            const url = 'output1.json'
+            const url = 'info.json'
             fetch(url).then((res) => res.json()).then((results)  => {
                 const url = "gen8.json";
                 fetch(url).then((res) => res.json()).then((gen8pokemon) => {
@@ -311,14 +311,18 @@
         fetchPokemon();
 
         const selectPokemon = async (id) => {
-            const url = `https://pokeapi.co/api/v2/pokemon/${id}`;
-            const res = await fetch(url);
-            const pokeman = await res.json();
-            cachedPokemon[id] = pokeman;
-            displayPokemanPopup(pokeman);
-            const moveUrls = pokeman.moves.map(move => move.move.url);
-            const results = await Promise.all(moveUrls.map(url => fetch(url)));
-            const moves = await Promise.all(results.map(res => res.json()));
+            if (!cachedPokemon[id]) {
+                const url = `https://pokeapi.co/api/v2/pokemon/${id}`;
+                const res = await fetch(url);
+                const pokeman = await res.json();
+                cachedPokemon[id] = pokeman;
+                displayPokemanPopup(pokeman);
+                const moveUrls = pokeman.moves.map(move => move.move.url);
+                const results = await Promise.all(moveUrls.map(url => fetch(url)));
+                const moves = await Promise.all(results.map(res => res.json()));
+            } else {
+                displayPokemanPopup(cachedPokemon[id]);
+            }
         };
 
         function displayMove(url) {
