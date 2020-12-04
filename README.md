@@ -18,6 +18,12 @@ git clone https://github.com/Pokedex-website/Pokedex-website.github.io.git
 ```
 There you go you have the code for the site!
 
+# Recent
+
+Recently added info on the new 5 pokemon in the crown tundra.
+
+# To do
+Well pokeapi does not have shiny sprites for the new pokemon in crown tundra, so I will be looking for other sprites.
 
  # Thanks
 
