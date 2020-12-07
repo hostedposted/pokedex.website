@@ -29,3 +29,5 @@ Well pokeapi does not have shiny sprites for the new pokemon in crown tundra, so
 
  Please thank
  [PokeApi](https://pokeapi.co/) for the amazing data!
+
+ [Pokemon-API](https://purukitto.github.io/pokemon-api/) for the description info.
