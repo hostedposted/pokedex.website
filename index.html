@@ -281,7 +281,7 @@
                     results.sort((a, b) => (a.id - b.id))
                     pokemon = results.map((result) => ({
                         name: result.name,
-                        image: result.sprites['front_default'],
+                        image: `/pokemon/${result.id}.png`,
                         type: result.types.map((type) => type.type.name).join(', '),
                         id: result.id,
                         ability: result.abilities.map((ability) => ability.ability.name).join(', ') || gen8pokemon[result.id-808].abilities.join(', ')
@@ -362,12 +362,8 @@
                 <div class="popup">
                     <button id="closeBtn" onclick="closePopup()">Close</button>
                     <div class="card">
-                        <img class="card-image" src="${
-                            pokeman.sprites['front_default']
-                        }"/>
-                        <img class="card-image" src="${
-                            pokeman.sprites['front_shiny']
-                        }"/>
+                        <img class="card-image" src="/pokemon/${pokeman.id}.png"/>
+                        <img class="card-image" src="/pokemon/shiny/${pokeman.id}.png"/>
                         <h2 class="card-title">${pokeman.id}. ${pokeman.name}</h2>
                         <p>Type: ${type} <br>Height in decimetres: ${pokeman.height} <br> Weight in hectograms: ${
                 pokeman.weight
