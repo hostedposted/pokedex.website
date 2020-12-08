@@ -324,7 +324,7 @@
                 const pokeman = await res.json();
                 cachedPokemon[id] = pokeman;
                 displayPokemanPopup(pokeman);
-                const moveUrls = `${pokeman.moves.map(move => move.move.url).replace('https://pokeapi.co/api/v2/', '')}index.json`;
+                const moveUrls = pokeman.moves.map(move => move.move.url);
                 const results = await Promise.all(moveUrls.map(url => fetch(url)));
                 const moves = await Promise.all(results.map(res => res.json()));
             } else {
