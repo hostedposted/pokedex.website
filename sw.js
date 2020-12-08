@@ -1,40 +1,45 @@
+var CACHE_NAME = 'example';
+var urlsToCache = [
+  "/"
+];
+
 self.addEventListener('install', function(event) {
+  // Perform install steps
   event.waitUntil(
-    caches.open(cacheName).then(function(cache) {
-      return setOfCachedUrls(cache).then(async function(cachedUrls) {
-        const cacheKeys = Array.from(urlsToCacheKeys.values());
-        const chunckSize = 20;
-        const cacheKeysChunks = new Array(Math.ceil(cacheKeys.length / chunckSize)).fill().map(_ => {
-          return cacheKeys.splice(0, chunckSize);
-        });
-        for (let cacheKeys of cacheKeysChunks) {
-          await Promise.all(
-            cacheKeys.map(function(cacheKey) {
-              // If we don't have a key matching url in the cache already, add it.
-              if (!cachedUrls.has(cacheKey)) {
-                var request = new Request(cacheKey, {credentials: 'same-origin'});
-                return fetch(request).then(function(response) {
-                  // Bail out of installation unless we get back a 200 OK for
-                  // every request.
-                  if (!response.ok) {
-                    throw new Error('Request for ' + cacheKey + ' returned a ' +
-                      'response with status ' + response.status);
-                  }
+    caches.open(CACHE_NAME)
+      .then(function(cache) {
+        console.log("Opened cache 1.2.2");
+        return cache.addAll(urlsToCache);
+      })
+  );
+});
 
-                  return cleanResponse(response).then(function(responseToCache) {
-                    return cache.put(cacheKey, responseToCache);
-                  });
-                });
-              }
-            })
-          );
+self.addEventListener('fetch', function(event) {
+  event.respondWith(
+    caches.match(event.request)
+      .then(function(response) {
+        // Cache hit - return response
+        if (response) {
+          return response;
         }
-      });
-    }).then(function() {
+        return fetch(event.request);
+      }
+    )
+  );
+});
 
-      // Force the SW to transition from installing -> active state
-      return self.skipWaiting();
-
+self.addEventListener('activate', function(event) {
+  var cacheWhitelist = ['example'];
+  event.waitUntil(
+    caches.keys().then(function(cacheNames) {
+      return Promise.all(
+        cacheNames.map(function(cacheName) {
+          if (cacheWhitelist.indexOf(cacheName) === -1) {
+            return caches.delete(cacheName);
+          }
+        })
+      );
     })
   );
 });
+
