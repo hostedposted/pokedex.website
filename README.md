@@ -20,6 +20,8 @@ There you go you have the code for the site!
 
 # Recent
 
+Made Pokemon sprites load faster.
+
 Recently added info on the new 5 pokemon in the crown tundra.
 
 # To do
