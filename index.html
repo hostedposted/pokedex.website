@@ -154,6 +154,14 @@
             #searchbut {
                 display: none;
             }
+
+            #searchbut1 {
+                display: none;
+            }
+
+            #searchbut2 {
+                display: none;
+            }
     
             #search {
                 width: 85%;
@@ -513,7 +521,7 @@
                 <div class="container">
                     <h1>Berry Pokedex</h1>
                     <input id = search1 type=“text” placeholder="Type here to search by a berries name">
-                    <button id = searchbut1> Search</button>
+                    <button id = searchbut1></button>
                     <button id = clearbut1> Main menu</button>
                     <ol id="pokedex1"></ol>
                 </div>
@@ -538,14 +546,16 @@
 
 
                         input.addEventListener("keyup", function(event) {
-
-                            if (event.keyCode === 13) {
-            
+                            for (i = 0; i < 226; i++) {
+                                if (event.keyCode === i) {
+                                
                                 event.preventDefault();
-            
+                                
                                 document.getElementById("searchbut1").click();
-                            }
-                        });
+                                };
+                            };
+                        }
+                        );
 
                     const pokedex1 = document.getElementById('pokedex1');
 
@@ -670,7 +680,7 @@
                     <div class="container">
                         <h1>Move Pokedex</h1>
                         <input id = search2 type=“text” placeholder="Type here to search by moves">
-                        <button id = searchbut2> Search</button>
+                        <button id = searchbut2></button>
                         <button id = clearbut2> Main menu</button>
                         <ul id="pokedex2"></ul>
                     </div>
@@ -695,14 +705,16 @@
 
 
                         input.addEventListener("keyup", function(event) {
-
-                            if (event.keyCode === 13) {
-            
+                            for (i = 0; i < 226; i++) {
+                                if (event.keyCode === i) {
+                                
                                 event.preventDefault();
-            
+                                
                                 document.getElementById("searchbut2").click();
-                            }
-                        });
+                                };
+                            };
+                        }
+                        );
 
 
                         const pokedex2 = document.getElementById('pokedex2');
