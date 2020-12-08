@@ -713,7 +713,7 @@
                         const fetchPokemon2 = () => {
                             const promises = [];
                             for (let i = 1; i <= 784; i++) {
-                                const url2 = `https://pokeapi.co/api/v2/move/${i}`;
+                                const url2 = `/move/${i}/index.json`;
                                 promises.push(fetch(url2).then((res) => res.json()));
                             }
 
