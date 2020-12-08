@@ -11,7 +11,7 @@ To go to the Pokedex go to [Pokedex.website](https://pokedex.website/)
 
 # Locally
 
-If you would like to use edit this website or use it offline, Please use this command.
+If you would like to get the code to your device, Please use this command.
 
 ```
 git clone https://github.com/Pokedex-website/Pokedex-website.github.io.git
