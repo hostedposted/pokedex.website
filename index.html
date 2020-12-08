@@ -151,6 +151,9 @@
                 height: 120px;
             }
             
+            #searchbut {
+                display: none;
+            }
     
             #search {
                 width: 85%;
@@ -233,8 +236,8 @@
     <div class="container">
         <h1>Pokemon Pokedex</h1>
         <input id = search type=“text” placeholder="Type here to search by pokemon name">
-        <button id = searchbut> Search</button>
         <button id = clearbut> Main menu</button>
+        <button id = searchbut></button>
         <ol id="pokedex"></ol>
     </div>
     <script>
@@ -256,16 +259,21 @@
 
     var input = document.getElementById("search");
 
+    var i;
 
     input.addEventListener("keyup", function(event) {
-
-        if (event.keyCode === 13) {
+        for (i = 0; i < 226; i++) {
+            if (event.keyCode === i) {
             
             event.preventDefault();
             
             document.getElementById("searchbut").click();
-        }
-    });
+            };
+        };
+    }
+    );
+
+    
     
 
 
