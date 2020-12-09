@@ -42,6 +42,13 @@
         width: 100%;
     }
 
+    #update{
+        background-color: black;
+        color: white;
+        width: 100%;
+        text-align: center;
+    }
+
     p {
         text-transform: capitalize;
     }
@@ -233,6 +240,7 @@
 </head>
 <body style="padding: 20px">
 <h1 class="title">Hostedposted's Pokedex</h1>
+<button id = update>Update To Newest Version</button>
 <form action="https://github.com/Pokedex-website/Pokedex-website.github.io">
     <input type="submit" id = submiter value="Go to Source code" />
 </form>
@@ -795,15 +803,18 @@
                 </div>
                 </div>
 <script>
-if('serviceWorker' in navigator) {
-  let registration;
-
-  const registerServiceWorker = async () => {
-    registration = await          navigator.serviceWorker.register('./sw.js');
-  };
-
-  registerServiceWorker();
-}
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js', {scope: 'sw-test'}).then(function(registration) {
+    // registration worked
+    console.log('Registration succeeded.');
+    update.onclick = function() {
+      registration.update();
+    }
+  }).catch(function(error) {
+    // registration failed
+    console.log('Registration failed with ' + error);
+  });
+};
     var tabButtons=document.querySelectorAll(".tabContainer .buttonContainer button");
     var tabPanels=document.querySelectorAll(".tabContainer  .tabPanel");
     
