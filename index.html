@@ -110,7 +110,7 @@
             .move {
                 list-style: none;
                 padding: 40px;
-                color: #222;
+                color: black;
                 text-align: center;
             }
             
@@ -144,6 +144,13 @@
             .card-subtitle {
                 font-weight: lighter;
                 color: #666;
+                margin-top: 5px;
+            }
+
+                        
+            .move-subtitle {
+                font-weight: lighter;
+                color: black;
                 margin-top: 5px;
             }
             
@@ -473,7 +480,7 @@
                 }
                 .move-subtitle {
                     margin-top: 5px;
-                    color: #666;
+                    color: black;
                     font-weight: lighter;
                 }
                 
@@ -748,24 +755,24 @@
                         };
                         
                         const colors = {
-                            "ground": "#B9BB68",
-                            "fire": "orange",
-                            "grass": "green",
-                            "fairy": "#E89CD4",
-                            'normal': "#F3F6DA",
-                            'fighting': "#D55811",
-                            'ice': "#3EE8EC",
-                            'electric': "#EAFF0C",
-                            'flying': "#0CACFF",
-                            'poison': "#E60CFF",
-                            'bug': "#86FF0C",
-                            'dark': "#462C5B",
-                            'water': "#40A3D9",
-                            'psychic': "#D740D9",
-                            "rock": "#B9BB68",
-                            "ghost": "purple",
-                            "dragon": "#436FDF",
-                            "steel": "silver",
+                            "ground": "#E0C069",
+                            "fire": "#F07F2F",
+                            "grass": "#78C84F",
+                            "fairy": "#FF9BE1",
+                            'normal': "#B2B388",
+                            'fighting': "#A11B1D",
+                            'ice': "#98D8D8",
+                            'electric': "#F8D030",
+                            'flying': "#A890F0",
+                            'poison': "#A040A1",
+                            'bug': "#A8B821",
+                            'dark': "#6F5848",
+                            'water': "#6890F0",
+                            'psychic': "#F85888",
+                            "rock": "#B7A038",
+                            "ghost": "#705798",
+                            "dragon": "#7038F9",
+                            "steel": "#B8B8D0",
                         }
 
                         const displayPokemon2 = (moves) => {
@@ -774,7 +781,7 @@
                                     (pokeman) => `
                                 <li class="move" id = "${pokeman.name}" style = "background-color: ${colors[pokeman.type]};">
                                     <h2 class="card-title">${pokeman.name}</h2>
-                                    <p class="card-subtitle">PP: ${pokeman.pp} <br> Accuracy: ${pokeman.accuracy} <br> Priority: ${pokeman.priority} <br> Power: ${pokeman.power} <br> Effect: ${pokeman.effect} <br> Move type: ${pokeman.type}</p>
+                                    <p class="move-subtitle">PP: ${pokeman.pp} <br> Accuracy: ${pokeman.accuracy} <br> Priority: ${pokeman.priority} <br> Power: ${pokeman.power} <br> Effect: ${pokeman.effect} <br> Move type: ${pokeman.type}</p>
                                 </li>
                             `
                                 )
