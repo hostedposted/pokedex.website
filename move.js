@@ -51,7 +51,7 @@ const fetchPokemon2 = () => {
             accuracy: result.accuracy || "Never Fails",
             priority: result.priority,
             power: result.power || 0,
-            effect: result.effect_entries.map((short_effect) => short_effect.short_effect).join(', ').replace('$effect_chance', result.effect_chance),
+            effect: result.effect_entries.map((short_effect) => short_effect.short_effect).join(', ').replace('$effect_chance', result.effect_chance).replace('$effect_chance', result.effect_chance),
             effect_chance: result.effect_chance,
             type: result.type.name,
             id: result.id,
