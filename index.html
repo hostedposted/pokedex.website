@@ -302,6 +302,7 @@
 
     const pokedex = document.getElementById('pokedex');
     const cachedPokemon = {};
+    const cachedEvolution = {};
     let pokemon
         const fetchPokemon = () => {
             const promises = [];
@@ -345,13 +346,20 @@
                 const url = `https://pokeapi.co/api/v2/pokemon/${id}`;
                 const res = await fetch(url);
                 const pokeman = await res.json();
-                cachedPokemon[id] = pokeman;
-                displayPokemanPopup(pokeman);
                 const moveUrls = pokeman.moves.map(move => move.move.url);
                 const results = await Promise.all(moveUrls.map(url => fetch(url)));
                 const moves = await Promise.all(results.map(res => res.json()));
+                const urlf = `https://pokeapi.co/api/v2/pokemon-species/${id}`;
+                const resf = await fetch(urlf);
+                const pokemanf = await resf.json();
+                const evoU = pokemanf.evolution_chain.url;
+                const rese = await fetch(evoU);
+                const evolution = await rese.json();
+                cachedPokemon[id] = pokeman;
+                cachedEvolution[id] = evolution;
+                displayPokemanPopup(pokeman, evolution);
             } else {
-                displayPokemanPopup(cachedPokemon[id]);
+                displayPokemanPopup(cachedPokemon[id], cachedEvolution[id]);
             }
         };
 
@@ -370,7 +378,7 @@
         }
 
         
-        const displayPokemanPopup = (pokeman) => {
+        const displayPokemanPopup = (pokeman, evolution) => {
             const url = "gen8.json";
             fetch(url).then((res) => res.json()).then((gen8pokemon) => {
             document.body.style.overflow = 'hidden';
@@ -387,10 +395,13 @@
 
             const ability = pokeman.abilities.map((ability) => ability.ability.name).join(', ') || gen8pokemon[pokeman.id-808].abilities.join(', ')
             const description = pokeman.id < 808 ?
-                `Description: <br>${desc[pokeman.id-1].description}` : pokeman.id < 894 ?
+                `Description: <br>${desc[pokeman.id-1].description}` : pokeman.id < 891 ?
                 `Description: <br>${gen8pokemon[pokeman.id-808].description}` : ``
             const species = pokeman.id < 810 ?
                     `Species: <br>${desc[pokeman.id-1].species}<br>` : ``
+            const evolchain = evolution.chain.evolves_to[0] == undefined ?
+                `Evolution chain: ${evolution.chain.species.name}` : evolution.chain.evolves_to[0].evolves_to[0] == undefined ?
+                `Evolution chain: ${evolution.chain.species.name}, ${evolution.chain.evolves_to[0].species.name}` : `Evolution chain: ${evolution.chain.species.name}, ${evolution.chain.evolves_to[0].species.name}, ${evolution.chain.evolves_to[0].evolves_to[0].species.name}`
             const htmlString = `
                 <div class="popup">
                     <button id="closeBtn" onclick="closePopup()">Close</button>
@@ -398,9 +409,9 @@
                         <img class="card-image" src="/pokemon/${pokeman.id}.png"/>
                         <img class="card-image" src="/pokemon/shiny/${pokeman.id}.png"/>
                         <h2 class="card-title">${pokeman.id}. ${pokeman.name}</h2>
-                        <p>Type: ${type} <br>Height in decimetres: ${pokeman.height} <br> Weight in hectograms: ${
+                        <p>Type: ${type} <br>Height in decimetres: ${pokeman.height}<br> Weight in hectograms: ${
                 pokeman.weight
-            }<br> Abilities: ${ability}<br> Base Stats: <br>${stats}<br>${species}${description}<br>${movers}</p>
+            }<br> Abilities: ${ability}<br> Base Stats: <br>${stats}<br>${species}${description}<br>${evolchain}<br>${movers}</p>
                     </div>
                 </div>
             `;
