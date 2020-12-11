@@ -1,0 +1,1801 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 45,
+    "color": {
+        "name": "brown",
+        "url": "/api/v2/pokemon-color/3/"
+    },
+    "egg_groups": [
+        {
+            "name": "mineral",
+            "url": "/api/v2/egg-group/10/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/31/"
+    },
+    "evolves_from_species": {
+        "name": "graveler",
+        "url": "/api/v2/pokemon-species/75/"
+    },
+    "flavor_text_entries": [
+        {
+            "flavor_text": "Its boulder-like\nbody is extremely\nhard. It can\feasily withstand\ndynamite blasts\nwithout damage.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "red",
+                "url": "/api/v2/version/1/"
+            }
+        },
+        {
+            "flavor_text": "Its boulder-like\nbody is extremely\nhard. It can\feasily withstand\ndynamite blasts\nwithout damage.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "blue",
+                "url": "/api/v2/version/2/"
+            }
+        },
+        {
+            "flavor_text": "Once it sheds its\nskin, its body\nturns tender and\fwhitish. Its hide\nhardens when it's\nexposed to air.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "yellow",
+                "url": "/api/v2/version/3/"
+            }
+        },
+        {
+            "flavor_text": "It sheds its skin\nonce a year. The\ndiscarded shell\fimmediately hard\u00ad\nens and crumbles\naway.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "gold",
+                "url": "/api/v2/version/4/"
+            }
+        },
+        {
+            "flavor_text": "It is capable of\nblowing itself up.\nIt uses this\fexplosive force to\njump from mountain\nto mountain.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "silver",
+                "url": "/api/v2/version/5/"
+            }
+        },
+        {
+            "flavor_text": "Its rock-like body\nis so durable,\neven high-powered\fdynamite blasts\nfail to scratch\nits rugged hide.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "crystal",
+                "url": "/api/v2/version/6/"
+            }
+        },
+        {
+            "flavor_text": "GOLEM live up on mountains.\nIf there is a large earthquake, these\nPOK\u00e9MON will come rolling down off\fthe mountains en masse to the\nfoothills below.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "/api/v2/version/7/"
+            }
+        },
+        {
+            "flavor_text": "GOLEM is known for rolling down from\nmountains. To prevent them from rolling\ninto the homes of people downhill,\fgrooves have been dug into the sides of\nmountains to serve as guideways for\ndiverting this POK\u00e9MON\u2019s course.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "It is said to live in volcanic craters\non mountain peaks. Once a year, it sheds\nits hide and grows larger. The shed hide\ncrumbles and returns to the soil.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "It is enclosed in a hard shell that is as\nrugged as slabs of rock. It sheds skin\nonce a year to grow larger.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "Its boulder-like body is extremely hard.\nIt can easily withstand dynamite blasts\nwithout taking damage.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "It sheds its hide once a year.\nIts boulderlike body is so tough,\neven dynamite can\u2019t harm it.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "It tumbles down mountains, leaving\ngrooves from peak to base.\nStay clear of these grooves.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "Even dynamite can\u2019t harm its hard,\nboulderlike body. It sheds its hide\njust once a year.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "It sheds its skin once a year.\nThe discarded shell immediately\nhardens and crumbles away.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "It is capable of blowing itself up.\nIt uses this explosive force to\njump from mountain to mountain.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "Aucun explosif ne pourrait entamer\nsa carapace de pierre. Il mue une\nfois par an.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Even dynamite can\u2019t harm its hard,\nboulderlike body. It sheds its hide\njust once a year.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Aucun explosif ne pourrait entamer\nsa carapace de pierre. Il mue une\nfois par an.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Even dynamite can\u2019t harm its hard,\nboulderlike body. It sheds its hide\njust once a year.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Even dynamite can\u2019t harm its hard,\nboulder-like body. It sheds its hide\njust once a year.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "Even dynamite can\u2019t harm its hard,\nboulder-like body. It sheds its hide\njust once a year.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "\u3055\u3093\u3061\u3087\u3046\u304b\u3089\u3000\u3075\u3082\u3068\u307e\u3067\u3000\u3064\u3065\u304f\n\u307f\u305e\u306f\u3000\u30b4\u30ed\u30fc\u30cb\u30e3\u304c\u3000\u3053\u308d\u304c\u308a\u304a\u3061\u308b\n\u3068\u304a\u308a\u307f\u3061\u306a\u306e\u3067\u3000\u3088\u3046\u3061\u3085\u3046\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uc0b0 \uc815\uc0c1\uc5d0\uc11c \uc0b0\uae30\uc2ad\uae4c\uc9c0 \uc774\uc5b4\uc9c0\ub294\n\uc6c0\ud479 \ud328\uc778 \ud648\uc740 \ub531\uad6c\ub9ac\uac00 \uad74\ub7ec\n\ub2e4\ub2c8\ub294 \uae38\uc774\ubbc0\ub85c \uc8fc\uc758\uac00 \ud544\uc694\ud558\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u00c0 force de d\u00e9valer les falaises, il a creus\u00e9 de larges\nsillons. Mieux vaut ne pas s\u2019en approcher.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Sie rollen Berge hinunter und hinterlassen\nSpurrillen. Halte dich von diesen Rillen fern.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Se lanza monta\u00f1a abajo y deja un surco desde la cima\nhasta el pie. Es mejor mantenerse alejado.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "A furia di rotolare gi\u00f9 dalla cima dei monti, ha\nformato dei solchi. Meglio evitarli.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It tumbles down mountains, leaving grooves\nfrom peak to base. Stay clear of these grooves.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u5c71\u9802\u304b\u3089\u3000\u3075\u3082\u3068\u307e\u3067\u3000\u7d9a\u304f\u3000\u6e9d\u306f\n\u30b4\u30ed\u30fc\u30cb\u30e3\u304c\u3000\u8ee2\u304c\u308a\u843d\u3061\u308b\n\u901a\u308a\u9053\u306a\u306e\u3067\u3000\u8981\u6ce8\u610f\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u304c\u3093\u305b\u304d\u306e\u3000\u3088\u3046\u306a\u3000\u304b\u305f\u3044\u3000\u304b\u3089\u3060\u306f\n\u30c0\u30a4\u30ca\u30de\u30a4\u30c8\u3067\u3082\u3000\u304d\u305a\u3064\u304b\u306a\u3044\u3002\n\uff11\u306d\u3093\u306b\u3000\uff11\u3069\u3060\u3051\u3000\u3060\u3063\u3074\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\uc554\uc11d \uac19\uc740 \ub2e8\ub2e8\ud55c \ubab8\uc740\n\ub2e4\uc774\ub108\ub9c8\uc774\ud2b8\ub85c\ub3c4 \uc0c1\ucc98\ub97c\n\uc785\ud790 \uc218 \uc5c6\ub2e4. 1\ub144\uc5d0 1\ubc88 \ud0c8\ud53c\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Aucun explosif ne pourrait entamer sa carapace de\npierre. Il mue une fois par an.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Selbst Sprengstoff kann seinem harten K\u00f6rper\nnichts anhaben. H\u00e4utet sich nur einmal j\u00e4hrlich.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Ni siquiera la dinamita puede da\u00f1ar su cuerpo rocoso.\nMuda la piel una vez al a\u00f1o.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Muta il guscio solo una volta all\u2019anno. Neanche la\ndinamite pu\u00f2 scalfire il suo corpo durissimo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Even dynamite can\u2019t harm its hard, boulder-like\nbody. It sheds its hide just once a year.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u5ca9\u77f3\u306e\u3000\u3088\u3046\u306a\u3000\u786c\u3044\u3000\u4f53\u306f\n\u30c0\u30a4\u30ca\u30de\u30a4\u30c8\u3067\u3082\u3000\u50b7\u3064\u304b\u306a\u3044\u3002\n\uff11\u5e74\u306b\u3000\uff11\u5ea6\u3060\u3051\u3000\u8131\u76ae\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u304a\u304a\u304d\u306a\u3000\u3058\u3057\u3093\u304c\u3000\u304a\u3053\u308b\u3068\u3000\u3084\u307e\u306b\u3000\u3059\u3093\u3067\u3044\u308b\n\u30b4\u30ed\u30fc\u30cb\u30e3\u304c\u3000\u306a\u3093\u3073\u304d\u3082\u3000\u3075\u3082\u3068\u307e\u3067\u3000\u3054\u308d\u3054\u308d\n\u3053\u308d\u304c\u308a\u3000\u304a\u3061\u3066\u304f\u308b\u3000\u3053\u3068\u304c\u3000\u3042\u308b\u3088\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\ud070 \uc9c0\uc9c4\uc774 \uc77c\uc5b4\ub098\uba74 \uc0b0\uc5d0 \uc0ac\ub294 \ub531\uad6c\ub9ac\n\uc5ec\ub7ec \ub9c8\ub9ac\uac00 \uc0b0\uae30\uc2ad\uae4c\uc9c0 \ub370\uad74\ub370\uad74\n\uad74\ub7ec \ub0b4\ub824\uc624\ub294 \uc77c\uc774 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Grolem vit \u00e0 la montagne. Lorsqu\u2019il y a un tremblement de\nterre, ces Pok\u00e9mon roulent en groupe vers les contreforts\nmontagneux.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Geowaz lebt hoch in den Bergen. Gibt es ein starkes\nErdbeben, rollt dieses Pok\u00e9mon so lange den Berg\nhinunter, bis es schlie\u00dflich unten angekommen ist.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Golem vive en las monta\u00f1as. Si se produce un gran terremoto,\nestos Pok\u00e9mon descienden rodando en masa por las laderas.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "I Golem vivono in alta montagna. In caso di terremoto,\nquesti Pok\u00e9mon rotolano gi\u00f9 per i monti in massa\ne si fermano a valle.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Golem live up on mountains. If there is a large earthquake,\nthese Pok\u00e9mon will come rolling down off the mountains\nen masse to the foothills below.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u5927\u304d\u306a\u3000\u5730\u9707\u304c\u3000\u8d77\u3053\u308b\u3068\u3000\u5c71\u306b\u3000\u3059\u3093\u3067\u3044\u308b\n\u30b4\u30ed\u30fc\u30cb\u30e3\u304c\u3000\u4f55\u5339\u3082\u3000\u3075\u3082\u3068\u307e\u3067\u3000\u3054\u308d\u3054\u308d\n\u8ee2\u304c\u308a\u3000\u843d\u3061\u3066\u304f\u308b\u3000\u3053\u3068\u304c\u3000\u3042\u308b\u3088\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Pu\u00f2 farsi esplodere e risalire a gran velocit\u00e0\ni pendii montani pi\u00f9 ripidi sfruttando la\nspinta che riceve.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "\u3084\u307e\u306e\u3000\u3057\u3083\u3081\u3093\u306b\u3000\u307b\u3063\u3066\u3042\u308b\u3000\u307f\u305e\u306f\u3000\u3053\u308d\u304c\u308a\n\u304a\u3061\u3066\u304d\u305f\u3000\u30b4\u30ed\u30fc\u30cb\u30e3\u304c\u3000\u307f\u3093\u304b\u306b\u3000\u3076\u3064\u304b\u3089\u306a\u3044\n\u3088\u3046\u306b\u3000\u3059\u308b\u305f\u3081\u306e\u3000\u3068\u304a\u308a\u307f\u3061\u306b\u3000\u306a\u3063\u3066\u3044\u308b\u305e\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\uc0b0\uc758 \uacbd\uc0ac\uba74\uc5d0 \ud30c\ub193\uc740 \ud648\uc740 \uad74\ub7ec\n\ub0b4\ub824\uc624\ub294 \ub531\uad6c\ub9ac\uac00 \ubbfc\uac00\uc5d0 \ubd80\ub52a\ud788\uc9c0\n\uc54a\uac8c \ud558\uae30 \uc704\ud55c \ucf54\uc2a4\ub85c \ub418\uc5b4 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "On sait que les Grolem se laissent rouler en bas\ndes montagnes. Afin d\u2019\u00e9viter qu\u2019ils roulent sur les maisons\ndes gens, des tranch\u00e9es ont \u00e9t\u00e9 creus\u00e9es le long des\nmontagnes pour les guider dans leurs descentes infernales.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Geowaz ist daf\u00fcr bekannt, dass es Bergh\u00e4nge herunterrollt.\nDamit es nicht in die H\u00e4user der Menschen hineinrollt, wurden\nGr\u00e4ben so an den Bergen angelegt, dass der Weg dieses\nPok\u00e9mon umgeleitet wird.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Golem es conocido por su afici\u00f3n a bajar de las monta\u00f1as\nrodando. La gente que vive en la falda de las mismas ha\ncavado surcos para conducirlo en su descenso por las laderas\ny evitar que se cuele en sus casas.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Golem \u00e8 noto per rotolare in discesa lungo il pendio dei monti.\nPer evitare che finisca dentro le case a valle, sono stati creati\ndei canaloni sui pendii dei monti per guidarne il percorso\ndurante la discesa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Golem is known for rolling down from mountains. To prevent\nthem from rolling into the homes of people downhill, grooves\nhave been dug into the sides of mountains to serve as\nguideways for diverting this Pok\u00e9mon\u2019s course.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u5c71\u306e\u3000\u659c\u9762\u306b\u3000\u6398\u3063\u3066\u3042\u308b\u3000\u6e9d\u306f\u3000\u8ee2\u304c\u308a\n\u843d\u3061\u3066\u304d\u305f\u3000\u30b4\u30ed\u30fc\u30cb\u30e3\u304c\u3000\u6c11\u5bb6\u306b\u3000\u3076\u3064\u304b\u3089\u306a\u3044\n\u3088\u3046\u306b\u3000\u3059\u308b\u305f\u3081\u306e\u3000\u901a\u308a\u9053\u306b\u3000\u306a\u3063\u3066\u3044\u308b\u305e\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u30c0\u30a4\u30ca\u30de\u30a4\u30c8\u3067\u3000\u3070\u304f\u306f\u3000\u3057\u3066\u3082\n\u30ad\u30ba\u3072\u3068\u3064\u3000\u3064\u304b\u306a\u3044\u3000\u304b\u3089\u3060\u3000\u3060\u304c\n\u3057\u3063\u3051\u3084\u3000\u3042\u3081\u306f\u3000\u3060\u3044\u304d\u3089\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "\ub2e4\uc774\ub108\ub9c8\uc774\ud2b8\ub85c \ud3ed\ud30c\ud574\ub3c4\n\uc0c1\ucc98 \ud558\ub098 \uc785\uc9c0 \uc54a\ub294 \ubab8\uc774\uc9c0\ub9cc\n\uc2b5\uae30\ub098 \ube44\ub294 \uc544\uc8fc \uc2eb\uc5b4\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "\u5805\u786c\u7684\u8eab\u9ad4\u5c31\u7b97\n\u88ab\u70b8\u85e5\u7206\u7834\u4e5f\u80fd\u6beb\u7121\u640d\u50b7\uff0c\n\u4f46\u6700\u8a0e\u53ad\u6fd5\u6c23\u548c\u96e8\u6c34\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "Son corps est si solide qu\u2019il peut r\u00e9sister \u00e0\nl\u2019explosion d\u2019un b\u00e2ton de dynamite, mais il\ncraint l\u2019humidit\u00e9 et la pluie.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "Selbst Sprengstoff kann seinem harten K\u00f6rper\nnichts anhaben. Es verabscheut Feuchtigkeit\nund Regen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "Su robusto cuerpo puede soportar una explosi\u00f3n\nde dinamita sin inmutarse, pero no tolera bien ni\nla humedad ni la lluvia.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "Il suo corpo non viene scalfito neanche dalla\ndinamite. Tuttavia, teme la pioggia e l\u2019umidit\u00e0.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "Its body can survive dynamite blasts without\na single scratch, but it hates rain and humidity.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "\u30c0\u30a4\u30ca\u30de\u30a4\u30c8\u3067\u3000\u7206\u7834\u3000\u3057\u3066\u3082\n\u50b7\u3072\u3068\u3064\u3000\u3064\u304b\u306a\u3044\u3000\u8eab\u4f53\u3000\u3060\u304c\n\u6e7f\u6c17\u3084\u3000\u96e8\u306f\u3000\u5927\u5acc\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "\u5373\u4f7f\u7528\u70b8\u836f\u7206\u7834\u8eab\u4f53\u4e5f\u6beb\u53d1\u65e0\u4f24\uff0c\n\u4f46\u975e\u5e38\u8ba8\u538c\u6e7f\u6c14\u548c\u96e8\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "\uff11\u306d\u3093\u306b\u3000\uff11\u3069\u3000\u3060\u3063\u3074\u3002\u3000\u306c\u3044\u3060\u30ab\u30e9\u306f\n\u3064\u3061\u306b\u3000\u304b\u3048\u308a\u3000\u3069\u3058\u3087\u3046\u3092\u3000\u3086\u305f\u304b\u306b\n\u3059\u308b\u306e\u3067\u3000\u306e\u3046\u304b\u304c\u3000\u3042\u3064\u3081\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "1\ub144\uc5d0 1\ubc88 \ud0c8\ud53c\ud55c\ub2e4. \ubc97\uc5b4\ub0b8 \uaecd\ub370\uae30\ub294\n\ud759\uc73c\ub85c \ub3cc\uc544\uac00 \ud1a0\uc591\uc744 \ube44\uc625\ud558\uac8c\n\ud574\uc11c \ub18d\uac00\uc5d0\uc11c \ubaa8\uc73c\uace0 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u6bcf\u5e74\u812b\u76ae\uff11\u6b21\u3002\n\u812b\u4e0b\u7684\u76ae\u6389\u5230\u571f\u88e1\u53ef\u8b93\u571f\u58e4\u80a5\u6c83\uff0c\n\u56e0\u6b64\u8fb2\u6236\u4fbf\u6703\u5c07\u5b83\u6536\u96c6\u8d77\u4f86\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Ce Pok\u00e9mon mue une fois par an. Sa carapace\nse transforme en humus tr\u00e8s pris\u00e9 par les\nagriculteurs.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Einmal im Jahr h\u00e4utet es sich. Die abgestreifte\nHaut wird oft von Bauern eingesammelt, da sie\nsich ausgezeichnet als D\u00fcnger verwenden l\u00e4sst.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Muda su caparaz\u00f3n una vez al a\u00f1o. En muchas\ngranjas lo aprovechan, pues este se puede\nutilizar para fertilizar el suelo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Fa la muta una volta all\u2019anno. Il guscio\nabbandonato viene recuperato dagli agricoltori\nper le sue propriet\u00e0 fertilizzanti.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Once a year, this Pok\u00e9mon molts, and its shed\nshell returns to the soil. This process creates\nenriched soil, so farmers collect the shells.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\uff11\u5e74\u306b\u3000\uff11\u5ea6\u3000\u8131\u76ae\u3002\u3000\u8131\u3044\u3060\u6bbb\u306f\n\u571f\u306b\u3000\u304b\u3048\u308a\u3000\u571f\u58cc\u3092\u3000\u8c4a\u304b\u306b\n\u3059\u308b\u306e\u3067\u3000\u8fb2\u5bb6\u304c\u3000\u96c6\u3081\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\uff11\u5e74\u8715\uff11\u6b21\u76ae\u3002\n\u8715\u4e0b\u7684\u58f3\u6389\u5230\u571f\u91cc\u4f1a\u8ba9\u571f\u58e4\u80a5\u6c83\uff0c\n\u56e0\u6b64\u519c\u6237\u4f1a\u6536\u96c6\u8d77\u6765\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u3068\u3057\u304a\u3044\u308b\u3068\u3000\u3060\u3063\u3074\u3000\u3057\u306a\u304f\u306a\u308b\u3002\n\u306a\u304c\u304f\u306a\u304c\u304f\u3000\u3044\u304d\u305f\u3000\u30b4\u30ed\u30fc\u30cb\u30e3\u306e\n\u30ab\u30e9\u306f\u3000\u3053\u3051\u3080\u3057\u3066\u3044\u3066\u3000\u307f\u3069\u308a\u3060\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\ub098\uc774\uac00 \ub4e4\uba74 \ud0c8\ud53c\ub97c \ud558\uc9c0 \uc54a\ub294\ub2e4.\n\uae34 \uc138\uc6d4\uc744 \uc0b0 \ub531\uad6c\ub9ac\uc758 \uaecd\uc9c8\uc740\n\uc774\ub07c\uac00 \ub07c\uc5b4 \ucd08\ub85d\uc0c9\uc774\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u5e74\u8001\u4e4b\u5f8c\u5c31\u4e0d\u6703\u518d\u812b\u76ae\u3002\n\u6d3b\u904e\u4e86\u6f2b\u9577\u6b72\u6708\u7684\u9686\u9686\u5ca9\n\u5916\u76ae\u6703\u9577\u6eff\u82d4\u861a\u800c\u8b8a\u6210\u7da0\u8272\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Lorsqu\u2019il arrive \u00e0 un \u00e2ge avanc\u00e9, il arr\u00eate de\nmuer. Un Grolem ayant v\u00e9cu tr\u00e8s longtemps\nest recouvert de mousse verte.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Im Alter h\u00f6rt es auf, sich zu h\u00e4uten. Der Panzer\nbetagter Geowaz ist mit dichtem, gr\u00fcnem Moos\nbewachsen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "A medida que envejece, pierde la facultad de\nmudar la piel. Se han observado ejemplares de\nedad avanzada totalmente cubiertos de musgo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Quando invecchia, non fa pi\u00f9 la muta.\nIl guscio dei Golem molto anziani si ricopre\ndi muschio tingendosi di verde.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "When Golem grow old, they stop shedding their\nshells. Those that have lived a long, long time\nhave shells green with moss.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u5e74\u8001\u3044\u308b\u3068\u3000\u8131\u76ae\u3000\u3057\u306a\u304f\u306a\u308b\u3002\n\u9577\u304f\u9577\u304f\u3000\u751f\u304d\u305f\u3000\u30b4\u30ed\u30fc\u30cb\u30e3\u306e\n\u30ab\u30e9\u306f\u3000\u82d4\u3080\u3057\u3066\u3044\u3066\u3000\u7dd1\u3060\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u5e74\u8001\u540e\u5c31\u4e0d\u4f1a\u8715\u76ae\u4e86\u3002\n\u6d3b\u8fc7\u4e86\u6f2b\u957f\u5c81\u6708\u7684\u9686\u9686\u5ca9\u8eab\u4e0a\u7684\n\u5916\u76ae\u4f1a\u957f\u6ee1\u82d4\u85d3\u53d8\u6210\u7eff\u8272\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u3058\u3076\u3093\u3067\u3000\u304b\u3089\u3060\u3092\u3000\u3070\u304f\u306f\u3064\u3055\u305b\u308b\u3002\n\u305d\u306e\u30d1\u30ef\u30fc\u3067\u3000\u304d\u3085\u3046\u306a\u3000\u3084\u307e\u307f\u3061\u3082\n\u3059\u3054\u3044\u3000\u30b9\u30d4\u30fc\u30c9\u3067\u3000\u306e\u307c\u3063\u3066\u3044\u304f\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "\uc2a4\uc2a4\ub85c \ubab8\uc744 \ud3ed\ubc1c\uc2dc\ud0a8\ub2e4.\n\uadf8 \ud30c\uc6cc\ub85c \uac00\ud30c\ub978 \uc0b0\uae38\ub3c4\n\uad49\uc7a5\ud55c \uc2a4\ud53c\ub4dc\ub85c \uc62c\ub77c\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "\u6703\u8b93\u81ea\u5df1\u7684\u8eab\u9ad4\u7206\u70b8\uff0c\n\u7136\u5f8c\u5229\u7528\u7206\u70b8\u7684\u529b\u91cf\n\u5feb\u901f\u767b\u4e0a\u9661\u5ced\u7684\u5c71\u8def\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "Il est capable de faire exploser une partie de\nson corps. Le souffle lui permet de se projeter\n\u00e0 toute vitesse vers les sommets.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "Es kann sich in die Luft sprengen. Diese\nExplosionen setzt es ein, um selbst steile\nBergpfade in rasantem Tempo zu meistern.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "Puede hacer estallar su cuerpo a voluntad. El\nimpulso que esto genera le permite ascender\na toda velocidad a la cima de las monta\u00f1as.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "It detonates its own body. The power from\nthat explosion can propel it up steep mountain\npaths with amazing speed.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "\u81ea\u5206\u3067\u3000\u8eab\u4f53\u3092\u3000\u7206\u767a\u3055\u305b\u308b\u3002\n\u305d\u306e\u30d1\u30ef\u30fc\u3067\u3000\u6025\u306a\u3000\u5c71\u9053\u3082\n\u3059\u3054\u3044\u3000\u30b9\u30d4\u30fc\u30c9\u3067\u3000\u767b\u3063\u3066\u3044\u304f\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "\u5b83\u4f1a\u8ba9\u81ea\u5df1\u7684\u8eab\u4f53\u7206\u70b8\uff0c\n\u7136\u540e\u5229\u7528\u8fd9\u7206\u70b8\u7684\u529b\u91cf\uff0c\n\u5feb\u901f\u767b\u4e0a\u9661\u5ced\u7684\u5c71\u8def\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "\u3060\u3063\u3074\u3000\u3057\u305f\u3066\u306e\u3068\u304d\u306f\u3000\u305c\u3093\u305f\u3044\u304c\n\u3057\u308d\u3063\u307d\u304f\u3000\u3084\u308f\u3089\u304b\u3044\u304c\u3000\u3059\u3050\u306b\n\u304f\u3046\u304d\u306b\u3000\u3075\u308c\u3066\u3000\u304b\u305f\u304f\u306a\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "\u3067\u3093\u304d\u3092\u3000\u304a\u3073\u305f\u3000\u3044\u308f\u3092\u3000\u3058\u308a\u3087\u304f\u3067\n\u304b\u305d\u304f\u3055\u305b\u3066\u3000\u3046\u3061\u3060\u3059\u3002\u3000\u3061\u3087\u304f\u3052\u304d\n\u3057\u306a\u304f\u3066\u3082\u3000\u3067\u3093\u3052\u304d\u3067\u3000\u3057\u3068\u3081\u308b\u3002 ",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "\uc804\uae30\ub97c \ub760\ub294 \ubc14\uc704\ub97c \uc790\ub825\uc73c\ub85c\n\uac00\uc18d\uc2dc\ucf1c\uc11c \uc3dc\ub2e4. \uc9c1\uaca9\ud558\uc9c0\n\uc54a\uc544\ub3c4 \uc804\uaca9\uc73c\ub85c \ucc98\ub9ac\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "\ud0c8\ud53c\ud55c \uc9c1\ud6c4\uc5d0\ub294 \uc804\uccb4\uac00\n\ud558\uc597\uace0 \ubd80\ub4dc\ub7fd\uc9c0\ub9cc \uae08\ubc29\n\uacf5\uae30\uc640 \uc811\ucd09\ud574\uc11c \ub2e8\ub2e8\ud574\uc9c4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "\u525b\u86fb\u76ae\u7684\u6642\u5019\u8eab\u9ad4\u6bd4\u8f03\u8edf\n\u800c\u4e14\u984f\u8272\u504f\u767d\uff0c\u4f46\u5728\u63a5\u89f8\u5230\n\u7a7a\u6c23\u5f8c\u5f88\u5feb\u5c31\u6703\u8b8a\u786c\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u78c1\u529b\u4f7f\u5e36\u96fb\u7684\u77f3\u982d\u52a0\u901f\u5f8c\n\u767c\u5c04\u51fa\u53bb\u3002\u5c31\u7b97\u6c92\u6709\u76f4\u63a5\u64ca\u4e2d\uff0c\n\u5149\u9760\u96fb\u64ca\u4e5f\u80fd\u89e3\u6c7a\u5c0d\u624b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "Il utilise son magn\u00e9tisme pour projeter des\npierres charg\u00e9es en \u00e9lectricit\u00e9. M\u00eame si elles\nratent leur cible, le courant suffit \u00e0 l\u2019achever.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "Juste apr\u00e8s la mue, son corps est blanc et\ntendre. Au contact de l\u2019air, sa peau se solidifie\net forme une armure.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "Mithilfe von Magnetkr\u00e4ften feuert es elektrisch\ngeladene Felsen in hohem Tempo ab. Ziele, die\nes nicht trifft, erledigt ein elektrischer Schock.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "Nachdem es sich geh\u00e4utet hat, wird sein K\u00f6rper\nweich und hell. Durch den Kontakt mit der Luft\nerh\u00e4rtet er aber sofort wieder.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "Imprime velocidad a las rocas electrizadas que\nlanza mediante electromagnetismo. El objetivo\nsufre una descarga, aunque eluda el impacto.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "Nada m\u00e1s mudar la piel, su cuerpo se vuelve\nblando y blanquecino, pero se endurece al poco\ntiempo de entrar en contacto con el aire.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "Subito dopo la muta il suo corpo \u00e8 bianco\ne morbido, ma al contatto con l\u2019aria si trasforma\nimmediatamente in una dura corazza.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "Usa l\u2019elettromagnetismo per sparare rocce\nelettrizzate sugli avversari. Anche se non centra\nil bersaglio, la scarica elettrica va a segno.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "It uses magnetism to accelerate and fire off rocks\ntinged with electricity. Even if it doesn\u2019t score\na direct hit, the jolt of electricity will do the job.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "Once it sheds its skin, its body turns tender\nand whitish. Its hide hardens when it\u2019s\nexposed to air.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "\u8131\u76ae\u3000\u3057\u305f\u3066\u306e\u3068\u304d\u306f\u3000\u5168\u4f53\u304c\n\u767d\u3063\u307d\u304f\u3000\u67d4\u3089\u304b\u3044\u304c\u3000\u3059\u3050\u306b\n\u7a7a\u6c17\u306b\u3000\u3075\u308c\u3066\u3000\u786c\u304f\u306a\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "\u96fb\u6c17\u3092\u3000\u5e2f\u3073\u305f\u3000\u5ca9\u3092\u3000\u78c1\u529b\u3067\n\u52a0\u901f\u3055\u305b\u3066\u3000\u6483\u3061\u3060\u3059\u3002\n\u76f4\u6483\u3057\u306a\u304f\u3066\u3082\u3000\u96fb\u6483\u3067\u3000\u3057\u3068\u3081\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "\u521a\u8715\u76ae\u65f6\u6d51\u8eab\u90fd\u767d\u767d\u7684\n\u975e\u5e38\u67d4\u8f6f\uff0c\u4f46\u662f\u63a5\u89e6\u5230\n\u7a7a\u6c14\u4e4b\u540e\u4f1a\u8fc5\u901f\u53d8\u575a\u786c\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u78c1\u529b\u8ba9\u5e26\u7535\u7684\u5ca9\u77f3\u52a0\u901f\u540e\n\u53d1\u5c04\u51fa\u53bb\u3002\u5373\u4f7f\u6ca1\u6709\u76f4\u63a5\u51fb\u4e2d\uff0c\n\u5149\u9760\u7535\u51fb\u4e5f\u80fd\u89e3\u51b3\u5bf9\u624b\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "\u3060\u3063\u3074\u3000\u3057\u305f\u3066\u306e\u3068\u304d\u306f\u3000\u305c\u3093\u305f\u3044\u304c\n\u3057\u308d\u3063\u307d\u304f\u3000\u3084\u308f\u3089\u304b\u3044\u304c\u3000\u3059\u3050\u306b\n\u304f\u3046\u304d\u306b\u3000\u3075\u308c\u3066\u3000\u304b\u305f\u304f\u306a\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "\u3067\u3093\u304d\u3092\u3000\u304a\u3073\u305f\u3000\u3044\u308f\u3092\u3000\u3058\u308a\u3087\u304f\u3067\n\u304b\u305d\u304f\u3055\u305b\u3066\u3000\u3046\u3061\u3060\u3059\u3002\u3000\u3061\u3087\u304f\u3052\u304d\n\u3057\u306a\u304f\u3066\u3082\u3000\u3067\u3093\u3052\u304d\u3067\u3000\u3057\u3068\u3081\u308b\u3002 ",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "\uc804\uae30\ub97c \ub760\ub294 \ubc14\uc704\ub97c \uc790\ub825\uc73c\ub85c\n\uac00\uc18d\uc2dc\ucf1c\uc11c \uc3dc\ub2e4. \uc9c1\uaca9\ud558\uc9c0\n\uc54a\uc544\ub3c4 \uc804\uaca9\uc73c\ub85c \ucc98\ub9ac\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "\ud0c8\ud53c\ud55c \uc9c1\ud6c4\uc5d0\ub294 \uc804\uccb4\uac00\n\ud558\uc597\uace0 \ubd80\ub4dc\ub7fd\uc9c0\ub9cc \uae08\ubc29\n\uacf5\uae30\uc640 \uc811\ucd09\ud574\uc11c \ub2e8\ub2e8\ud574\uc9c4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "\u525b\u86fb\u76ae\u7684\u6642\u5019\u8eab\u9ad4\u6bd4\u8f03\u8edf\n\u800c\u4e14\u984f\u8272\u504f\u767d\uff0c\u4f46\u5728\u63a5\u89f8\u5230\n\u7a7a\u6c23\u5f8c\u5f88\u5feb\u5c31\u6703\u8b8a\u786c\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u78c1\u529b\u4f7f\u5e36\u96fb\u7684\u77f3\u982d\u52a0\u901f\u5f8c\n\u767c\u5c04\u51fa\u53bb\u3002\u5c31\u7b97\u6c92\u6709\u76f4\u63a5\u64ca\u4e2d\uff0c\n\u5149\u9760\u96fb\u64ca\u4e5f\u80fd\u89e3\u6c7a\u5c0d\u624b\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "Il utilise son magn\u00e9tisme pour projeter des\npierres charg\u00e9es en \u00e9lectricit\u00e9. M\u00eame si elles\nratent leur cible, le courant suffit \u00e0 l\u2019achever.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "Juste apr\u00e8s la mue, son corps est blanc et\ntendre. Au contact de l\u2019air, sa peau se solidifie\net forme une armure.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "Mithilfe von Magnetkr\u00e4ften feuert es elektrisch\ngeladene Felsen in hohem Tempo ab. Ziele, die\nes nicht trifft, erledigt ein elektrischer Schock.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "Nachdem es sich geh\u00e4utet hat, wird sein K\u00f6rper\nweich und hell. Durch den Kontakt mit der Luft\nerh\u00e4rtet er aber sofort wieder.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "Imprime velocidad a las rocas electrizadas que\nlanza mediante electromagnetismo. El objetivo\nsufre una descarga, aunque eluda el impacto.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "Nada m\u00e1s mudar la piel, su cuerpo se vuelve\nblando y blanquecino, pero se endurece al poco\ntiempo de entrar en contacto con el aire.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "Subito dopo la muta il suo corpo \u00e8 bianco\ne morbido, ma al contatto con l\u2019aria si trasforma\nimmediatamente in una dura corazza.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "Usa l\u2019elettromagnetismo per sparare rocce\nelettrizzate sugli avversari. Anche se non centra\nil bersaglio, la scarica elettrica va a segno.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "It uses magnetism to accelerate and fire off rocks\ntinged with electricity. Even if it doesn\u2019t score\na direct hit, the jolt of electricity will do the job.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "Once it sheds its skin, its body turns tender\nand whitish. Its hide hardens when it\u2019s\nexposed to air.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "\u8131\u76ae\u3000\u3057\u305f\u3066\u306e\u3068\u304d\u306f\u3000\u5168\u4f53\u304c\n\u767d\u3063\u307d\u304f\u3000\u67d4\u3089\u304b\u3044\u304c\u3000\u3059\u3050\u306b\n\u7a7a\u6c17\u306b\u3000\u3075\u308c\u3066\u3000\u786c\u304f\u306a\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "\u96fb\u6c17\u3092\u3000\u5e2f\u3073\u305f\u3000\u5ca9\u3092\u3000\u78c1\u529b\u3067\n\u52a0\u901f\u3055\u305b\u3066\u3000\u6483\u3061\u3060\u3059\u3002\n\u76f4\u6483\u3057\u306a\u304f\u3066\u3082\u3000\u96fb\u6483\u3067\u3000\u3057\u3068\u3081\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "\u521a\u8715\u76ae\u65f6\u6d51\u8eab\u90fd\u767d\u767d\u7684\n\u975e\u5e38\u67d4\u8f6f\uff0c\u4f46\u662f\u63a5\u89e6\u5230\n\u7a7a\u6c14\u4e4b\u540e\u4f1a\u8fc5\u901f\u53d8\u575a\u786c\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "\u7528\u78c1\u529b\u8ba9\u5e26\u7535\u7684\u5ca9\u77f3\u52a0\u901f\u540e\n\u53d1\u5c04\u51fa\u53bb\u3002\u5373\u4f7f\u6ca1\u6709\u76f4\u63a5\u51fb\u4e2d\uff0c\n\u5149\u9760\u7535\u51fb\u4e5f\u80fd\u89e3\u51b3\u5bf9\u624b\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "/api/v2/version/32/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u30e1\u30ac\u30c8\u30f3\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        },
+        {
+            "genus": "\uba54\uac00\ud1a4\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u91cd\u91cf\u7d1a\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Titanesque",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "Urgestein",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Megat\u00f3n",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Megatone",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Megaton Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "\u30e1\u30ac\u30c8\u30f3\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "\u91cd\u91cf\u7ea7\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-i",
+        "url": "/api/v2/generation/1/"
+    },
+    "growth_rate": {
+        "name": "medium-slow",
+        "url": "/api/v2/growth-rate/4/"
+    },
+    "habitat": {
+        "name": "mountain",
+        "url": "/api/v2/pokemon-habitat/4/"
+    },
+    "has_gender_differences": false,
+    "hatch_counter": 15,
+    "id": 76,
+    "is_baby": false,
+    "is_legendary": false,
+    "is_mythical": false,
+    "name": "golem",
+    "names": [
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30b4\u30ed\u30fc\u30cb\u30e3"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Golonya"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ub531\uad6c\ub9ac"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u9686\u9686\u5ca9"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Grolem"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Geowaz"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Golem"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Golem"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Golem"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30b4\u30ed\u30fc\u30cb\u30e3"
+        },
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u9686\u9686\u5ca9"
+        }
+    ],
+    "order": 82,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "mountain",
+                "url": "/api/v2/pal-park-area/3/"
+            },
+            "base_score": 70,
+            "rate": 20
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 76,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        },
+        {
+            "entry_number": 76,
+            "pokedex": {
+                "name": "kanto",
+                "url": "/api/v2/pokedex/2/"
+            }
+        },
+        {
+            "entry_number": 36,
+            "pokedex": {
+                "name": "original-johto",
+                "url": "/api/v2/pokedex/3/"
+            }
+        },
+        {
+            "entry_number": 59,
+            "pokedex": {
+                "name": "hoenn",
+                "url": "/api/v2/pokedex/4/"
+            }
+        },
+        {
+            "entry_number": 33,
+            "pokedex": {
+                "name": "original-sinnoh",
+                "url": "/api/v2/pokedex/5/"
+            }
+        },
+        {
+            "entry_number": 33,
+            "pokedex": {
+                "name": "extended-sinnoh",
+                "url": "/api/v2/pokedex/6/"
+            }
+        },
+        {
+            "entry_number": 36,
+            "pokedex": {
+                "name": "updated-johto",
+                "url": "/api/v2/pokedex/7/"
+            }
+        },
+        {
+            "entry_number": 11,
+            "pokedex": {
+                "name": "kalos-mountain",
+                "url": "/api/v2/pokedex/14/"
+            }
+        },
+        {
+            "entry_number": 60,
+            "pokedex": {
+                "name": "updated-hoenn",
+                "url": "/api/v2/pokedex/15/"
+            }
+        },
+        {
+            "entry_number": 231,
+            "pokedex": {
+                "name": "original-alola",
+                "url": "/api/v2/pokedex/16/"
+            }
+        },
+        {
+            "entry_number": 103,
+            "pokedex": {
+                "name": "original-ulaula",
+                "url": "/api/v2/pokedex/19/"
+            }
+        },
+        {
+            "entry_number": 300,
+            "pokedex": {
+                "name": "updated-alola",
+                "url": "/api/v2/pokedex/21/"
+            }
+        },
+        {
+            "entry_number": 121,
+            "pokedex": {
+                "name": "updated-ulaula",
+                "url": "/api/v2/pokedex/24/"
+            }
+        },
+        {
+            "entry_number": 76,
+            "pokedex": {
+                "name": "updated-kanto",
+                "url": "/api/v2/pokedex/26/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "humanoid",
+        "url": "/api/v2/pokemon-shape/12/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "golem",
+                "url": "/api/v2/pokemon/76/"
+            }
+        },
+        {
+            "is_default": false,
+            "pokemon": {
+                "name": "golem-alola",
+                "url": "/api/v2/pokemon/10111/"
+            }
+        }
+    ]
+}

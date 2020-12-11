@@ -1,0 +1,2015 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 190,
+    "color": {
+        "name": "pink",
+        "url": "/api/v2/pokemon-color/6/"
+    },
+    "egg_groups": [
+        {
+            "name": "monster",
+            "url": "/api/v2/egg-group/1/"
+        },
+        {
+            "name": "water1",
+            "url": "/api/v2/egg-group/2/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/33/"
+    },
+    "evolves_from_species": null,
+    "flavor_text_entries": [
+        {
+            "flavor_text": "Incredibly slow\nand dopey. It\ntakes 5 seconds\ffor it to feel\npain when under\nattack.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "red",
+                "url": "/api/v2/version/1/"
+            }
+        },
+        {
+            "flavor_text": "Incredibly slow\nand dopey. It\ntakes 5 seconds\ffor it to feel\npain when under\nattack.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "blue",
+                "url": "/api/v2/version/2/"
+            }
+        },
+        {
+            "flavor_text": "Incredibly slow\nand sluggish. It\nis quite content\fto loll about\nwithout worrying\nabout the time.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "yellow",
+                "url": "/api/v2/version/3/"
+            }
+        },
+        {
+            "flavor_text": "It lazes vacantly\nnear water. If\nsomething bites\fits tail, it won't\neven notice for a\nwhole day.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "gold",
+                "url": "/api/v2/version/4/"
+            }
+        },
+        {
+            "flavor_text": "A sweet sap leaks\nfrom its tail's\ntip. Although not\fnutritious, the\ntail is pleasant\nto chew on.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "silver",
+                "url": "/api/v2/version/5/"
+            }
+        },
+        {
+            "flavor_text": "It is always so\nabsent-minded that\nit won't react,\feven if its\nflavorful tail is\nbitten.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "crystal",
+                "url": "/api/v2/version/6/"
+            }
+        },
+        {
+            "flavor_text": "SLOWPOKE uses its tail to catch prey by\ndipping it in water at the side of a\nriver.\fHowever, this POK\u00e9MON often forgets\nwhat it\u2019s doing and often spends entire\ndays just loafing at water\u2019s edge.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ruby",
+                "url": "/api/v2/version/7/"
+            }
+        },
+        {
+            "flavor_text": "SLOWPOKE uses its tail to catch prey by\ndipping it in water at the side of a\nriver.\fHowever, this POK\u00e9MON often forgets\nwhat it\u2019s doing and often spends entire\ndays just loafing at water\u2019s edge.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sapphire",
+                "url": "/api/v2/version/8/"
+            }
+        },
+        {
+            "flavor_text": "It catches prey by dipping its tail in\nwater at the side of a river. But it often\nforgets what it is doing and spends entire\ndays just loafing at water\u2019s edge.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "emerald",
+                "url": "/api/v2/version/9/"
+            }
+        },
+        {
+            "flavor_text": "It is always vacantly lost in thought, but\nno one knows what it is thinking about.\nIt is good at fishing with its tail.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "firered",
+                "url": "/api/v2/version/10/"
+            }
+        },
+        {
+            "flavor_text": "Incredibly slow and dopey. It takes five\nseconds for it to feel pain when under\nattack.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "leafgreen",
+                "url": "/api/v2/version/11/"
+            }
+        },
+        {
+            "flavor_text": "Although slow, it is skilled at\nfishing with its tail. It does not\nfeel pain if its tail is bitten.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "diamond",
+                "url": "/api/v2/version/12/"
+            }
+        },
+        {
+            "flavor_text": "Although slow, it is skilled at\nfishing with its tail. It does not\nfeel pain if its tail is bitten.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "pearl",
+                "url": "/api/v2/version/13/"
+            }
+        },
+        {
+            "flavor_text": "Although slow, it is skilled at\nfishing with its tail. It does not\nfeel pain if its tail is bitten.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "platinum",
+                "url": "/api/v2/version/14/"
+            }
+        },
+        {
+            "flavor_text": "It lazes vacantly near water.\nIf something bites its tail, it won\u2019t\neven notice for a whole day.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "heartgold",
+                "url": "/api/v2/version/15/"
+            }
+        },
+        {
+            "flavor_text": "A sweet sap leaks from its tail\u2019s\ntip. Although not nutritious, the\ntail is pleasant to chew on.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "soulsilver",
+                "url": "/api/v2/version/16/"
+            }
+        },
+        {
+            "flavor_text": "Bien que lent, c\u2019est un p\u00eacheur\nadroit qui utilise sa queue. Elle\nest insensible aux morsures.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Although slow, it is skilled at\nfishing with its tail. It does not\nfeel pain if its tail is bitten.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Bien que lent, c\u2019est un p\u00eacheur\nadroit qui utilise sa queue. Elle\nest insensible aux morsures.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Although slow, it is skilled at\nfishing with its tail. It does not\nfeel pain if its tail is bitten.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "Although slow, it is skilled at\nfishing with its tail. It does not\nfeel pain if its tail is bitten.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black-2",
+                "url": "/api/v2/version/21/"
+            }
+        },
+        {
+            "flavor_text": "Although slow, it is skilled at\nfishing with its tail. It does not\nfeel pain if its tail is bitten.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white-2",
+                "url": "/api/v2/version/22/"
+            }
+        },
+        {
+            "flavor_text": "\u3044\u3064\u3082\u3000\u30dc\u30fc\u30c3\u3068\u3057\u3066\u3044\u3066\u3000\u306a\u306b\u3092\n\u304b\u3093\u304c\u3048\u3066\u3044\u308b\u304b\u3000\u308f\u304b\u3089\u306a\u3044\u3002\n\u3057\u3063\u307d\u3067\u3000\u30a8\u30b5\u3092\u3000\u3064\u308b\u306e\u304c\u3000\u3068\u304f\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\ud56d\uc0c1 \uba4d\ud558\ub2c8 \uc788\uc73c\ubbc0\ub85c \ubb34\uc2a8\n\uc0dd\uac01\uc744 \ud558\uace0 \uc788\ub294\uc9c0 \uc54c \uc218 \uc5c6\ub2e4.\n\uaf2c\ub9ac\ub85c \uba39\uc774\ub97c \ub09a\ub294 \uac83\uc774 \ud2b9\uae30\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Ramoloss semble toujours perdu dans ses pens\u00e9es,\nmais personne ne sait vraiment \u00e0 quoi il pense.\nIl adore p\u00eacher en utilisant sa queue.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Es ist stets in Gedanken versunken und niemand\nwei\u00df, wor\u00fcber es nachdenkt. Es kann mit seiner\nRute gut angeln.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Est\u00e1 siempre en su mundo, pero nadie sabe en qu\u00e9\npiensa. Suele pescar con la cola.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u00c8 sempre assorto, ma nessuno sa a cosa stia\npensando. Si serve della coda per pescare.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "It is always vacantly lost in thought, but no one\nknows what it is thinking about. It is good at fishing\nwith its tail.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u3044\u3064\u3082\u3000\u30dc\u30fc\u30c3\u3068\u3057\u3066\u3044\u3066\u3000\u306a\u306b\u3092\n\u8003\u3048\u3066\u3044\u308b\u304b\u3000\u308f\u304b\u3089\u306a\u3044\u3002\n\u5c3b\u5c3e\u3067\u3000\u30a8\u30b5\u3092\u3000\u91e3\u308b\u306e\u304c\u3000\u5f97\u610f\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u307f\u305a\u3079\u3067\u3000\u30dc\u30fc\u30c3\u3068\u3057\u3066\u3044\u308b\u3002\n\u306a\u306b\u304b\u304c\u3000\u3057\u3063\u307d\u306b\u3000\u304b\u307f\u3064\u3044\u3066\u3082\n\u307e\u308b\uff11\u306b\u3061\u3000\u304d\u3065\u304b\u306a\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\ubb3c\uac00\uc5d0\uc11c \uba4d\ud558\ub2c8 \uc788\ub2e4.\n\ubb54\uac00\uac00 \uaf2c\ub9ac\ub97c \uae68\ubb3c\uc5b4\ub3c4\n\ud558\ub8e8 \uc885\uc77c \ub208\uce58\ucc44\uc9c0 \ubabb\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Il est tellement paresseux qu\u2019il lui faut une journ\u00e9e\npour remarquer qu\u2019on lui mord la queue.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Es faulenzt am Wasser. Wenn es in den Schweif\ngebissen wird, bemerkt es das erst am n\u00e4chsten Tag.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Descansa ocioso junto al agua. Si algo muerde su\ncola, no lo notar\u00e1 en todo el d\u00eda.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Ozia distrattamente vicino all\u2019acqua. Se gli si\nmordesse la coda non se ne accorgerebbe neppure.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "It lazes vacantly near water. If something bites its\ntail, it won\u2019t even notice for a whole day.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u6c34\u8fba\u3067\u3000\u30dc\u30fc\u30c3\u3068\u3057\u3066\u3044\u308b\u3002\n\u306a\u306b\u304b\u304c\u3000\u5c3b\u5c3e\u306b\u3000\u304b\u307f\u3064\u3044\u3066\u3082\n\u307e\u308b\uff11\u65e5\u3000\u6c17\u3065\u304b\u306a\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u3057\u3063\u307d\u3092\u3000\u304b\u308f\u306b\u3000\u3044\u308c\u3066\u3000\u30a8\u30b5\u3092\u3000\u3064\u3063\u3066\u3044\u308b\u304c\n\u305d\u306e\u3046\u3061\u3000\u306a\u306b\u3092\u3000\u3057\u3066\u3044\u308b\u306e\u304b\u3000\u308f\u3059\u308c\u3066\u3057\u307e\u3044\n\u304b\u308f\u3079\u308a\u306b\u3000\u306d\u305d\u3079\u3063\u305f\u307e\u307e\u3000\uff11\u306b\u3061\u3092\u3000\u304a\u3048\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\uaf2c\ub9ac\ub97c \uac15\uc5d0 \ub123\uace0 \uba39\uc774\ub97c \ub09a\uc9c0\ub9cc\n\uc774\uc73d\uace0 \ubb34\uc5c7\uc744 \ud558\uace0 \uc788\uc5c8\ub294\uc9c0 \uc78a\uace0\n\uac15\ubcc0\uc5d0 \uc5ce\ub4dc\ub824 \ub204\uc6b4 \ucc44\ub85c \ud558\ub8e8\ub97c \ubcf4\ub0b8\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Ramoloss trempe sa queue dans l\u2019eau au bord des rivi\u00e8res\npour attraper ses proies. Cependant, ce Pok\u00e9mon oublie\nsouvent ce qu\u2019il fait l\u00e0 et passe des jours entiers \u00e0 tra\u00eener\nau bord de l\u2019eau.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Flegmon benutzt seinen Schweif, um Beute zu fangen, indem\nes ihn an einem Flussufer ins Wasser taucht. Dieses Pok\u00e9mon\nvergisst h\u00e4ufig, was es gerade tun wollte, und verbringt ganze\nTage damit, am Ufer herumzutr\u00f6deln.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Slowpoke usa la cola para atrapar a sus presas meti\u00e9ndola\nbajo el agua en las riberas de los r\u00edos. Con todo, es\nolvidadizo, se le puede pasar lo que estaba haciendo y\nquedarse d\u00edas enteros holgazaneando en la orilla.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Slowpoke usa la coda per pescare la preda, immergendola\nin acqua dalle rive dei fiumi.\nTuttavia, spesso dimentica cosa stava facendo e trascorre\ngiorni interi a ciondolare vicino ai corsi d\u2019acqua.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Slowpoke uses its tail to catch prey by dipping it in water at\nthe side of a river. However, this Pok\u00e9mon often forgets what\nit\u2019s doing and often spends entire days just loafing at\nwater\u2019s edge.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u5c3b\u5c3e\u3092\u3000\u5ddd\u306b\u3000\u5165\u308c\u3066\u3000\u30a8\u30b5\u3092\u3000\u91e3\u3063\u3066\u3044\u308b\u304c\n\u305d\u306e\u3046\u3061\u3000\u306a\u306b\u3092\u3000\u3057\u3066\u3044\u308b\u306e\u304b\u3000\u5fd8\u308c\u3066\u3057\u307e\u3044\n\u5ddd\u3079\u308a\u306b\u3000\u5bdd\u305d\u3079\u3063\u305f\u307e\u307e\u3000\uff11\u65e5\u3092\u3000\u7d42\u3048\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u3057\u3063\u307d\u3092\u3000\u304b\u308f\u306b\u3000\u3044\u308c\u3066\u3000\u30a8\u30b5\u3092\u3000\u3064\u3063\u3066\u3044\u308b\u304c\n\u305d\u306e\u3046\u3061\u3000\u306a\u306b\u3092\u3000\u3057\u3066\u3044\u308b\u306e\u304b\u3000\u308f\u3059\u308c\u3066\u3057\u307e\u3044\n\u304b\u308f\u3079\u308a\u306b\u3000\u306d\u305d\u3079\u3063\u305f\u307e\u307e\u3000\uff11\u306b\u3061\u3092\u3000\u304a\u3048\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\uaf2c\ub9ac\ub97c \uac15\uc5d0 \ub123\uace0 \uba39\uc774\ub97c \ub09a\uc9c0\ub9cc\n\uc774\uc73d\uace0 \ubb34\uc5c7\uc744 \ud558\uace0 \uc788\uc5c8\ub294\uc9c0 \uc78a\uace0\n\uac15\ubcc0\uc5d0 \uc5ce\ub4dc\ub824 \ub204\uc6b4 \ucc44\ub85c \ud558\ub8e8\ub97c \ubcf4\ub0b8\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Ramoloss trempe sa queue dans l\u2019eau au bord des rivi\u00e8res\npour attraper ses proies. Cependant, ce Pok\u00e9mon oublie\nsouvent ce qu\u2019il fait l\u00e0 et passe des jours entiers \u00e0 tra\u00eener\nau bord de l\u2019eau.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Flegmon benutzt seinen Schweif, um Beute zu fangen, indem\nes ihn an einem Flussufer ins Wasser taucht. Dieses Pok\u00e9mon\nvergisst h\u00e4ufig, was es gerade tun wollte, und verbringt ganze\nTage damit, am Ufer herumzutr\u00f6deln.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Slowpoke usa la cola para atrapar a sus presas meti\u00e9ndola\nbajo el agua en las riberas de los r\u00edos. Con todo, es\nolvidadizo, se le puede pasar lo que estaba haciendo y\nquedarse d\u00edas enteros holgazaneando en la orilla.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Slowpoke usa la coda per pescare la preda, immergendola\nin acqua dalle rive dei fiumi.\nTuttavia, spesso dimentica cosa stava facendo e trascorre\ngiorni interi a ciondolare vicino ai corsi d\u2019acqua.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Slowpoke uses its tail to catch prey by dipping it in water\nat the side of a river. However, this Pok\u00e9mon often forgets\nwhat it\u2019s doing and often spends entire days just loafing\nat water\u2019s edge.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u5c3b\u5c3e\u3092\u3000\u5ddd\u306b\u3000\u5165\u308c\u3066\u3000\u30a8\u30b5\u3092\u3000\u91e3\u3063\u3066\u3044\u308b\u304c\n\u305d\u306e\u3046\u3061\u3000\u306a\u306b\u3092\u3000\u3057\u3066\u3044\u308b\u306e\u304b\u3000\u5fd8\u308c\u3066\u3057\u307e\u3044\n\u5ddd\u3079\u308a\u306b\u3000\u5bdd\u305d\u3079\u3063\u305f\u307e\u307e\u3000\uff11\u65e5\u3092\u3000\u7d42\u3048\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u306a\u304c\u3044\u3000\u3057\u3063\u307d\u306f\u3000\u3088\u304f\u3061\u304e\u308c\u308b\u3002\n\u3068\u304f\u306b\u3000\u3044\u305f\u307f\u3082\u3000\u304b\u3093\u3058\u306a\u3044\u3057\n\u3059\u3050\u306b\u3000\u306f\u3048\u308b\u306e\u3067\u3000\u304d\u306b\u3057\u306a\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "\uae34 \uaf2c\ub9ac\ub294 \uc798 \uc798\ub9b0\ub2e4.\n\ud2b9\ubcc4\ud788 \uc544\ud514\ub3c4 \ub290\ub07c\uc9c0 \uc54a\uace0\n\ubc14\ub85c \uc790\ub77c\uae30 \ub54c\ubb38\uc5d0 \uc2e0\uacbd \uc4f0\uc9c0 \uc54a\ub294\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "\u9577\u9577\u7684\u5c3e\u5df4\u7d93\u5e38\u65b7\u6389\u3002\n\u56e0\u70ba\u4e0d\u6703\u611f\u5230\u4ec0\u9ebc\u75bc\u75db\uff0c\n\u800c\u4e14\u99ac\u4e0a\u53c8\u6703\u9577\u51fa\u4f86\uff0c\u6240\u4ee5\u4e26\u4e0d\u5728\u610f\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "Souvent, sa longue queue se coupe toute seule.\nCela ne lui cause aucune douleur et une autre\npousse aussit\u00f4t, donc il n\u2019y a pas \u00e0 s\u2019en faire.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "Seine Rute bricht sehr leicht ab. Dies k\u00fcmmert\nes jedoch wenig, da es dabei keine Schmerzen\nsp\u00fcrt und sie sofort wieder nachw\u00e4chst.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "Pierde la cola con frecuencia, pero, como no\nle duele y le crece de nuevo r\u00e1pidamente, no\nle da ninguna importancia.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "La sua lunga coda si spezza facilmente, ma\nsenza causargli dolore. Inoltre, ricresce sempre,\nquindi il Pok\u00e9mon non sembra preoccuparsene.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "Its long tail often breaks off. It doesn\u2019t really\nfeel any pain, though, and the tail grows back,\nso Slowpoke isn\u2019t particularly bothered.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "\u9577\u3044\u3000\u5c3b\u5c3e\u306f\u3000\u3088\u304f\u5343\u5207\u308c\u308b\u3002\n\u7279\u306b\u3000\u75db\u307f\u3082\u3000\u611f\u3058\u306a\u3044\u3057\n\u3059\u3050\u306b\u3000\u751f\u3048\u308b\u306e\u3067\u3000\u6c17\u306b\u3057\u306a\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "\u957f\u957f\u7684\u5c3e\u5df4\u7ecf\u5e38\u88ab\u63ea\u65ad\u3002\n\u56e0\u4e3a\u4e5f\u4e0d\u4f1a\u89c9\u5f97\u7279\u522b\u75db\uff0c\n\u9a6c\u4e0a\u4f1a\u957f\u51fa\u6765\uff0c\u6240\u4ee5\u5e76\u4e0d\u5728\u610f\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "\u30e4\u30c9\u30f3\u306e\u3057\u3063\u307d\u3092\u3000\u307b\u3057\u305f\u3042\u3068\n\u3057\u304a\u307f\u305a\u3067\u3000\u306b\u3053\u3093\u3060\u3000\u308a\u3087\u3046\u308a\u306f\n\u30a2\u30ed\u30fc\u30e9\u306e\u3000\u304b\u3066\u3044\u306e\u3000\u3042\u3058\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\uc57c\ub3c8\uc758 \uaf2c\ub9ac\ub97c \ub9d0\ub9b0 \ub4a4\n\uc18c\uae08\ubb3c\uc5d0 \ud479 \ub053\uc778 \uc694\ub9ac\ub294\n\uc54c\ub85c\ub77c\uc758 \uac00\uc815\uc2dd \uba54\ub274\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u628a\u5446\u5446\u7378\u7684\u5c3e\u5df4\u66ec\u4e7e\n\u518d\u7528\u9e7d\u6c34\u716e\u6210\u7684\u5c0f\u83dc\uff0c\n\u662f\u963f\u7f85\u62c9\u7684\u5bb6\u5e38\u7f8e\u5473\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Une recette traditionnelle d\u2019Alola consiste \u00e0\nfaire s\u00e9cher des queues de Ramoloss puis \u00e0\nles faire bouillir dans de l\u2019eau sal\u00e9e.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "In Alola bereiten viele Familien Flegmon-Ruten\nzu, indem sie diese zuerst trocknen und dann\nin Salzwasser kochen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Un plato t\u00edpico de la cocina de Alola son las\ncolas de Slowpoke desecadas y cocinadas\nen agua salada.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "La coda di Slowpoke essiccata e bollita a fuoco\nlento in acqua salata \u00e8 un piatto tipico della\ncucina di Alola.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Alolan home cooking involves drying Slowpoke\ntails and then simmering them into a salty stew.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u30e4\u30c9\u30f3\u306e\u5c3b\u5c3e\u3092\u3000\u5e72\u3057\u305f\u3042\u3068\n\u5869\u6c34\u3067\u3000\u716e\u8fbc\u3093\u3060\u3000\u6599\u7406\u306f\n\u30a2\u30ed\u30fc\u30e9\u306e\u3000\u5bb6\u5ead\u306e\u3000\u5473\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u628a\u5446\u5446\u517d\u7684\u5c3e\u5df4\u6652\u5e72\u540e\n\u518d\u7528\u76d0\u6c34\u716e\u6210\u7684\u5c0f\u83dc\uff0c\n\u662f\u963f\u7f57\u62c9\u7684\u5bb6\u5e38\u7f8e\u5473\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u304f\u3073\u3092\u3000\u3059\u308b\u3068\u3000\u3042\u3081\u304c\u3000\u3075\u308b\n\u3068\u3044\u3046\u3000\u3044\u3044\u3064\u305f\u3048\u3000\u304b\u3089\u3000\u30e4\u30c9\u30f3\u3092\n\u307e\u3064\u3063\u3066\u3044\u308b\u3000\u3061\u3044\u304d\u304c\u3000\u3042\u308b\u3068\u3044\u3046\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\ud558\ud488\uc744 \ud558\uba74 \ube44\uac00 \uc628\ub2e4\ub294\n\uad6c\uc804 \ub54c\ubb38\uc5d0 \uc57c\ub3c8\uc744\n\ubc1b\uc744\uc5b4 \ubaa8\uc2dc\ub294 \uc9c0\uc5ed\ub3c4 \uc788\ub2e4\uace0 \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u50b3\u8aaa\u7576\u5446\u5446\u7378\u6253\u5475\u6b20\u6642\n\u5c31\u6703\u958b\u59cb\u4e0b\u96e8\uff0c\u6240\u4ee5\u64da\u8aaa\n\u6709\u4e9b\u5730\u5340\u6703\u796d\u7940\u5446\u5446\u7378\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Ce Pok\u00e9mon, v\u00e9n\u00e9r\u00e9 et consid\u00e9r\u00e9 comme un\ndevin dans certaines r\u00e9gions, a donn\u00e9 naissance\nau dicton : Ramoloss a b\u00e2ill\u00e9, attention \u00e0 l\u2019ond\u00e9e.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Einer Legende zufolge soll Flegmons G\u00e4hnen\nRegen herbeif\u00fchren. In manchen Regionen wird\nihm deswegen gehuldigt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "La leyenda afirma que su bostezo atrae las\nlluvias, por lo que en ciertas regiones lo\nconsideran pr\u00e1cticamente una deidad.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Secondo una leggenda, quando sbadiglia piove.\nSembra che in alcune regioni venga venerato\nper questo motivo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "There are some places where Slowpoke is\nworshiped because of a long-standing belief\nthat whenever Slowpoke yawns, it rains.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u304f\u3073\u3092\u3000\u3059\u308b\u3068\u3000\u96e8\u304c\u3000\u964d\u308b\n\u3068\u3044\u3046\u3000\u8a00\u3044\u4f1d\u3048\u3000\u304b\u3089\u3000\u30e4\u30c9\u30f3\u3092\n\u307e\u3064\u3063\u3066\u3044\u308b\u3000\u5730\u57df\u304c\u3000\u3042\u308b\u3068\u3044\u3046\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u6709\u4f20\u8bf4\u8bb2\u5446\u5446\u517d\u6253\u54c8\u6b20\n\u5c31\u4f1a\u4e0b\u96e8\uff0c\u6240\u4ee5\u636e\u8bf4\n\u6709\u4e9b\u5730\u65b9\u4f1a\u4f9b\u5949\u5446\u5446\u517d\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u3057\u305c\u3093\u306b\u3061\u304e\u308c\u3000\u305d\u3053\u3089\u306b\u3000\u304a\u3061\u3066\u3044\u308b\n\u30b7\u30c3\u30dd\u306f\u3000\u3066\u304c\u308b\u3067\u3000\u304d\u3061\u3087\u3046\u306a\n\u3057\u3087\u304f\u308a\u3087\u3046\u306e\u3000\u3072\u3068\u3064\u3000\u3060\u3063\u305f\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "\uc8fc\ubcc0\uc5d0 \uc790\uc5f0\uc2a4\ub7fd\uac8c \ub5a8\uc5b4\uc838 \uc788\ub294\n\uaf2c\ub9ac\ub294 \uc190\uc27d\uac8c \uc5bb\uc744 \uc218 \uc788\ub294\n\uadc0\uc911\ud55c \uc2dd\uc7ac\ub8cc \uc911 \ud558\ub098\uc600\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "\u81ea\u7136\u65b7\u88c2\u5f8c\u812b\u843d\u7684\u5c3e\u5df4\n\u662f\u4e00\u7a2e\u5bb9\u6613\u53d6\u5f97\u4f46\u53c8\n\u5341\u5206\u8cb4\u91cd\u7684\u98df\u6750\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "Les queues de Ramoloss parfois retrouv\u00e9es\ndans la nature \u00e9taient un ingr\u00e9dient de cuisine\nparticuli\u00e8rement pris\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "Von selbst abgefallene Flegmon-Ruten scheinen\n\u00fcberall herumzuliegen. Dennoch gilt dieses\neinfache Nahrungsmittel als hochwertig.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "Su cola se desprende con facilidad de forma\nnatural y es un ingrediente muy valorado en la\nelaboraci\u00f3n de platos de alta cocina.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "Le code di Slowpoke si staccano naturalmente\ne cadono qua e l\u00e0. Vengono raccolte e usate\ncome preziosi ingredienti in cucina.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "Although their tails, which fall off naturally, can\neasily be found lying around, they\u2019re a precious\ningredient for cooking.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "\u81ea\u7136\u306b\u3061\u304e\u308c\u3000\u305d\u3053\u3089\u306b\u3000\u843d\u3061\u3066\u3044\u308b\n\u30b7\u30c3\u30dd\u306f\u3000\u624b\u8efd\u3067\u3000\u8cb4\u91cd\u306a\n\u98df\u6599\u306e\u3000\u3072\u3068\u3064\u3000\u3060\u3063\u305f\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "\u4f1a\u81ea\u7136\u65ad\u88c2\u5e76\u8131\u843d\u4e0b\u6765\u7684\u5c3e\u5df4\n\u662f\u4e00\u79cd\u5bb9\u6613\u5f97\u5230\u53c8\u5341\u5206\u8d35\u91cd\u7684\u98df\u6750\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "\u3068\u3066\u3082\u3000\u307e\u306c\u3051\u3067\u3000\u3046\u3054\u304d\u3082\u3000\u306b\u3076\u3044\u3002\n\u3058\u304b\u3093\u306e\u3000\u306a\u304c\u308c\u3092\u3000\u304d\u306b\u3059\u308b\u3053\u3068\u306a\u304f\n\u306e\u3093\u3073\u308a\u3068\u3000\u3044\u304d\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "\ub9e4\uc6b0 \uba4d\uccad\ud558\uace0 \uc6c0\uc9c1\uc784\ub3c4 \ub454\ud558\ub2e4.\n\uc2dc\uac04\uc758 \ud750\ub984\uc744 \uc758\uc2dd\ud558\uc9c0 \uc54a\uace0\n\ub290\uae0b\ud558\uac8c \uc0b4\uace0 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "\u5446\u982d\u5446\u8166\u800c\u4e14\u52d5\u4f5c\u9072\u920d\u3002\n\u5f9e\u4e0d\u5728\u610f\u6642\u9593\u7684\u6d41\u901d\uff0c\n\u7e3d\u662f\u60a0\u9592\u5ea6\u65e5\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "Lent et stupide, il aime se la couler douce\nsans se soucier du temps qui passe.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "Dieses Pok\u00e9mon ist unglaublich faul und tr\u00e4ge.\nEs faulenzt den ganzen Tag lang und schert sich\nnicht um die verstrichene Zeit.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "Es incre\u00edblemente lento y perezoso. Se toma las\ncosas con calma, sin preocuparse por el paso\ndel tiempo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "Non \u00e8 molto sveglio ed \u00e8 lento nei movimenti.\nDorme e poltrisce tutto il giorno, incurante\ndel tempo che passa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "Incredibly slow and sluggish. It is quite content\nto loll about without worrying about the time.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "\u3068\u3066\u3082\u3000\u9593\u629c\u3051\u3067\u3000\u52d5\u304d\u3082\u3000\u920d\u3044\u3002\n\u6642\u9593\u306e\u3000\u6d41\u308c\u3092\u3000\u6c17\u306b\u3059\u308b\u3053\u3068\u306a\u304f\n\u306e\u3093\u3073\u308a\u3068\u3000\u751f\u304d\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "\u975e\u5e38\u5446\uff0c\u52a8\u4f5c\u4e5f\u5f88\u7f13\u6162\u3002\n\u4ece\u4e0d\u5728\u610f\u65f6\u95f4\u7684\u6d41\u901d\uff0c\n\u8fc7\u7740\u60a0\u95f2\u7684\u751f\u6d3b\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "lets-go-pikachu",
+                "url": "/api/v2/version/31/"
+            }
+        },
+        {
+            "flavor_text": "\u3068\u3066\u3082\u3000\u307e\u306c\u3051\u3067\u3000\u3046\u3054\u304d\u3082\u3000\u306b\u3076\u3044\u3002\n\u3058\u304b\u3093\u306e\u3000\u306a\u304c\u308c\u3092\u3000\u304d\u306b\u3059\u308b\u3053\u3068\u306a\u304f\n\u306e\u3093\u3073\u308a\u3068\u3000\u3044\u304d\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "\ub9e4\uc6b0 \uba4d\uccad\ud558\uace0 \uc6c0\uc9c1\uc784\ub3c4 \ub454\ud558\ub2e4.\n\uc2dc\uac04\uc758 \ud750\ub984\uc744 \uc758\uc2dd\ud558\uc9c0 \uc54a\uace0\n\ub290\uae0b\ud558\uac8c \uc0b4\uace0 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "\u5446\u982d\u5446\u8166\u800c\u4e14\u52d5\u4f5c\u9072\u920d\u3002\n\u5f9e\u4e0d\u5728\u610f\u6642\u9593\u7684\u6d41\u901d\uff0c\n\u7e3d\u662f\u60a0\u9592\u5ea6\u65e5\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "Lent et stupide, il aime se la couler douce\nsans se soucier du temps qui passe.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "Dieses Pok\u00e9mon ist unglaublich faul und tr\u00e4ge.\nEs faulenzt den ganzen Tag lang und schert sich\nnicht um die verstrichene Zeit.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "Es incre\u00edblemente lento y perezoso. Se toma las\ncosas con calma, sin preocuparse por el paso\ndel tiempo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "Non \u00e8 molto sveglio ed \u00e8 lento nei movimenti.\nDorme e poltrisce tutto il giorno, incurante\ndel tempo che passa.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "Incredibly slow and sluggish. It is quite content\nto loll about without worrying about the time.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "\u3068\u3066\u3082\u3000\u9593\u629c\u3051\u3067\u3000\u52d5\u304d\u3082\u3000\u920d\u3044\u3002\n\u6642\u9593\u306e\u3000\u6d41\u308c\u3092\u3000\u6c17\u306b\u3059\u308b\u3053\u3068\u306a\u304f\n\u306e\u3093\u3073\u308a\u3068\u3000\u751f\u304d\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "\u975e\u5e38\u5446\uff0c\u52a8\u4f5c\u4e5f\u5f88\u7f13\u6162\u3002\n\u4ece\u4e0d\u5728\u610f\u65f6\u95f4\u7684\u6d41\u901d\uff0c\n\u8fc7\u7740\u60a0\u95f2\u7684\u751f\u6d3b\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "lets-go-eevee",
+                "url": "/api/v2/version/32/"
+            }
+        },
+        {
+            "flavor_text": "\u3044\u3064\u3082\u3000\u30dc\u30fc\u30c3\u3068\u3057\u3066\u3044\u308b\u304c\u3000\u305f\u307e\u306b\n\u304b\u304a\u3064\u304d\u304c\u3000\u30d4\u30ea\u30c3\u3068\u3000\u3072\u304d\u3057\u307e\u308b\u3002\n\u305f\u3079\u3066\u3044\u308b\u3000\u30a8\u30b5\u304c\u3000\u3052\u3093\u3044\u3093\u3089\u3057\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "\u307e\u306c\u3051\u3067\u3000\u3069\u3093\u304b\u3093\u3002\u3000\u3057\u3063\u307d\u3092\n\u305f\u3079\u3089\u308c\u3066\u3082\u3000\u3044\u305f\u307f\u3092\u3000\u304b\u3093\u3058\u306a\u3044\u3057\u3000\n\u306f\u3048\u304b\u308f\u3063\u305f\u3053\u3068\u306b\u3082\u3000\u304d\u3065\u304b\u306a\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "\uba4d\uccad\ud558\uace0 \ub454\uac10\ud558\ub2e4.\n\uaf2c\ub9ac\ub97c \uba39\ud600\ub3c4 \uc544\ud514\uc744 \ub290\ub07c\uc9c0 \ubabb\ud558\uace0\n\uaf2c\ub9ac\uac00 \ub2e4\uc2dc \uc790\ub77c\ub3c4 \ub208\uce58\ucc44\uc9c0 \ubabb\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "\ud56d\uc0c1 \uba4d\ud558\ub2c8 \uc788\uc9c0\ub9cc\n\uac00\ub054 \ucc0c\ub9bf \ud558\uace0 \uc778\uc0c1\uc744 \uc4f4\ub2e4.\n\uba39\uace0 \uc788\ub294 \uba39\uc774\uac00 \uc6d0\uc778\uc774\ub77c\ub294 \ub4ef\ud558\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "\u5446\u982d\u5446\u8166\u800c\u4e14\u9072\u920d\u3002\u5c3e\u5df4\n\u88ab\u5403\u6389\u4e5f\u4e0d\u6703\u611f\u5230\u75bc\u75db\uff0c\n\u751a\u81f3\u4e0d\u6703\u767c\u73fe\u5b83\u53c8\u9577\u51fa\u4f86\u4e86\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "\u5e73\u6642\u4e00\u76f4\u90fd\u5728\u767c\u5446\uff0c\n\u4f46\u5076\u723e\u6703\u7a81\u7136\u9732\u51fa\u92b3\u5229\u7684\u795e\u8272\u3002\n\u64da\u8aaa\u9019\u548c\u7260\u6240\u5403\u7684\u98df\u7269\u6709\u95dc\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "Bien qu\u2019il ait toujours l\u2019air un peu absent,\nil arrive que son visage se crispe brusquement.\nSon alimentation serait \u00e0 l\u2019origine du ph\u00e9nom\u00e8ne.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "Il est si b\u00eate et si lent qu\u2019il n\u2019a pas mal lorsqu\u2019on\nmange un morceau de sa queue. Il ne remarque\nm\u00eame pas quand elle repousse.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "Es blickt zwar stets geistesabwesend drein, doch\nhin und wieder wird sein Ausdruck einen Moment\nlang hart. Der Grund daf\u00fcr soll sein Futter sein.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "Es ist so tr\u00e4ge und unempfindlich, dass es keinen\nSchmerz versp\u00fcrt, wenn seine Rute gegessen wird.\nEs bemerkt nicht einmal, dass sie nachw\u00e4chst.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "Es lento y abstra\u00eddo. Aunque le devoren la cola,\nni siquiera se percata, ya que no siente ning\u00fan\ndolor. Tampoco nota cuando le vuelve a crecer.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "Siempre est\u00e1 distra\u00eddo, pero, de vez en cuando,\nmuestra un extra\u00f1o rictus en el rostro, tal vez\ndebido a su alimentaci\u00f3n.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "Ha sempre un\u2019aria assente, ma a volte il suo viso\nsi contrae improvvisamente in una smorfia. Pare\nche questo sia dovuto alla sua alimentazione.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "Poco sveglio e privo di intuito. Se gli mangiano\nla coda non sente alcun dolore, e non si accorge\nnemmeno quando gli ricresce.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "Although this Pok\u00e9mon is normally zoned out,\nits expression abruptly sharpens on occasion.\nThe cause for this seems to lie in Slowpoke\u2019s diet.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "Slow-witted and oblivious, this Pok\u00e9mon won\u2019t\nfeel any pain if its tail gets eaten. It won\u2019t notice\nwhen its tail grows back, either.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "\u3044\u3064\u3082\u3000\u30dc\u30fc\u30c3\u3068\u3057\u3066\u3044\u308b\u304c\u3000\u305f\u307e\u306b\n\u9854\u3064\u304d\u304c\u3000\u30d4\u30ea\u30c3\u3068\u3000\u5f15\u304d\u7de0\u307e\u308b\u3002\n\u98df\u3079\u3066\u3044\u308b\u3000\u30a8\u30b5\u304c\u3000\u539f\u56e0\u3089\u3057\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "\u307e\u306c\u3051\u3067\u3000\u920d\u611f\u3002\u3000\u3057\u3063\u307d\u3092\n\u98df\u3079\u3089\u308c\u3066\u3082\u3000\u75db\u307f\u3092\u3000\u611f\u3058\u306a\u3044\u3057\n\u751f\u3048\u304b\u308f\u3063\u305f\u3053\u3068\u306b\u3082\u3000\u6c17\u3065\u304b\u306a\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "\u53c8\u5446\u53c8\u8fdf\u949d\u3002\u5373\u4f7f\u5c3e\u5df4\u88ab\u5403\u4e86\n\u4e5f\u611f\u53d7\u4e0d\u5230\u75bc\u75db\uff0c\u751a\u81f3\u4e0d\u4f1a\n\u6ce8\u610f\u5230\u53c8\u957f\u51fa\u4e86\u65b0\u5c3e\u5df4\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "\u5e73\u65f6\u4e00\u76f4\u90fd\u5728\u53d1\u5446\uff0c\n\u4f46\u5076\u5c14\u4f1a\u7a81\u7136\u9732\u51fa\u9510\u5229\u7684\u795e\u8272\u3002\n\u636e\u8bf4\u8fd9\u548c\u5b83\u6240\u5403\u7684\u98df\u7269\u6709\u5173\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "\u3057\u3063\u307d\u3092\u3000\u307f\u305a\u306b\u3000\u3072\u305f\u3059\u3068\u3000\u3042\u307e\u307f\u304c\n\u306b\u3058\u307f\u3067\u308b\u306e\u3067\u3000\u305d\u308c\u3092\u3000\u30a8\u30b5\u306b\n\u30dd\u30b1\u30e2\u30f3\u3092\u3000\u304a\u3073\u304d\u3088\u305b\u3000\u3064\u308a\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "\u30ac\u30e9\u30eb\u3061\u307b\u3046\u306b\u3060\u3051\u3000\u305b\u3044\u305d\u304f\u3059\u308b\n\u3057\u3087\u304f\u3076\u3064\u306e\u3000\u30bf\u30cd\u3092\u3000\u305f\u3079\u3066\u3044\u308b\u305f\u3081\n\u3057\u3063\u307d\u306f\u3000\u30b9\u30d1\u30a4\u30b7\u30fc\u306a\u3000\u3042\u3058\u308f\u3044\u3060\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "\uac00\ub77c\ub974\uc9c0\ubc29\uc5d0\uc11c\ub9cc \uc790\ub77c\ub294\n\uc2dd\ubb3c\uc758 \uc528\ub97c \uba39\uc740 \ud0d3\uc5d0\n\uaf2c\ub9ac\uac00 \ub9e4\ucf64\ud55c \ub9db\uc774 \ub418\uc5c8\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "\uaf2c\ub9ac\ub97c \ubb3c\uc5d0 \ub2f4\uac00\ub450\uba74\n\ub2e8\ub9db\uc774 \ubc30\uc5b4 \ub098\uc624\uae30 \ub54c\ubb38\uc5d0\n\uc774\ub97c \ubbf8\ub07c\ub85c \ud3ec\ucf13\ubaac\uc744 \uc720\uc778\ud574\uc11c \ub09a\ub294\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "\u5c3e\u5df4\u6d78\u5728\u6c34\u88e1\u6642\u6703\u6ef2\u51fa\n\u751c\u5473\uff0c\u7260\u6703\u4ee5\u6b64\u7576\u8a98\u990c\n\u4f86\u5438\u5f15\u4e26\u4e14\u91e3\u8d77\u5bf6\u53ef\u5922\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "\u7260\u4ee5\u53ea\u751f\u9577\u5728\u4f3d\u52d2\u723e\n\u5730\u5340\u7684\u690d\u7269\u7684\u7a2e\u5b50\u70ba\u98df\uff0c\n\u56e0\u6b64\u5c3e\u5df4\u662f\u8fa3\u5473\u7684\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "Lorsqu\u2019il trempe le bout de sa queue dans l\u2019eau,\nune substance sucr\u00e9e s\u2019en d\u00e9gage. Il s\u2019en sert\npour app\u00e2ter ses proies quand il p\u00eache.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "Son alimentation \u00e0 base de graines\nde plantes end\u00e9miques de Galar\nconf\u00e8re \u00e0 sa queue un go\u00fbt \u00e9pic\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "Seine Nahrung aus Samen von Pflanzen, die nur\nin der Galar-Region wachsen, verleiht seiner Rute\neinen w\u00fcrzig-pikanten Geschmack.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "Taucht es seine Rute ins Wasser, str\u00f6mt sie ein\ns\u00fc\u00dfes Aroma aus. Mit diesem K\u00f6der lockt es\nandere Pok\u00e9mon an, die es dann an Land zieht.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "Hunde la cola en el agua y la usa cual ca\u00f1a de\npescar. La sustancia dulce que secreta le sirve\nde cebo para atraer a sus presas.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "Las semillas de ciertas plantas aut\u00f3ctonas de\nGalar que consume aportan a su cola un sabor\nespeciado.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "Se immersa nell\u2019acqua, la coda di Slowpoke\nsecerne una dolce linfa che il Pok\u00e9mon usa\nper attirare altri Pok\u00e9mon e pescarli.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "Si nutre di semi di piante che crescono solo nella\nregione di Galar. La sua dieta conferisce un gusto\npiccante alla sua coda.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "Because Galarian Slowpoke eat the seeds of a\nplant that grows only in Galar, their tails have\ndeveloped a spicy flavor.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "When this Pok\u00e9mon\u2019s tail is soaked in water,\nsweetness seeps from it. Slowpoke uses this trait\nto lure in and fish up other Pok\u00e9mon.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "\u3057\u3063\u307d\u3092\u3000\u6c34\u306b\u3000\u6d78\u3059\u3068\u3000\u7518\u5473\u304c\n\u306b\u3058\u307f\u51fa\u308b\u306e\u3067\u3000\u305d\u308c\u3092\u3000\u30a8\u30b5\u306b\n\u30dd\u30b1\u30e2\u30f3\u3092\u3000\u304a\u3073\u304d\u5bc4\u305b\u3000\u91e3\u308a\u3042\u3052\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "\u30ac\u30e9\u30eb\u5730\u65b9\u306b\u3060\u3051\u3000\u751f\u606f\u3059\u308b\n\u690d\u7269\u306e\u3000\u30bf\u30cd\u3092\u3000\u98df\u3079\u3066\u3044\u308b\u305f\u3081\n\u3057\u3063\u307d\u306f\u3000\u30b9\u30d1\u30a4\u30b7\u30fc\u306a\u3000\u5473\u308f\u3044\u3060\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "\u5b83\u4ee5\u53ea\u751f\u957f\u4e8e\u4f3d\u52d2\u5c14\u5730\u533a\n\u7684\u690d\u7269\u7684\u79cd\u5b50\u4e3a\u98df\uff0c\n\u56e0\u6b64\u5c3e\u5df4\u662f\u8fa3\u5473\u7684\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "\u628a\u5c3e\u5df4\u6ce1\u5728\u6c34\u91cc\u540e\u4f1a\u6709\u751c\u5473\u6e17\u51fa\uff0c\n\u56e0\u6b64\u5b83\u4f1a\u4ee5\u5c3e\u5df4\u4e3a\u8bf1\u9975\n\u5438\u5f15\u5b9d\u53ef\u68a6\u5e76\u5c06\u5176\u9493\u8d77\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u307e\u306c\u3051\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        },
+        {
+            "genus": "\uc5bc\uac04\uc774\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u61a8\u61a8\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Cr\u00e9tin",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "Schnarcher",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Atontado",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Ronfone",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Dopey Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "\u307e\u306c\u3051\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "\u61a8\u61a8\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-i",
+        "url": "/api/v2/generation/1/"
+    },
+    "growth_rate": {
+        "name": "medium",
+        "url": "/api/v2/growth-rate/2/"
+    },
+    "habitat": {
+        "name": "waters-edge",
+        "url": "/api/v2/pokemon-habitat/9/"
+    },
+    "has_gender_differences": false,
+    "hatch_counter": 20,
+    "id": 79,
+    "is_baby": false,
+    "is_legendary": false,
+    "is_mythical": false,
+    "name": "slowpoke",
+    "names": [
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30e4\u30c9\u30f3"
+        },
+        {
+            "language": {
+                "name": "roomaji",
+                "url": "/api/v2/language/2/"
+            },
+            "name": "Yadon"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc57c\ub3c8"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u5446\u5446\u7378"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Ramoloss"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Flegmon"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Slowpoke"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Slowpoke"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Slowpoke"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30e4\u30c9\u30f3"
+        },
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u5446\u5446\u517d"
+        }
+    ],
+    "order": 85,
+    "pal_park_encounters": [
+        {
+            "area": {
+                "name": "pond",
+                "url": "/api/v2/pal-park-area/4/"
+            },
+            "base_score": 50,
+            "rate": 30
+        }
+    ],
+    "pokedex_numbers": [
+        {
+            "entry_number": 79,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        },
+        {
+            "entry_number": 79,
+            "pokedex": {
+                "name": "kanto",
+                "url": "/api/v2/pokedex/2/"
+            }
+        },
+        {
+            "entry_number": 80,
+            "pokedex": {
+                "name": "original-johto",
+                "url": "/api/v2/pokedex/3/"
+            }
+        },
+        {
+            "entry_number": 80,
+            "pokedex": {
+                "name": "updated-johto",
+                "url": "/api/v2/pokedex/7/"
+            }
+        },
+        {
+            "entry_number": 133,
+            "pokedex": {
+                "name": "kalos-coastal",
+                "url": "/api/v2/pokedex/13/"
+            }
+        },
+        {
+            "entry_number": 37,
+            "pokedex": {
+                "name": "original-alola",
+                "url": "/api/v2/pokedex/16/"
+            }
+        },
+        {
+            "entry_number": 37,
+            "pokedex": {
+                "name": "original-melemele",
+                "url": "/api/v2/pokedex/17/"
+            }
+        },
+        {
+            "entry_number": 18,
+            "pokedex": {
+                "name": "original-ulaula",
+                "url": "/api/v2/pokedex/19/"
+            }
+        },
+        {
+            "entry_number": 44,
+            "pokedex": {
+                "name": "updated-alola",
+                "url": "/api/v2/pokedex/21/"
+            }
+        },
+        {
+            "entry_number": 44,
+            "pokedex": {
+                "name": "updated-melemele",
+                "url": "/api/v2/pokedex/22/"
+            }
+        },
+        {
+            "entry_number": 18,
+            "pokedex": {
+                "name": "updated-ulaula",
+                "url": "/api/v2/pokedex/24/"
+            }
+        },
+        {
+            "entry_number": 1,
+            "pokedex": {
+                "name": "isle-of-armor",
+                "url": "/api/v2/pokedex/28/"
+            }
+        },
+        {
+            "entry_number": 79,
+            "pokedex": {
+                "name": "updated-kanto",
+                "url": "/api/v2/pokedex/26/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "quadruped",
+        "url": "/api/v2/pokemon-shape/8/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "slowpoke",
+                "url": "/api/v2/pokemon/79/"
+            }
+        },
+        {
+            "is_default": false,
+            "pokemon": {
+                "name": "slowpoke-galar",
+                "url": "/api/v2/pokemon/10161/"
+            }
+        }
+    ]
+}

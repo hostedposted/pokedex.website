@@ -1,0 +1,811 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 45,
+    "color": {
+        "name": "brown",
+        "url": "/api/v2/pokemon-color/3/"
+    },
+    "egg_groups": [
+        {
+            "name": "monster",
+            "url": "/api/v2/egg-group/1/"
+        },
+        {
+            "name": "dragon",
+            "url": "/api/v2/egg-group/14/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/357/"
+    },
+    "evolves_from_species": null,
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u304b\u305b\u304d\u304b\u3089\u3000\u3075\u3063\u304b\u3064\u3057\u305f\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u304d\u306b\u3044\u3089\u306a\u3044\u3000\u3053\u3068\u304c\u3000\u3042\u308b\u3068\n\u304b\u3093\u3057\u3083\u304f\u3092\u3000\u304a\u3053\u3057\u3066\u3000\u304a\u304a\u3042\u3070\u308c\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\ud654\uc11d\uc5d0\uc11c \ubd80\ud65c\ud55c \ud3ec\ucf13\ubaac\uc774\ub2e4.\n\ub9c8\uc74c\uc5d0 \ub4e4\uc9c0 \uc54a\ub294 \uc77c\uc774 \uc788\uc73c\uba74\n\uc9dc\uc99d\uc744 \ub0b4\uba70 \ub09c\ub3d9\uc744 \ubd80\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Ramen\u00e9 \u00e0 la vie \u00e0 partir d\u2019un fossile, ce Pok\u00e9mon tr\u00e8s\ncapricieux devient violent \u00e0 la moindre contrari\u00e9t\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Dieses Pok\u00e9mon wurde aus einem Fossil neu belebt.\nMissf\u00e4llt ihm etwas, rastet es vollkommen aus.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Pok\u00e9mon recreado a partir de f\u00f3siles. Cuando sucede\nalgo que no es de su agrado, se enfurece y se vuelve\nviolento.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Pok\u00e9mon risvegliatosi da un fossile.\nSe viene disturbato, si infuria e provoca disastri.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "This Pok\u00e9mon was restored from a fossil.\nIf something happens that it doesn\u2019t like,\nit throws a tantrum and runs wild.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u5316\u77f3\u304b\u3089\u3000\u5fa9\u6d3b\u3057\u305f\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u6c17\u306b\u5165\u3089\u306a\u3044\u3000\u3053\u3068\u304c\u3000\u3042\u308b\u3068\n\u304b\u3093\u3057\u3083\u304f\u3092\u3000\u8d77\u3053\u3057\u3066\u3000\u5927\u66b4\u308c\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u3058\u3069\u3046\u3057\u3083\u3092\u3000\u30d0\u30ea\u30d0\u30ea\u3068\u3000\u304b\u3058\u3063\u3066\n\u3053\u308f\u3059\u3000\u304a\u304a\u3042\u3054\u306e\u3000\u306f\u304b\u3044\u308a\u3087\u304f\u3002\n\uff11\u304a\u304f\u306d\u3093\u307e\u3048\u306b\u3000\u305b\u3044\u305d\u304f\u3057\u3066\u3044\u305f\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\ud070 \ud131\uc740 \uc790\ub3d9\ucc28\ub97c \uc544\ub4dc\ub4dd\uc544\ub4dc\ub4dd \uac09\uc544\uc11c\n\ubd80\uc11c\ub728\ub9ac\ub294 \ud30c\uad34\ub825\uc744 \uac00\uc84c\ub2e4\n1\uc5b5 \ub144 \uc804\uc5d0 \uc11c\uc2dd\ud558\uace0 \uc788\uc5c8\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Ses \u00e9normes m\u00e2choires ont tant de puissance qu\u2019elles\npeuvent compresser une voiture sans probl\u00e8me.\nCe Pok\u00e9mon vivait il y a 100 millions d\u2019ann\u00e9es.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Mit seinem gewaltigen Kiefer kann dieses Pok\u00e9mon,\ndas vor 100 Millionen Jahren lebte, ein Auto so leicht\nzermalmen, als w\u00e4re es ein reifer Apfel.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Su gran mand\u00edbula posee una potencia tan atroz que\nser\u00eda capaz de destruir a bocados un coche. Ya viv\u00eda\nhace la friolera de 100 millones de a\u00f1os.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Questo Pok\u00e9mon visse 100 milioni di anni fa.\nGrazie alle fauci tremendamente forti, potrebbe\nmasticare un\u2019automobile senza sforzo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Its immense jaws have enough destructive\nforce that it can chew up an automobile.\nIt lived 100 million years ago.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u81ea\u52d5\u8eca\u3092\u3000\u30d0\u30ea\u30d0\u30ea\u3068\u3000\u304b\u3058\u3063\u3066\n\u58ca\u3059\u3000\u304a\u304a\u3042\u3054\u306e\u3000\u7834\u58ca\u529b\u3002\n\uff11\u5104\u5e74\u524d\u306b\u3000\u751f\u606f\u3057\u3066\u3044\u305f\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u304b\u305b\u304d\u304b\u3089\u3000\u3075\u3063\u304b\u3064\u3057\u305f\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u304d\u306b\u3044\u3089\u306a\u3044\u3000\u3053\u3068\u304c\u3000\u3042\u308b\u3068\n\u304b\u3093\u3057\u3083\u304f\u3092\u3000\u304a\u3053\u3057\u3066\u3000\u304a\u304a\u3042\u3070\u308c\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\ud654\uc11d\uc5d0\uc11c \ubd80\ud65c\ud55c \ud3ec\ucf13\ubaac\uc774\ub2e4.\n\ub9c8\uc74c\uc5d0 \ub4e4\uc9c0 \uc54a\ub294 \uc77c\uc774 \uc788\uc73c\uba74\n\uc9dc\uc99d\uc744 \ub0b4\uba70 \ub09c\ub3d9\uc744 \ubd80\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Ramen\u00e9 \u00e0 la vie \u00e0 partir d\u2019un fossile, ce Pok\u00e9mon tr\u00e8s\ncapricieux devient violent \u00e0 la moindre contrari\u00e9t\u00e9.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Dieses Pok\u00e9mon wurde aus einem Fossil neu belebt.\nMissf\u00e4llt ihm etwas, rastet es vollkommen aus.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Pok\u00e9mon recreado a partir de f\u00f3siles. Cuando sucede algo\nque no es de su agrado, se enfurece y se vuelve violento.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Pok\u00e9mon risvegliatosi da un fossile. Se viene disturbato,\nsi infuria e provoca disastri.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "This Pok\u00e9mon was restored from a fossil.\nIf something happens that it doesn\u2019t like,\nit throws a tantrum and runs wild.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u5316\u77f3\u304b\u3089\u3000\u5fa9\u6d3b\u3057\u305f\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u6c17\u306b\u5165\u3089\u306a\u3044\u3000\u3053\u3068\u304c\u3000\u3042\u308b\u3068\n\u304b\u3093\u3057\u3083\u304f\u3092\u3000\u8d77\u3053\u3057\u3066\u3000\u5927\u66b4\u308c\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u3058\u3069\u3046\u3057\u3083\u3092\u3000\u30d0\u30ea\u30d0\u30ea\u3068\u3000\u304b\u3058\u3063\u3066\n\u3053\u308f\u3059\u3000\u304a\u304a\u3042\u3054\u306e\u3000\u306f\u304b\u3044\u308a\u3087\u304f\u3002\n\uff11\u304a\u304f\u306d\u3093\u307e\u3048\u306b\u3000\u305b\u3044\u305d\u304f\u3057\u3066\u3044\u305f\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\ud070 \ud131\uc740 \uc790\ub3d9\ucc28\ub97c \uc544\ub4dc\ub4dd\uc544\ub4dc\ub4dd \uac09\uc544\uc11c\n\ubd80\uc11c\ub728\ub9ac\ub294 \ud30c\uad34\ub825\uc744 \uac00\uc84c\ub2e4.\n1\uc5b5 \ub144 \uc804\uc5d0 \uc11c\uc2dd\ud558\uace0 \uc788\uc5c8\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Ses \u00e9normes m\u00e2choires ont tant de puissance qu\u2019elles peuvent\ncompresser une voiture sans probl\u00e8me. Ce Pok\u00e9mon vivait\nil y a 100 millions d\u2019ann\u00e9es.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Mit seinem gewaltigen Kiefer kann dieses Pok\u00e9mon, das vor\n100 Millionen Jahren lebte, ein Auto so leicht zermalmen,\nals w\u00e4re es ein reifer Apfel.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Su gran mand\u00edbula posee una potencia tan atroz que ser\u00eda\ncapaz de destruir a bocados un coche. Ya viv\u00eda hace la friolera\nde 100 millones de a\u00f1os.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Questo Pok\u00e9mon visse 100 milioni di anni fa. Grazie alle fauci\ntremendamente forti, potrebbe masticare un\u2019automobile\nsenza sforzo.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "Its immense jaws have enough destructive\nforce that it can chew up an automobile.\nIt lived 100 million years ago.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u81ea\u52d5\u8eca\u3092\u3000\u30d0\u30ea\u30d0\u30ea\u3068\u3000\u304b\u3058\u3063\u3066\n\u58ca\u3059\u3000\u304a\u304a\u3042\u3054\u306e\u3000\u7834\u58ca\u529b\u3002\n\uff11\u5104\u5e74\u524d\u306b\u3000\u751f\u606f\u3057\u3066\u3044\u305f\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "alpha-sapphire",
+                "url": "/api/v2/version/26/"
+            }
+        },
+        {
+            "flavor_text": "\u304a\u304a\u30a2\u30b4\u306f\u3000\u3059\u3055\u307e\u3058\u3044\u3000\u306f\u304b\u3044\u308a\u3087\u304f\u3002\n\u3075\u304f\u3052\u3093\u3055\u305b\u3066\u3082\u3000\u3068\u3046\u3058\u3068\u3000\u304a\u306a\u3058\n\u3059\u304c\u305f\u3067\u306f\u3000\u306a\u3044\u3068\u3044\u3046\u3000\u305b\u3064\u3082\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\ud070 \ud131\uc740 \ubb34\uc2dc\ubb34\uc2dc\ud55c \ud30c\uad34\ub825\uc744\n\uc9c0\ub154\ub2e4. \ubcf5\uc6d0\uc2dc\ucf1c\ub3c4 \ub2f9\uc2dc\uc640\n\uac19\uc740 \ubaa8\uc2b5\uc740 \uc544\ub2c8\ub77c\ub294 \uc124\ub3c4 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u5927\u984e\u6709\u8457\u975e\u5e38\u9a5a\u4eba\u7684\u7834\u58de\u529b\u3002\n\u4e5f\u6709\u4e00\u7a2e\u8aaa\u6cd5\u662f\uff0c\u5373\u4f7f\u5c07\u7260\u5fa9\u539f\uff0c\n\u4e5f\u7121\u6cd5\u91cd\u73fe\u7260\u539f\u672c\u7684\u6a23\u5b50\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Sa m\u00e2choire g\u00e9ante est d\u2019une puissance\nredoutable. Le Pok\u00e9mon reconstitu\u00e9 serait\nl\u00e9g\u00e8rement diff\u00e9rent de son mod\u00e8le antique.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Sein riesiger Kiefer birgt zerst\u00f6rerische Kr\u00e4fte.\nEs hei\u00dft, zur\u00fcckverwandelte Balgoras seien\nnicht identisch mit den urspr\u00fcnglichen Pok\u00e9mon.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Puede ejercer una enorme presi\u00f3n con su gran\nmand\u00edbula. Se cree que esta especie regenerada\na partir de un f\u00f3sil difiere de la de tiempo ha.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "La sua mandibola ha un\u2019enorme forza\ndistruttrice. Secondo alcuni il suo aspetto\noriginale \u00e8 un po\u2019 diverso da quello rigenerato.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Its large jaw has incredible destructive power.\nSome theories suggest that its restored form is\ndifferent from its form of long ago.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u5927\u30a2\u30b4\u306f\u3000\u51c4\u307e\u3058\u3044\u3000\u7834\u58ca\u529b\u3002\n\u5fa9\u5143\u3055\u305b\u3066\u3082\u3000\u5f53\u6642\u3068\u3000\u540c\u3058\n\u59ff\u3067\u306f\u3000\u306a\u3044\u3068\u3044\u3046\u3000\u8aac\u3082\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u5927\u989a\u6709\u7740\u975e\u5e38\u60ca\u4eba\u7684\u7834\u574f\u529b\u3002\n\u6709\u8bf4\u6cd5\uff0c\u5373\u4f7f\u590d\u539f\uff0c\n\u4e5f\u6ca1\u6cd5\u6062\u590d\u5230\u539f\u672c\u7684\u6837\u5b50\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u307e\u3048\u3093\u307c\u3046\u3067\u3000\u308f\u304c\u307e\u307e\u3002\u3000\u30c1\u30b4\u30e9\u30b9\u306f\n\u3058\u3083\u308c\u3066\u3044\u308b\u3064\u3082\u308a\u3067\u3082\u3000\u3042\u3044\u3066\u306f\n\u304a\u304a\u3051\u304c\u3067\u306f\u3000\u3059\u307e\u306a\u3044\u3053\u3068\u3082\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "\uc751\uc11d\ubc1b\uc774\uc5d0 \uc81c\uba4b\ub300\ub85c\ub2e4. \ud2f0\uace0\ub77c\uc2a4\ub294\n\uc7a5\ub09c\uc73c\ub85c \ud55c \uc77c\uc774\ub77c\ub3c4 \uc0c1\ub300\ub294\n\ud070 \ubd80\uc0c1\uc73c\ub85c \ub05d\ub098\uc9c0 \uc54a\uc744 \ub54c\ub3c4 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "\u611b\u6492\u5b0c\u53c8\u4efb\u6027\u3002\u6709\u6642\u5019\n\u5373\u4f7f\u5bf6\u5bf6\u66b4\u9f8d\u53ea\u662f\u60f3\u9b27\u8457\u73a9\uff0c\n\u5c0d\u624b\u4e5f\u6703\u53d7\u5230\u91cd\u5275\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "Il est un peu \u00e9go\u00efste et aime \u00eatre le centre\nd\u2019attention. Il arrive que ses partenaires de jeu\nfinissent avec de graves blessures.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "Es ist verw\u00f6hnt und trotzig. Wer es mit ihm zu\ntun hat, muss eventuell mit mehr als schweren\nWunden rechnen, selbst wenn es nur spielen will.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "Un tanto ego\u00edsta y malcriado. Aunque solo est\u00e9\nbromeando, a veces puede causar graves\nheridas a sus compa\u00f1eros de juegos.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "\u00c8 capriccioso e ama farsi coccolare.\nAnche se non lo fa di proposito, pu\u00f2 ferire\ngravemente il suo compagno di giochi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "Tyrunt is spoiled and selfish. It may just be\ntrying to frolic, but sometimes the ones it\u2019s\ntrying to frolic with are gravely injured.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "\u7518\u3048\u3093\u307c\u3046\u3067\u3000\u308f\u304c\u307e\u307e\u3002\u3000\u30c1\u30b4\u30e9\u30b9\u306f\n\u3058\u3083\u308c\u3066\u3044\u308b\u3064\u3082\u308a\u3067\u3082\u3000\u76f8\u624b\u306f\n\u5927\u602a\u6211\u3067\u306f\u3000\u6e08\u307e\u306a\u3044\u3053\u3068\u3082\u3000\u3042\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "\u7231\u6492\u5a07\u53c8\u4efb\u6027\u3002\u6709\u65f6\u5019\uff0c\n\u5373\u4f7f\u5b9d\u5b9d\u66b4\u9f99\u53ea\u6253\u7b97\u9017\u7740\u73a9\uff0c\n\u5bf9\u65b9\u4e5f\u4f1a\u4e25\u91cd\u53d7\u4f24\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 1,
+    "genera": [
+        {
+            "genus": "\u3088\u3046\u304f\u3093\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        },
+        {
+            "genus": "\uc720\uad70\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u5e7c\u541b\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Prince",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "Kronprinz",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Heredero",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Principino",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Royal Heir Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "\u3088\u3046\u304f\u3093\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "\u5e7c\u541b\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-vi",
+        "url": "/api/v2/generation/6/"
+    },
+    "growth_rate": {
+        "name": "medium",
+        "url": "/api/v2/growth-rate/2/"
+    },
+    "habitat": null,
+    "has_gender_differences": false,
+    "hatch_counter": 30,
+    "id": 696,
+    "is_baby": false,
+    "is_legendary": false,
+    "is_mythical": false,
+    "name": "tyrunt",
+    "names": [
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30c1\u30b4\u30e9\u30b9"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ud2f0\uace0\ub77c\uc2a4"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u5bf6\u5bf6\u66b4\u9f8d"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Ptyranidur"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Balgoras"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Tyrunt"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Tyrunt"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Tyrunt"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30c1\u30b4\u30e9\u30b9"
+        },
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u5b9d\u5b9d\u66b4\u9f99"
+        }
+    ],
+    "order": 697,
+    "pal_park_encounters": [],
+    "pokedex_numbers": [
+        {
+            "entry_number": 696,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        },
+        {
+            "entry_number": 64,
+            "pokedex": {
+                "name": "kalos-coastal",
+                "url": "/api/v2/pokedex/13/"
+            }
+        },
+        {
+            "entry_number": 243,
+            "pokedex": {
+                "name": "updated-alola",
+                "url": "/api/v2/pokedex/21/"
+            }
+        },
+        {
+            "entry_number": 144,
+            "pokedex": {
+                "name": "updated-akala",
+                "url": "/api/v2/pokedex/23/"
+            }
+        },
+        {
+            "entry_number": 83,
+            "pokedex": {
+                "name": "crown-tundra",
+                "url": "/api/v2/pokedex/29/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "upright",
+        "url": "/api/v2/pokemon-shape/6/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "tyrunt",
+                "url": "/api/v2/pokemon/696/"
+            }
+        }
+    ]
+}

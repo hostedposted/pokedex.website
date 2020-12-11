@@ -1,0 +1,1342 @@
+{
+    "base_happiness": 0,
+    "capture_rate": 255,
+    "color": {
+        "name": "black",
+        "url": "/api/v2/pokemon-color/1/"
+    },
+    "egg_groups": [
+        {
+            "name": "no-eggs",
+            "url": "/api/v2/egg-group/15/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/421/"
+    },
+    "evolves_from_species": null,
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u3061\u304b\u3067\u3000\u306d\u3080\u308a\u306b\u3000\u3064\u3044\u3066\u3044\u305f\u3088\u3046\u3060\u3002\n\u305f\u3044\u3053\u306b\u3000\u3079\u3064\u305b\u304b\u3044\u304b\u3089\u3000\u3084\u3063\u3066\u304d\u305f\u3068\n\u304a\u3082\u308f\u308c\u308b\u3000\uff35\uff22\u3089\u3057\u304d\u3000\u305b\u3044\u3076\u3064\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "\uc9c0\ud558\uc5d0\uc11c \uc7a0\ub4e4\uc5b4 \uc788\ub358 \uac83 \uac19\ub2e4.\n\ud0dc\uace0\uc758 \ub2e4\ub978 \uc138\uacc4\uc5d0\uc11c \uc654\ub2e4\uace0\n\ucd94\uce21\ub418\ub294 UB\uac19\uc740 \uc0dd\ubb3c\uc774\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "\u597d\u50cf\u4e00\u76f4\u90fd\u6c89\u7761\u5728\u5730\u5e95\u4e0b\u3002\n\u88ab\u8a8d\u70ba\u662f\u5728\u592a\u53e4\u6642\u4ee3\u5f9e\u53e6\u4e00\u500b\u4e16\u754c\n\u4f86\u5230\u6b64\u5730\uff0c\u662f\u7a2e\u985e\u4f3c\uff35\uff22\u7684\u751f\u7269\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "Une cr\u00e9ature endormie sous terre. On suppose\nqu\u2019il s\u2019agit d\u2019une Ultra-Chim\u00e8re et qu\u2019elle serait\nvenue d\u2019un autre monde, il y a bien longtemps.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "Diese einer Ultrabestie \u00e4hnelnde Kreatur ist\nwohl vor Urzeiten aus einer anderen Welt\ngekommen und ruhte lange Zeit unter der Erde.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "Se dice que yac\u00eda en el interior de la tierra. Se\ncree que esta criatura, parecida a un Ultraente,\nvino de otro mundo hace much\u00edsimo tiempo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "Pare che questo essere simile a un\u2019Ultracreatura\nsia giunto da un altro mondo in tempi antichi e\nsia rimasto a lungo dormiente sottoterra.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "Reminiscent of the Ultra Beasts, this life-form,\napparently asleep underground, is thought to\nhave come from another world in ancient times.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "\u5730\u4e0b\u3067\u3000\u7720\u308a\u306b\u3000\u3064\u3044\u3066\u3044\u305f\u3088\u3046\u3060\u3002\n\u592a\u53e4\u306b\u3000\u5225\u4e16\u754c\u304b\u3089\u3000\u3084\u3063\u3066\u304d\u305f\u3068\n\u304a\u3082\u308f\u308c\u308b\u3000\uff35\uff22\u3089\u3057\u304d\u3000\u751f\u7269\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "\u597d\u50cf\u4e00\u76f4\u90fd\u6c89\u7761\u5728\u5730\u4e0b\u3002\n\u88ab\u8ba4\u4e3a\u662f\u592a\u53e4\u65f6\u4ee3\u4ece\u5176\u4ed6\u4e16\u754c\n\u6765\u5230\u6b64\u5730\u7684\u7c7b\u4f3c\u7a76\u6781\u5f02\u517d\u7684\u751f\u7269\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "\u3072\u304b\u308a\u304c\u3000\u30a8\u30cd\u30eb\u30ae\u30fc\u3052\u3093\u3000\u3089\u3057\u3044\u3002\n\u30ec\u30fc\u30b6\u30fc\u3053\u3046\u3092\u3000\u3076\u3063\u3071\u306a\u3057\u307e\u304f\u308b\n\u3072\u3058\u3087\u3046\u306b\u3000\u304d\u3087\u3046\u307c\u3046\u306a\u3000\u305b\u3044\u3057\u3064\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\ube5b\uc774 \uc5d0\ub108\uc9c0\uc6d0\uc778 \ub4ef\ud558\ub2e4.\n\ub808\uc774\uc800 \uad11\uc120\uc744 \ub9c8\uad6c \uc3d8\uc544\ub300\ub294\n\ub9e4\uc6b0 \ub09c\ud3ed\ud55c \uc131\uc9c8\uc744 \uac00\uc84c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u5149\u4f3c\u4e4e\u662f\u7260\u7684\u80fd\u91cf\u4f86\u6e90\u3002\n\u6beb\u7121\u7bc0\u5236\u5730\u4e0d\u505c\u767c\u5c04\u96f7\u5c04\uff0c\n\u6027\u683c\u975e\u5e38\u51f6\u66b4\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "La lumi\u00e8re semble \u00eatre sa source d\u2019\u00e9nergie.\nUne cr\u00e9ature extr\u00eamement agressive, capable\nd\u2019\u00e9mettre des rayons laser au moindre pr\u00e9texte.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Dieses extrem grausame Lebewesen wandelt\nLicht in Energie um und st\u00f6\u00dft unabl\u00e4ssig\nLaserstrahlen aus.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Este Ultraente parece alimentarse de luz. Posee\nun car\u00e1cter muy hostil y no duda en lanzar\nrayos l\u00e1ser.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "La luce sembra essere la sua fonte di energia.\n\u00c8 estremamente aggressivo e gli basta molto\npoco per mettersi a sparare raggi laser.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Light is apparently the source of its energy.\nIt has an extraordinarily vicious disposition\nand is constantly firing off laser beams.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u5149\u304c\u3000\u30a8\u30cd\u30eb\u30ae\u30fc\u6e90\u3000\u3089\u3057\u3044\u3002\n\u30ec\u30fc\u30b6\u30fc\u5149\u3092\u3000\u3076\u3063\u653e\u3057\u307e\u304f\u308b\n\u975e\u5e38\u306b\u3000\u51f6\u66b4\u306a\u3000\u6027\u8cea\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u5149\u4f3c\u4e4e\u662f\u5b83\u7684\u80fd\u91cf\u6e90\u3002\n\u4e00\u4e2a\u52b2\u513f\u5730\u53d1\u5c04\u6fc0\u5149\uff0c\n\u6027\u683c\u975e\u5e38\u7c97\u66b4\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u30a8\u30cd\u30eb\u30ae\u30fc\u3068\u306a\u308b\u3000\u3072\u304b\u308a\u3092\u3000\u3082\u3068\u3081\u3066\n\u3042\u3070\u308c\u308b\u3000\u3059\u304c\u305f\u306f\u3000\u3069\u3053\u304b\u3000\u304f\u308b\u3057\u3052\u3002\n\u3079\u3064\u306e\u3000\u305b\u304b\u3044\u306e\u3000\u305d\u3093\u3056\u3044\u3000\u3089\u3057\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\uc5d0\ub108\uc9c0\uc778 \ube5b\uc744 \ucc3e\uc544 \ub0a0\ub6f0\ub294 \ubaa8\uc2b5\uc740\n\uc5b4\ub518\uc9c0 \ubaa8\ub974\uac8c \uad34\ub85c\uc6cc \ubcf4\uc778\ub2e4.\n\ub2e4\ub978 \uc138\uacc4\uc758 \uc874\uc7ac\uc778 \ub4ef\ud558\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u70ba\u4e86\u5c0b\u6c42\u4f5c\u70ba\u80fd\u91cf\u7684\u5149\n\u800c\u767c\u72c2\u7684\u7260\u770b\u8d77\u4f86\u6709\u4e9b\u75db\u82e6\u3002\n\u4f3c\u4e4e\u662f\u4f86\u81ea\u65bc\u5176\u4ed6\u4e16\u754c\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Il semble souffrir dans sa recherche d\u00e9sesp\u00e9r\u00e9e\nde lumi\u00e8re, sa source d\u2019\u00e9nergie. On pense\nqu\u2019il vient d\u2019un autre monde.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Diese Kreatur stammt wohl aus einer anderen\nWelt. Sie wirkt gequ\u00e4lt, wenn sie auf der Suche\nnach Licht, seiner Energiequelle, herumw\u00fctet.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "La luz es su fuente de energ\u00eda y la busca con tal\ndesespero que da la impresi\u00f3n de que sufre.\nParece ser una criatura de otro mundo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Pare che sia una creatura di un altro mondo.\nLa luce \u00e8 la sua fonte d\u2019energia e la cerca con\nfuria, rivelando sofferenza.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "It looks somehow pained as it rages around in\nsearch of light, which serves as its energy.\nIt\u2019s apparently from another world.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u30a8\u30cd\u30eb\u30ae\u30fc\u3068\u306a\u308b\u3000\u5149\u3092\u3000\u6c42\u3081\u3066\n\u66b4\u308c\u308b\u3000\u59ff\u306f\u3000\u3069\u3053\u304b\u3000\u82e6\u3057\u3052\u3002\n\u5225\u306e\u3000\u4e16\u754c\u306e\u3000\u5b58\u5728\u3000\u3089\u3057\u3044\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u4e3a\u4e86\u5bfb\u627e\u4f5c\u4e3a\u80fd\u91cf\u7684\u5149\n\u800c\u53d1\u72c2\u7684\u6837\u5b50\u770b\u4e0a\u53bb\u6709\u4e9b\u75db\u82e6\u3002\n\u597d\u50cf\u5b58\u5728\u4e8e\u5176\u4ed6\u4e16\u754c\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u3072\u304b\u308a\u304c\u3000\u30a8\u30cd\u30eb\u30ae\u30fc\u3052\u3093\u3002\u3000\u3072\u304b\u308a\u3092\n\u304f\u3089\u308f\u306a\u3044\u3067\u3000\u3044\u308b\u3068\u3000\u3075\u3058\u3085\u3093\u3076\u3064\u304c\n\u305f\u307e\u308a\u3000\u304f\u308d\u305a\u3093\u3067\u3000\u3046\u3054\u3051\u306a\u304f\u306a\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "\ube5b\uc774 \uc5d0\ub108\uc9c0\uc6d0\uc774\ub2e4.\n\ube5b\uc744 \ubc1b\uc9c0 \ubabb\ud558\uba74 \ubd88\uc21c\ubb3c\uc774 \uc313\uc5ec\uc11c\n\uac80\uac8c \ubcc0\ud574 \uc6c0\uc9c1\uc77c \uc218 \uc5c6\uac8c \ub41c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "\u5149\u662f\u7260\u7684\u80fd\u91cf\u4f86\u6e90\u3002\u5982\u679c\u4e00\u6bb5\u6642\u9593\n\u6c92\u5403\u5230\u5149\uff0c\u96dc\u8cea\u5c31\u6703\u9010\u6f38\u7d2f\u7a4d\uff0c\n\u4f7f\u5f97\u7260\u8eab\u9ad4\u767c\u9ed1\u4e14\u8b8a\u5f97\u7121\u6cd5\u52d5\u5f48\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "S\u2019il ne d\u00e9vore pas assez de lumi\u00e8re, sa source\nd\u2019\u00e9nergie, il accumule les impuret\u00e9s. Il noircit\net finit par ne plus pouvoir bouger.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "Licht ist seine Energiequelle. Kann es dieses\nnicht verschlingen, sammeln sich Unreinheiten\nan und es wird schwarz und regungslos.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "La luz es su fuente de energ\u00eda. Si no absorbe la\nsuficiente, empieza a acumular impurezas que\nhacen que se quede negruzco e inm\u00f3vil.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "La luce \u00e8 la sua fonte di energia. Quando non\nriesce a consumarne, accumula impurit\u00e0 che lo\nscuriscono e gli impediscono di muoversi.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "Light is the source of its energy. If it isn\u2019t\ndevouring light, impurities build up in it and on it,\nand Necrozma darkens and stops moving.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "\u5149\u304c\u3000\u30a8\u30cd\u30eb\u30ae\u30fc\u6e90\u3002\u3000\u5149\u3092\n\u55b0\u3089\u308f\u306a\u3044\u3067\u3000\u3044\u308b\u3068\u3000\u4e0d\u7d14\u7269\u304c\n\u305f\u307e\u308a\u3000\u9ed2\u305a\u3093\u3067\u3000\u52d5\u3051\u306a\u304f\u306a\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "\u5149\u662f\u5b83\u7684\u80fd\u91cf\u6e90\u3002\u5982\u679c\u4e0d\u5403\n\u5149\u7684\u8bdd\uff0c\u6742\u8d28\u4f1a\u6162\u6162\u79ef\u805a\uff0c\n\u5b83\u5c31\u4f1a\u53d1\u9ed1\u800c\u53d8\u5f97\u4e0d\u80fd\u52a8\u5f39\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "\u3072\u304b\u308a\u3092\u3000\u30a8\u30cd\u30eb\u30ae\u30fc\u306b\u3000\u3044\u304d\u3066\u3044\u308b\u3002\n\u3061\u304b\u3067\u3000\u306d\u3080\u3063\u3066\u3044\u305f\u305f\u3081\u3000\u305f\u3044\u306a\u3044\u306b\n\u305f\u307e\u3063\u305f\u3000\u3075\u3058\u3085\u3093\u3076\u3064\u3067\u3000\u304f\u308d\u305a\u3080\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "\u30bd\u30eb\u30ac\u30ec\u30aa\u3092\u3000\u3057\u306f\u3044\u3057\u305f\u3000\u3059\u304c\u305f\u3002\n\u3069\u3046\u3082\u3046\u3067\u3000\u305b\u306a\u304b\u3068\u3000\u3057\u3057\u306e\u3000\u30c4\u30e1\u3067\n\u3048\u3082\u306e\u3092\u3000\u3084\u3064\u3056\u304d\u306b\u3059\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "\u30eb\u30ca\u30a2\u30fc\u30e9\u306e\u3000\u3059\u3079\u3066\u3092\u3000\u3057\u306f\u3044\u3057\u3066\n\u3072\u304b\u308a\u30a8\u30cd\u30eb\u30ae\u30fc\u3092\u3000\u304d\u3087\u3046\u305b\u3044\u3066\u304d\u306b\n\u307b\u3046\u3057\u3085\u3064\u3055\u305b\u3066\u3000\u3059\u3044\u3068\u3063\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "\ub8e8\ub098\uc544\ub77c\uc758 \ubaa8\ub4e0 \uac83\uc744 \uc9c0\ubc30\ud574\uc11c\n\ube5b \uc5d0\ub108\uc9c0\ub97c \uac15\uc81c\ub85c\n\ubc29\ucd9c\uc2dc\ud0a8 \ub2e4\uc74c \ud761\uc218\ud558\uace0 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "\ube5b\uc744 \uc5d0\ub108\uc9c0\uc6d0\uc73c\ub85c \ud558\uc5ec \uc0b4\uace0 \uc788\ub2e4.\n\uc9c0\ud558\uc5d0 \uc7a0\ub4e4\uc5b4 \uc788\uc5c8\uae30 \ub54c\ubb38\uc5d0 \uccb4\ub0b4\uc5d0\n\uc313\uc778 \ubd88\uc21c\ubb3c\uc5d0 \uc758\ud574 \uac80\uac8c \ubcc0\ud588\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "\uc194\uac00\ub808\uc624\ub97c \uc9c0\ubc30\ud55c \ubaa8\uc2b5.\n\ub9e4\uc6b0 \uc0ac\ub098\uc6cc\uc11c \ub4f1\uacfc \uc0ac\uc9c0\uc5d0 \uc788\ub294 \ubc1c\ud1b1\uc73c\ub85c\n\uba39\uc774\ub97c \uac08\uac00\ub9ac \ucc22\ub294\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "\u5149\u8292\u662f\u7260\u7dad\u6301\u751f\u547d\u7684\u80fd\u91cf\u3002\n\u7531\u65bc\u4e00\u76f4\u6c89\u7761\u5728\u5730\u4e0b\uff0c\u8eab\u9ad4\n\u56e0\u7a4d\u5b58\u5728\u9ad4\u5167\u7684\u96dc\u8cea\u800c\u767c\u9ed1\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "\u5c07\u9732\u5948\u96c5\u62c9\u5b8c\u5168\u652f\u914d\uff0c\n\u5f37\u884c\u8b93\u7260\u91cb\u653e\u51fa\u5149\u80fd\uff0c\n\u4e26\u628a\u5149\u80fd\u5438\u6536\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "\u652f\u914d\u8457\u7d22\u723e\u8fe6\u96f7\u6b50\u7684\u6a23\u5b50\u3002\n\u6027\u60c5\u51f6\u731b\uff0c\u6703\u7528\u80cc\u90e8\u8207\u56db\u80a2\n\u7684\u722a\u5b50\u5c07\u7375\u7269\u5927\u5378\u516b\u584a\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "C\u2019est la forme qu\u2019il prend quand il absorbe\nSolgaleo. F\u00e9roce, il tranche ses proies\navec les griffes qui sont sur son dos et ses pattes.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "Il contr\u00f4le d\u00e9sormais enti\u00e8rement Lunala,\net l\u2019oblige \u00e0 lib\u00e9rer toute sa lumi\u00e8re afin\nde l\u2019absorber.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "La lumi\u00e8re est sa source d\u2019\u00e9nergie. Les impuret\u00e9s\nque son corps a accumul\u00e9es en dormant sous terre\nlui ont donn\u00e9 cette couleur noire.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "Es zieht seine Lebensenergie aus Licht. Weil es in\nder Erde ruhte, haben sich in seinem K\u00f6rper\nUnreinheiten angesammelt und es wurde schwarz.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "In dieser Form unterliegt Lunala vollst\u00e4ndig der\nKontrolle von Necrozma. Es zwingt Lunala dazu,\nLichtenergie freizusetzen, um sie zu absorbieren.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "In dieser Form wird Solgaleo von Necrozma\nkontrolliert. Es rei\u00dft Gegner mit den Krallen an\nseinen Pfoten und auf seinem R\u00fccken in St\u00fccke.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "Forma que adopta tras someter a Solgaleo. Se\nlanza sobre su rival y lo desgarra sin piedad con\nlas garras de sus patas y las que salen del lomo.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "La luz es su fuente de energ\u00eda. Se volvi\u00f3 negro\ndebido a las impurezas acumuladas en su cuerpo\nmientras yac\u00eda en el interior de la tierra.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "Tras someter a Lunala, Necrozma lo obliga a\nliberar su energ\u00eda luminosa para absorberla.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "Assume questa forma quando controlla Solgaleo.\nMolto feroce, fa a brandelli le prede con gli\nartigli che ha sulla schiena e sulle zampe.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "Controlla totalmente Lunala e lo costringe\na rilasciare energia luminosa per assorbirla.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "La luce \u00e8 la sua fonte d\u2019energia. Deve il colore\nnero del corpo alle impurit\u00e0 accumulatesi al suo\ninterno mentre giaceva addormentato sottoterra.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "It survives by absorbing light. After a long time\nspent slumbering underground, impurities\naccumulated within it, causing its body to darken.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "Necrozma has subjugated Lunala entirely, forcing\nthe unfortunate Pok\u00e9mon to emit its light energy\nfor Necrozma to consume.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "When it dominates Solgaleo, it takes on this\nform. It\u2019s a vicious Pok\u00e9mon, mangling prey with\nits many claws\u2014including those on its back.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "\u30bd\u30eb\u30ac\u30ec\u30aa\u3092\u3000\u652f\u914d\u3057\u305f\u3000\u59ff\u3002\n\u7370\u731b\u3067\u3000\u80cc\u4e2d\u3068\u3000\u56db\u80a2\u306e\u3000\u30c4\u30e1\u3067\n\u7372\u7269\u3092\u3000\u516b\u3064\u88c2\u304d\u306b\u3059\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "\u30eb\u30ca\u30a2\u30fc\u30e9\u306e\u3000\u3059\u3079\u3066\u3000\u652f\u914d\u3057\u3066\n\u5149\u30a8\u30cd\u30eb\u30ae\u30fc\u3092\u3000\u5f37\u5236\u7684\u306b\n\u653e\u51fa\u3055\u305b\u3066\u3000\u5438\u3044\u53d6\u3063\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "\u5149\u3092\u3000\u30a8\u30cd\u30eb\u30ae\u30fc\u306b\u3000\u751f\u304d\u3066\u3044\u308b\u3002\n\u5730\u4e0b\u3067\u3000\u7720\u3063\u3066\u3044\u305f\u305f\u3081\u3000\u4f53\u5185\u306b\n\u6e9c\u307e\u3063\u305f\u3000\u4e0d\u7d14\u7269\u3067\u3000\u9ed2\u305a\u3080\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "\u5149\u8292\u662f\u5b83\u7ef4\u6301\u751f\u547d\u7684\u80fd\u91cf\u3002\n\u7531\u4e8e\u4e00\u76f4\u6c89\u7761\u4e8e\u5730\u4e0b\uff0c\u8eab\u4f53\n\u56e0\u79ef\u5b58\u5728\u4f53\u5185\u7684\u6742\u8d28\u800c\u53d1\u9ed1\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "\u5c06\u9732\u5948\u96c5\u62c9\u5b8c\u5168\u652f\u914d\uff0c\n\u5f3a\u884c\u8ba9\u5b83\u91ca\u653e\u51fa\u5149\u80fd\uff0c\n\u5e76\u628a\u5149\u80fd\u5438\u6536\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "\u652f\u914d\u7740\u7d22\u5c14\u8fe6\u96f7\u6b27\u7684\u6837\u5b50\u3002\n\u6027\u683c\u6b8b\u66b4\uff0c\u4f1a\u7528\u80cc\u90e8\u4e0e\u56db\u80a2\u7684\n\u722a\u5b50\u5c06\u730e\u7269\u5927\u5378\u516b\u5757\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "\u3044\u304d\u308b\u305f\u3081\u306b\u3000\u3072\u304b\u308a\u3092\u3000\u3082\u3068\u3081\u3066\n\u3042\u3070\u308c\u307e\u308f\u308b\u3002\u3000\u30ec\u30fc\u30b6\u30fc\u3053\u3046\u305b\u3093\u3092\n\u306f\u306a\u3061\u3000\u3042\u3089\u3086\u308b\u3082\u306e\u3092\u3000\u304d\u308a\u304d\u3056\u3080\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "\u30bd\u30eb\u30ac\u30ec\u30aa\u306b\u3000\u3068\u308a\u3064\u304d\u3000\u3080\u3058\u3093\u305e\u3046\u306b\n\u308f\u304d\u3042\u304c\u308b\u3000\u30a8\u30cd\u30eb\u30ae\u30fc\u3092\u3000\u3080\u308a\u3084\u308a\n\u304d\u3085\u3046\u3057\u3085\u3046\u3057\u3066\u3000\u3042\u3070\u308c\u307e\u308f\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "\u30eb\u30ca\u30a2\u30fc\u30e9\u306b\u3000\u3068\u308a\u3064\u3044\u305f\u3000\u3059\u304c\u305f\u3002\n\u304d\u3087\u3046\u307c\u3046\u306b\u306a\u308a\u3000\u3059\u3079\u3066\u3092\u3000\u3066\u304d\u3068\n\u307f\u306a\u3057\u3066\u3000\u30ec\u30fc\u30b6\u30fc\u3067\u3000\u3084\u304d\u3064\u304f\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "\ub8e8\ub098\uc544\ub77c\ub97c \uc7a5\uc545\ud55c \ubaa8\uc2b5\uc774\ub2e4.\n\ud749\ud3ec\ud574\uc838 \ubaa8\ub4e0 \uac83\uc744 \uc801\uc73c\ub85c\n\uac04\uc8fc\ud558\uace0 \ub808\uc774\uc800\ub85c \ud0dc\uc6cc\ubc84\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "\uc0b4\uae30 \uc704\ud574 \ube5b\uc744 \ucc3e\uc544 \ub0a0\ub6f0\uba70\n\ub3cc\uc544\ub2e4\ub2cc\ub2e4. \ub808\uc774\uc800 \uad11\uc120\uc744 \uc3d8\uc544\n\uc628\uac16 \uac83\uc744 \uc0b0\uc0b0\uc870\uac01 \ub0b8\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "\uc194\uac00\ub808\uc624\ub97c \uc7a5\uc545\ud574\uc11c\n\ub05d\uc5c6\uc774 \ub053\uc5b4\uc624\ub974\ub294 \uc5d0\ub108\uc9c0\ub97c\n\uac15\uc81c\ub85c \ud761\uc218\ud558\uace0 \ub0a0\ub6f4\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "\u70ba\u751f\u5b58\u800c\u767c\u72c2\u822c\u5730\u5c0b\u627e\u8457\u5149\u3002\n\u6703\u767c\u5c04\u51fa\u96f7\u5c04\u5149\uff0c\n\u5c07\u6240\u6709\u6771\u897f\u5207\u6210\u788e\u7247\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "\u9644\u5728\u7d22\u723e\u8fe6\u96f7\u6b50\u8eab\u4e0a\uff0c\n\u5f37\u884c\u5438\u53d6\u7260\u7121\u9650\u6e67\u51fa\u7684\n\u80fd\u91cf\uff0c\u56db\u8655\u9020\u6210\u7834\u58de\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "\u9644\u5728\u9732\u5948\u96c5\u62c9\u8eab\u4e0a\u7684\u6a23\u5b50\u3002\n\u8b8a\u5f97\u66f4\u52a0\u51f6\u66b4\uff0c\u5c07\u842c\u7269\u8996\u70ba\n\u6575\u4eba\uff0c\u6703\u7528\u96f7\u5c04\u71d2\u76e1\u4e00\u5207\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "Il a pris possession du corps de Solgaleo\net absorbe de force son \u00e9nergie incommensurable\ntout en semant la terreur autour de lui.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "Il prend cette forme apr\u00e8s avoir absorb\u00e9 Lunala.\nFurieux, il consid\u00e8re tous les \u00eatres autour de lui\ncomme des ennemis et les br\u00fble avec son laser.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "Sa qu\u00eate de lumi\u00e8re, sa source de vie, le rend\nviolent. Il d\u00e9truit tout sur son passage avec\nses rayons laser.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "Auf der Suche nach Licht, das es zum \u00dcberleben\nben\u00f6tigt, w\u00fctet es umher. Es setzt Laserstrahlen\nfrei, die alles zerteilen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "Necrozma kontrolliert Solgaleo und verzehrt\nma\u00dflos dessen unersch\u00f6pfliche Energiemassen.\nDiese bringen es dazu, wild umherzuw\u00fcten.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "Necrozma kontrolliert in dieser Form Lunala.\nIn seiner Wut sieht es alle als Feinde und feuert\nseinen ein\u00e4schernden Laser wahllos auf sie ab.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "Con sus rayos l\u00e1ser destruye todo a su paso en\nbusca de luz para sustentarse.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "Tras someter a Lunala, Necrozma ve enemigos a\ndiestro y siniestro. Iracundo, lanza sus rayos l\u00e1ser\npara fulminarlo todo de forma indiscriminada.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "Tras someter a Solgaleo, Necrozma absorbe por\nla fuerza su energ\u00eda ilimitada y siembra el caos y\nla destrucci\u00f3n por doquier.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "Assume questa forma quando si impossessa di\nLunala. Si scatena considerando chiunque come\nsuo nemico e incenerendolo con i raggi laser.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "Cerca con furia la luce di cui si nutre,\ndistruggendo ogni cosa al suo passaggio\ncon i suoi micidiali raggi laser.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "Si impossessa di Solgaleo e assorbe la sua\ninesauribile energia con la forza, seminando\novunque caos e distruzione.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "It needs light to survive, and it goes on a\nrampage seeking it out. Its laser beams will\ncut anything to pieces.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "Necrozma has attached itself to Solgaleo.\nIt siphons away its host\u2019s limitless energy,\nexploiting that energy to fuel a rampage.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "When Necrozma latches on to Lunala, it becomes\nvicious, seeing enemies everywhere it looks.\nIt will burn the world with lasers.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "\u30bd\u30eb\u30ac\u30ec\u30aa\u306b\u3000\u3068\u308a\u3064\u304d\u3000\u7121\u5c3d\u8535\u306b\n\u6e67\u304d\u3042\u304c\u308b\u3000\u30a8\u30cd\u30eb\u30ae\u30fc\u3092\u3000\u7121\u7406\u3084\u308a\n\u5438\u53ce\u3057\u3066\u3000\u66b4\u308c\u307e\u308f\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "\u30eb\u30ca\u30a2\u30fc\u30e9\u306b\u3000\u3068\u308a\u3064\u3044\u305f\u3000\u59ff\u3002\n\u72c2\u66b4\u306b\u306a\u308a\u3000\u3059\u3079\u3066\u3092\u3000\u6575\u3068\n\u307f\u306a\u3057\u3066\u3000\u30ec\u30fc\u30b6\u30fc\u3067\u3000\u713c\u304d\u3064\u304f\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "\u751f\u304d\u308b\u305f\u3081\u306b\u3000\u5149\u3092\u3000\u6c42\u3081\u3066\n\u66b4\u308c\u307e\u308f\u308b\u3002\u3000\u30ec\u30fc\u30b6\u30fc\u5149\u7dda\u3092\n\u653e\u3061\u3000\u3042\u3089\u3086\u308b\u3082\u306e\u3092\u3000\u5207\u308a\u523b\u3080\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "\u4e3a\u751f\u5b58\u800c\u53d1\u72c2\u822c\u5730\u5bfb\u627e\u7740\u5149\u3002\n\u4f1a\u53d1\u5c04\u51fa\u6fc0\u5149\uff0c\n\u5c06\u6240\u6709\u4e1c\u897f\u5207\u6210\u788e\u7247\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "\u9644\u5728\u7d22\u5c14\u8fe6\u96f7\u6b27\u8eab\u4e0a\uff0c\n\u5f3a\u884c\u5438\u53d6\u5b83\u65e0\u9650\u6d8c\u51fa\u7684\n\u80fd\u91cf\uff0c\u56db\u5904\u9020\u6210\u7834\u574f\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "\u9644\u5728\u9732\u5948\u96c5\u62c9\u8eab\u4e0a\u7684\u6837\u5b50\u3002\n\u53d8\u5f97\u66f4\u52a0\u51f6\u66b4\uff0c\u5c06\u4e07\u7269\u89c6\u4e3a\n\u654c\u4eba\uff0c\u4f1a\u7528\u6fc0\u5149\u70e7\u5c3d\u4e00\u5207\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": -1,
+    "genera": [
+        {
+            "genus": "\u30d7\u30ea\u30ba\u30e0\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        },
+        {
+            "genus": "\ud504\ub9ac\uc998\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u7a1c\u93e1\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Prisme",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "Prisma",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Prisma",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Prisma",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Prism Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "\u30d7\u30ea\u30ba\u30e0\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "\u68f1\u955c\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-vii",
+        "url": "/api/v2/generation/7/"
+    },
+    "growth_rate": {
+        "name": "slow",
+        "url": "/api/v2/growth-rate/1/"
+    },
+    "habitat": null,
+    "has_gender_differences": false,
+    "hatch_counter": 120,
+    "id": 800,
+    "is_baby": false,
+    "is_legendary": true,
+    "is_mythical": false,
+    "name": "necrozma",
+    "names": [
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30cd\u30af\u30ed\u30ba\u30de"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\ub124\ud06c\ub85c\uc988\ub9c8"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u5948\u514b\u6d1b\u8332\u746a"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "Necrozma"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Necrozma"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Necrozma"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Necrozma"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Necrozma"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30cd\u30af\u30ed\u30ba\u30de"
+        },
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u5948\u514b\u6d1b\u5179\u739b"
+        }
+    ],
+    "order": 800,
+    "pal_park_encounters": [],
+    "pokedex_numbers": [
+        {
+            "entry_number": 800,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        },
+        {
+            "entry_number": 300,
+            "pokedex": {
+                "name": "original-alola",
+                "url": "/api/v2/pokedex/16/"
+            }
+        },
+        {
+            "entry_number": 400,
+            "pokedex": {
+                "name": "updated-alola",
+                "url": "/api/v2/pokedex/21/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "arms",
+        "url": "/api/v2/pokemon-shape/4/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "necrozma",
+                "url": "/api/v2/pokemon/800/"
+            }
+        },
+        {
+            "is_default": false,
+            "pokemon": {
+                "name": "necrozma-dusk",
+                "url": "/api/v2/pokemon/10155/"
+            }
+        },
+        {
+            "is_default": false,
+            "pokemon": {
+                "name": "necrozma-dawn",
+                "url": "/api/v2/pokemon/10156/"
+            }
+        },
+        {
+            "is_default": false,
+            "pokemon": {
+                "name": "necrozma-ultra",
+                "url": "/api/v2/pokemon/10157/"
+            }
+        }
+    ]
+}

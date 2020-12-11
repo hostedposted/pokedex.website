@@ -113,10 +113,10 @@ const selectPokemon = async(id) => {
         const url = `https://pokeapi.co/api/v2/pokemon/${id}`;
         const res = await fetch(url);
         const pokeman = await res.json();
-        const urlf = `https://pokeapi.co/api/v2/pokemon-species/${id}`;
+        const urlf = `/pokemon-species/${id}/index.json`;
         const resf = await fetch(urlf);
         const pokemanf = await resf.json();
-        const evoU = pokemanf.evolution_chain.url;
+        const evoU = `/api/v2/evolution-chain/${pokemanf.evolution_chain.url.replace("/api/v2/evolution-chain/", "").replace("/", "/index.json")}`;
         const rese = await fetch(evoU);
         const evolution = await rese.json();
         cachedPokemon[id] = pokeman;

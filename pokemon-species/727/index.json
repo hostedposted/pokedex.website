@@ -1,0 +1,898 @@
+{
+    "base_happiness": 70,
+    "capture_rate": 45,
+    "color": {
+        "name": "red",
+        "url": "/api/v2/pokemon-color/8/"
+    },
+    "egg_groups": [
+        {
+            "name": "ground",
+            "url": "/api/v2/egg-group/5/"
+        }
+    ],
+    "evolution_chain": {
+        "url": "/api/v2/evolution-chain/375/"
+    },
+    "evolves_from_species": {
+        "name": "torracat",
+        "url": "/api/v2/pokemon-species/726/"
+    },
+    "flavor_text_entries": [
+        {
+            "flavor_text": "\u7576\u7260\u71c3\u8d77\u9b25\u5fd7\u7684\u6642\u5019\uff0c\n\u8170\u90e8\u5468\u570d\u7684\u706b\u7130\u4e5f\u6703\n\u71c3\u71d2\u5f97\u7279\u5225\u731b\u70c8\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "\u305d\u307c\u3046\u3067\u3000\u307f\u304c\u3063\u3066\u306a\u3000\u305b\u3044\u304b\u304f\u3002\n\u304d\u3076\u3093\u304c\u3000\u306e\u3089\u306a\u3051\u308c\u3070\u3000\u30c8\u30ec\u30fc\u30ca\u30fc\u306e\n\u3081\u3044\u308c\u3044\u3082\u3000\u3078\u3044\u304d\u3067\u3000\u3080\u3057\u3059\u308b\u305e\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "\uac70\uce60\uace0 \uc81c\uba4b\ub300\ub85c\uc778 \uc131\uaca9\uc774\ub2e4.\n\uae30\ubd84\uc774 \ub0b4\ud0a4\uc9c0 \uc54a\uc73c\uba74 \ud2b8\ub808\uc774\ub108\uc758\n\uba85\ub839\ub3c4 \uc544\ubb34\ub807\uc9c0 \uc54a\uac8c \ubb34\uc2dc\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "\u6027\u683c\u7c97\u9b6f\u53c8\u4efb\u6027\u3002\n\u5fc3\u60c5\u4e0d\u723d\u7684\u6642\u5019\uff0c\u9023\u8a13\u7df4\u5bb6\u7684\n\u547d\u4ee4\u4e5f\u6703\u51b7\u6f20\u5730\u7121\u8996\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "Un Pok\u00e9mon brutal qui n\u2019en fait qu\u2019\u00e0 sa t\u00eate.\nSelon son humeur du moment, il lui arrive\nd\u2019ignorer sciemment les ordres de son Dresseur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "Ein raues und selbsts\u00fcchtiges Pok\u00e9mon.\nWenn es keine Lust hat, ignoriert es auch\nschon mal die Befehle seines Trainers.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "Posee un car\u00e1cter rudo y ego\u00edsta. Si un\nEntrenador no le cae en gracia, ignora sus\n\u00f3rdenes con total impasibilidad.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "Ha un carattere aggressivo ed egoista.\nSe ha la luna storta, non si fa problemi\na ignorare gli ordini del proprio Allenatore.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "This Pok\u00e9mon has a violent, selfish disposition.\nIf it\u2019s not in the mood to listen, it will ignore its\nTrainer\u2019s orders with complete nonchalance.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "\u7c97\u66b4\u3067\u3000\u8eab\u52dd\u624b\u306a\u3000\u6027\u683c\u3002\n\u6c17\u5206\u304c\u3000\u4e57\u3089\u306a\u3051\u308c\u3070\u3000\u30c8\u30ec\u30fc\u30ca\u30fc\u306e\n\u547d\u4ee4\u3082\u3000\u5e73\u6c17\u3067\u3000\u7121\u8996\u3059\u308b\u305e\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "\u6027\u683c\u7c97\u9c81\u53c8\u4efb\u6027\u3002\n\u5fc3\u60c5\u4e0d\u723d\u7684\u65f6\u5019\uff0c\u8fde\u8bad\u7ec3\u5bb6\u7684\n\u547d\u4ee4\u4e5f\u4f1a\u6de1\u5b9a\u5730\u65e0\u89c6\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "\u304d\u3087\u3046\u308c\u3064\u306a\u3000\u30d1\u30f3\u30c1\u3084\u3000\u30ad\u30c3\u30af\u3092\n\u304a\u307f\u307e\u3044\u3057\u305f\u3042\u3068\u3000\u3078\u305d\u306e\u3000\u3042\u305f\u308a\u304b\u3089\n\u307b\u306e\u304a\u3092\u3000\u3075\u304d\u3060\u3057\u3000\u3068\u3069\u3081\u3092\u3000\u3055\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\uac15\ub82c\ud55c \ud380\uce58\uc640 \ud0a5\uc744\n\uac00\ud55c \ud6c4 \ubc30\uaf3d \ubd80\uadfc\uc5d0\uc11c\n\ubd88\uaf43\uc744 \ubfdc\uc5b4\ub0b4 \ub9c8\ubb34\ub9ac\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u5728\u4f7f\u51fa\u731b\u70c8\u7684\u62f3\u64ca\u6216\u8173\u8e22\u5f8c\uff0c\n\u6703\u5f9e\u809a\u81cd\u5468\u570d\u5674\u51fa\u706b\u7130\uff0c\n\u5c07\u6575\u4eba\u4e00\u64ca\u6583\u547d\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Apr\u00e8s avoir ass\u00e9n\u00e9 une pluie de coups de pied\net de poing \u00e0 son adversaire, il l\u2019asperge de\nflammes ardentes sortant de son nombril.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Nach einer Reihe heftiger Schl\u00e4ge und Tritte\nschie\u00dft es Feuer aus seinem Bauchnabel,\num dem Gegner den Garaus zu machen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Descarga r\u00e1fagas de demoledores pu\u00f1etazos y\npatadas sobre sus rivales, a los que luego\nremata con las llamas que manan de su vientre.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Stordisce il nemico con pugni e calci di grande\npotenza per poi metterlo KO con le fiammate\nche emette dal ventre.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "After hurling ferocious punches and flinging\nfurious kicks, it finishes opponents off by\nspewing fire from around its navel.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u5f37\u70c8\u306a\u3000\u30d1\u30f3\u30c1\u3084\u3000\u30ad\u30c3\u30af\u3092\n\u304a\u898b\u821e\u3044\u3057\u305f\u3042\u3068\u3000\u3078\u305d\u306e\u3000\u3042\u305f\u308a\u304b\u3089\n\u708e\u3092\u3000\u5439\u304d\u51fa\u3057\u3000\u6b62\u3081\u3092\u3000\u523a\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u5728\u4f7f\u51fa\u731b\u70c8\u7684\u62f3\u51fb\u6216\u811a\u8e22\u540e\uff0c\n\u4f1a\u4ece\u809a\u8110\u5468\u56f4\u55b7\u51fa\u706b\u7130\uff0c\n\u5c06\u654c\u4eba\u4e00\u51fb\u6bd9\u547d\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u3042\u3089\u3063\u307d\u304f\u3000\u308f\u304c\u307e\u307e\u3060\u304c\u3000\u304b\u304f\u3057\u305f\u3092\n\u306a\u3076\u308b\u3053\u3068\u306f\u3000\u3064\u307e\u3089\u306a\u3044\u306e\u3067\u3000\u30ad\u30e9\u30a4\u3002\n\u304b\u304f\u3046\u3048\u306e\u3000\u3042\u3044\u3066\u306b\u3000\u3084\u308b\u304d\u3092\u3000\u3060\u3059\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\uac70\uce60\uace0 \uc81c\uba4b\ub300\ub85c\uc9c0\ub9cc \uc57d\ud55c \uc0c1\ub300\ub97c\n\uad34\ub86d\ud788\ub294 \uac83\uc740 \uc7ac\ubbf8\uc5c6\uc5b4\uc11c \uc2eb\uc5b4\ud55c\ub2e4.\n\uac15\ud55c \uc0c1\ub300\uc5d0\uac8c \uc758\uc695\uc744 \ubcf4\uc778\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u500b\u6027\u7c97\u9b6f\u53c8\u4efb\u6027\uff0c\u4f46\u8a0e\u53ad\u6b3a\u8ca0\u5f31\u5c0f\n\u9019\u7a2e\u7121\u804a\u7684\u4e8b\uff0c\u53ea\u6709\u5728\u9762\u5c0d\n\u5f37\u5927\u5c0d\u624b\u6642\u624d\u6703\u62ff\u51fa\u5e79\u52c1\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Un Pok\u00e9mon brutal qui n\u2019en fait qu\u2019\u00e0 sa t\u00eate.\nSelon son humeur du moment, il lui arrive parfois\nd\u2019ignorer sciemment les ordres de son Dresseur.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Es ist wild und egoistisch, aber Schw\u00e4chere\nanzugreifen findet es langweilig und absto\u00dfend.\nNur gegen St\u00e4rkere kommt es richtig in Fahrt.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Este Pok\u00e9mon rudo y ego\u00edsta considera aburrido\nenfrentarse a un rival inferior a \u00e9l y prefiere dar\nlo mejor de s\u00ed mismo contra rivales m\u00e1s fuertes.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Pok\u00e9mon rude ed egoista. Non gli piace\nprendersela con chi non \u00e8 al suo livello e\npreferisce lottare con avversari pi\u00f9 forti di lui.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Although it\u2019s rough mannered and egotistical, it\nfinds beating down unworthy opponents boring.\nIt gets motivated for stronger opponents.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u8352\u3063\u307d\u304f\u3000\u308f\u304c\u307e\u307e\u3060\u304c\u3000\u683c\u4e0b\u3092\n\u306a\u3076\u308b\u3053\u3068\u306f\u3000\u3064\u307e\u3089\u306a\u3044\u306e\u3067\u3000\u30ad\u30e9\u30a4\u3002\n\u683c\u4e0a\u306e\u3000\u76f8\u624b\u306b\u3000\u3084\u308b\u6c17\u3092\u3000\u51fa\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u6027\u683c\u66b4\u8e81\u53c8\u4efb\u6027\uff0c\n\u4f46\u8ba8\u538c\u6b3a\u51cc\u5f31\u5c0f\u8fd9\u7c7b\u65e0\u804a\u7684\u4e8b\u3002\n\u5bf9\u4e8e\u5f3a\u5927\u7684\u5bf9\u624b\u4f1a\u62ff\u51fa\u5e72\u52b2\u6765\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u3068\u3046\u305d\u3046\u3057\u3093\u306b\u3000\u3072\u304c\u3000\u3064\u304f\u3068\n\u3053\u3057\u306e\u3000\u307e\u308f\u308a\u306b\u3000\u3042\u308b\u3000\u307b\u306e\u304a\u3082\n\u3072\u3068\u304d\u308f\u3000\u306f\u3052\u3057\u304f\u3000\u3082\u3048\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "\ud22c\uc7c1\uc2ec\uc5d0 \ubd88\uc774 \ubd99\uc73c\uba74\n\ud5c8\ub9ac \uc8fc\ubcc0\uc5d0 \uc788\ub294 \ubd88\uaf43\ub3c4\n\ud55c\uce35 \uaca9\ub82c\ud558\uac8c \ud0c0\uc624\ub978\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "Les flammes autour de ses hanches br\u00fblent\nd\u2019une ardeur redoubl\u00e9e quand sa combativit\u00e9\ns\u2019embrase.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "Entbrennt sein Kampfeswille, lodern die Flammen\num seine H\u00fcfte noch heftiger auf.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "Cuanto mayor es su esp\u00edritu combativo, con m\u00e1s\nfuerza arden las llamas que rodean su cintura.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "Quando arde dalla voglia di lottare, anche\nle fiamme intorno alla vita bruciano pi\u00f9\nintensamente.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "When its fighting spirit is set alight, the flames\naround its waist become especially intense.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "\u95d8\u4e89\u5fc3\u306b\u3000\u706b\u304c\u3000\u3064\u304f\u3068\n\u8170\u306e\u3000\u307e\u308f\u308a\u306b\u3000\u3042\u308b\u3000\u708e\u3082\n\u3072\u3068\u969b\u3000\u6fc0\u3057\u304f\u3000\u71c3\u3048\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "\u5982\u679c\u71c3\u8d77\u4e86\u6597\u5fd7\uff0c\u8170\u5468\u56f4\u7684\u706b\u7130\n\u4e5f\u4f1a\u71c3\u70e7\u5f97\u683c\u5916\u731b\u70c8\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "\u305b\u3063\u3057\uff12\uff10\uff10\uff10\u3069\u3092\u3000\u3053\u3048\u308b\u3000\u307b\u306e\u304a\u3092\n\u3078\u305d\u304b\u3089\u3000\u3075\u304d\u3060\u3059\u3002\u3000\u30eb\u30fc\u30eb\u3080\u3088\u3046\u306e\n\u3089\u3093\u307c\u3046\u306a\u3000\u305f\u305f\u304b\u3044\u304c\u3000\u3068\u304f\u3044\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "\uc12d\uc528 2000\ub3c4\uac00 \ub118\ub294 \ubd88\uaf43\uc744\n\ubc30\uaf3d\uc5d0\uc11c \ubfdc\uc5b4\ub0b8\ub2e4. \uaddc\uce59\uc774 \uc5c6\ub294\n\ub09c\ud3ed\ud55c \uc2f8\uc6c0\uc744 \uc798 \ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "\u6703\u5f9e\u81ea\u5df1\u7684\u809a\u81cd\u5674\u51fa\n\u651d\u6c0f\uff12\uff10\uff10\uff10\u5ea6\u4ee5\u4e0a\u7684\u706b\u7130\u3002\n\u64c5\u9577\u6c92\u6709\u898f\u5247\u9650\u5236\u7684\u7c97\u66b4\u6230\u9b25\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "Les flammes qui \u00e9manent de son nombril\nd\u00e9passent les 2\u202f000 \u00b0C. Il n\u2019est jamais aussi\n\u00e0 l\u2019aise que lorsque tous les coups sont permis.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "Aus seinem Bauchnabel schie\u00dft es \u00fcber 2\u202f000 \u00baC\nhei\u00dfes Feuer. Seine Spezialit\u00e4t sind K\u00e4mpfe, bei\ndenen alle Regeln \u00fcber Bord geworfen werden.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "Las llamas que libera por el ombligo superan los\n2000 \u00b0C. Su especialidad son los combates sin\nreglas ni restricciones.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "Le fiamme che fuoriescono dal suo ombelico\nsuperano i 2.000 \u00baC. D\u00e0 il meglio nelle lotte\nfuriose e senza regole.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "It excels at violent, no-holds-barred battles.\nThe temperature of the flames that issue from its\nnavel exceeds 3,600 degrees Fahrenheit.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "\u6442\u6c0f\uff12\uff10\uff10\uff10\u5ea6\u3092\u3000\u8d85\u3048\u308b\u3000\u708e\u3092\n\u3078\u305d\u304b\u3089\u3000\u5674\u304d\u51fa\u3059\u3002\u3000\u30eb\u30fc\u30eb\u7121\u7528\u306e\n\u4e71\u66b4\u306a\u3000\u6226\u3044\u304c\u3000\u5f97\u610f\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "\u4f1a\u4ece\u81ea\u5df1\u7684\u809a\u8110\u55b7\u51fa\n\u6444\u6c0f\uff12\uff10\uff10\uff10\u5ea6\u4ee5\u4e0a\u7684\u706b\u7130\u3002\n\u64c5\u957f\u6ca1\u6709\u89c4\u5219\u9650\u5236\u7684\u7c97\u66b4\u6218\u6597\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "\u3089\u3093\u307c\u3046\u306a\u3000\u3075\u308b\u307e\u3044\u3082\u3000\u3081\u306b\u3064\u304f\u304c\n\u3061\u3044\u3055\u3044\u3000\u30dd\u30b1\u30e2\u30f3\u3092\u3000\u305f\u3059\u3051\u308b\n\u3084\u3055\u3057\u3044\u3000\u3044\u3061\u3081\u3093\u3082\u3000\u3082\u3063\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "\ub09c\ud3ed\ud55c \uac70\ub3d9\uc774 \ub208\uc5d0 \ub744\uc9c0\ub9cc\n\uc791\uc740 \ud3ec\ucf13\ubaac\uc744 \ub3c4\uc640\uc8fc\ub294\n\uc0c1\ub0e5\ud55c \uc77c\uba74\ub3c4 \uc788\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "\u96d6\u7136\u884c\u70ba\u8209\u6b62\u5341\u5206\u7c97\u91ce\uff0c\n\u537b\u4e5f\u6709\u8457\u6703\u53bb\u5e6b\u52a9\n\u5f31\u5c0f\u5bf6\u53ef\u5922\u7684\u6eab\u67d4\u4e00\u9762\u3002",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "Bien qu\u2019il soit parfois brutal, il sait aussi\nse montrer attentionn\u00e9 en venant en aide\naux petits Pok\u00e9mon.",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "Obwohl es sich auff\u00e4llig rau und wild auff\u00fchrt,\nhat es auch eine freundliche Seite an sich und\nhilft kleineren Pok\u00e9mon aus Notlagen.",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "A pesar de que a menudo se comporta de forma\nviolenta, tiene un lado amable que se manifiesta\ncuando ayuda a Pok\u00e9mon m\u00e1s peque\u00f1os.",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "Manifesta di solito un comportamento violento,\nma possiede un lato gentile che emerge quando\naiuta i Pok\u00e9mon pi\u00f9 piccoli.",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "Incineroar\u2019s rough and aggressive behavior is its\nmost notable trait, but the way it helps out small\nPok\u00e9mon shows that it has a kind side as well.",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "\u4e71\u66b4\u306a\u3000\u3075\u308b\u307e\u3044\u3082\u3000\u76ee\u306b\u3064\u304f\u304c\n\u5c0f\u3055\u3044\u3000\u30dd\u30b1\u30e2\u30f3\u3092\u3000\u52a9\u3051\u308b\n\u512a\u3057\u3044\u3000\u4e00\u9762\u3082\u3000\u3082\u3063\u3066\u3044\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        },
+        {
+            "flavor_text": "\u867d\u7136\u884c\u4e3a\u4e3e\u6b62\u5341\u5206\u7c97\u91ce\uff0c\n\u5374\u4e5f\u6709\u7740\u4f1a\u53bb\u5e2e\u52a9\n\u5f31\u5c0f\u5b9d\u53ef\u68a6\u7684\u6e29\u67d4\u4e00\u9762\u3002",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "version": {
+                "name": "shield",
+                "url": "/api/v2/version/34/"
+            }
+        }
+    ],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 1,
+    "genera": [
+        {
+            "genus": "\u30d2\u30fc\u30eb\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            }
+        },
+        {
+            "genus": "\ud790\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u53cd\u6d3e\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Vil Catcheur",
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "Fiesling",
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Rudo",
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Colpibassi",
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Heel Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "\u30d2\u30fc\u30eb\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "\u53cd\u6d3e\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-vii",
+        "url": "/api/v2/generation/7/"
+    },
+    "growth_rate": {
+        "name": "medium-slow",
+        "url": "/api/v2/growth-rate/4/"
+    },
+    "habitat": null,
+    "has_gender_differences": false,
+    "hatch_counter": 15,
+    "id": 727,
+    "is_baby": false,
+    "is_legendary": false,
+    "is_mythical": false,
+    "name": "incineroar",
+    "names": [
+        {
+            "language": {
+                "name": "ja-Hrkt",
+                "url": "/api/v2/language/1/"
+            },
+            "name": "\u30ac\u30aa\u30ac\u30a8\u30f3"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "/api/v2/language/3/"
+            },
+            "name": "\uc5b4\ud765\uc5fc"
+        },
+        {
+            "language": {
+                "name": "zh-Hant",
+                "url": "/api/v2/language/4/"
+            },
+            "name": "\u71be\u7130\u5486\u54ee\u864e"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "/api/v2/language/5/"
+            },
+            "name": "F\u00e9linferno"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "/api/v2/language/6/"
+            },
+            "name": "Fuegro"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "/api/v2/language/7/"
+            },
+            "name": "Incineroar"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "/api/v2/language/8/"
+            },
+            "name": "Incineroar"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "/api/v2/language/9/"
+            },
+            "name": "Incineroar"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "/api/v2/language/11/"
+            },
+            "name": "\u30ac\u30aa\u30ac\u30a8\u30f3"
+        },
+        {
+            "language": {
+                "name": "zh-Hans",
+                "url": "/api/v2/language/12/"
+            },
+            "name": "\u70bd\u7130\u5486\u54ee\u864e"
+        }
+    ],
+    "order": 727,
+    "pal_park_encounters": [],
+    "pokedex_numbers": [
+        {
+            "entry_number": 727,
+            "pokedex": {
+                "name": "national",
+                "url": "/api/v2/pokedex/1/"
+            }
+        },
+        {
+            "entry_number": 6,
+            "pokedex": {
+                "name": "original-alola",
+                "url": "/api/v2/pokedex/16/"
+            }
+        },
+        {
+            "entry_number": 6,
+            "pokedex": {
+                "name": "original-melemele",
+                "url": "/api/v2/pokedex/17/"
+            }
+        },
+        {
+            "entry_number": 6,
+            "pokedex": {
+                "name": "updated-alola",
+                "url": "/api/v2/pokedex/21/"
+            }
+        },
+        {
+            "entry_number": 6,
+            "pokedex": {
+                "name": "updated-melemele",
+                "url": "/api/v2/pokedex/22/"
+            }
+        }
+    ],
+    "shape": {
+        "name": "upright",
+        "url": "/api/v2/pokemon-shape/6/"
+    },
+    "varieties": [
+        {
+            "is_default": true,
+            "pokemon": {
+                "name": "incineroar",
+                "url": "/api/v2/pokemon/727/"
+            }
+        }
+    ]
+}
