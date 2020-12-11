@@ -1,0 +1,485 @@
+[
+    {
+        "location_area": {
+            "name": "castelia-city-area",
+            "url": "/api/v2/location-area/656/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 19,
+                        "method": {
+                            "name": "dark-grass",
+                            "url": "/api/v2/encounter-method/8/"
+                        },
+                        "min_level": 19
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 19,
+                        "method": {
+                            "name": "dark-grass",
+                            "url": "/api/v2/encounter-method/8/"
+                        },
+                        "min_level": 19
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 18,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 18
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 18,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 18
+                    },
+                    {
+                        "chance": 100,
+                        "condition_values": [],
+                        "max_level": 10,
+                        "method": {
+                            "name": "gift",
+                            "url": "/api/v2/encounter-method/18/"
+                        },
+                        "min_level": 10
+                    }
+                ],
+                "max_chance": 110,
+                "version": {
+                    "name": "black-2",
+                    "url": "/api/v2/version/21/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 19,
+                        "method": {
+                            "name": "dark-grass",
+                            "url": "/api/v2/encounter-method/8/"
+                        },
+                        "min_level": 19
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 19,
+                        "method": {
+                            "name": "dark-grass",
+                            "url": "/api/v2/encounter-method/8/"
+                        },
+                        "min_level": 19
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 18,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 18
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 18,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 18
+                    },
+                    {
+                        "chance": 100,
+                        "condition_values": [],
+                        "max_level": 10,
+                        "method": {
+                            "name": "gift",
+                            "url": "/api/v2/encounter-method/18/"
+                        },
+                        "min_level": 10
+                    }
+                ],
+                "max_chance": 110,
+                "version": {
+                    "name": "white-2",
+                    "url": "/api/v2/version/22/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "kalos-route-10-area",
+            "url": "/api/v2/location-area/721/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 21,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 21
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 19,
+                        "method": {
+                            "name": "yellow-flowers",
+                            "url": "/api/v2/encounter-method/14/"
+                        },
+                        "min_level": 19
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 20,
+                        "method": {
+                            "name": "yellow-flowers",
+                            "url": "/api/v2/encounter-method/14/"
+                        },
+                        "min_level": 20
+                    }
+                ],
+                "max_chance": 25,
+                "version": {
+                    "name": "x",
+                    "url": "/api/v2/version/23/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 21,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 21
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 19,
+                        "method": {
+                            "name": "yellow-flowers",
+                            "url": "/api/v2/encounter-method/14/"
+                        },
+                        "min_level": 19
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 20,
+                        "method": {
+                            "name": "yellow-flowers",
+                            "url": "/api/v2/encounter-method/14/"
+                        },
+                        "min_level": 20
+                    }
+                ],
+                "max_chance": 25,
+                "version": {
+                    "name": "y",
+                    "url": "/api/v2/version/24/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "celadon-city-celadon-mansion",
+            "url": "/api/v2/location-area/763/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 100,
+                        "condition_values": [],
+                        "max_level": 25,
+                        "method": {
+                            "name": "gift",
+                            "url": "/api/v2/encounter-method/18/"
+                        },
+                        "min_level": 25
+                    }
+                ],
+                "max_chance": 100,
+                "version": {
+                    "name": "red",
+                    "url": "/api/v2/version/1/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 100,
+                        "condition_values": [],
+                        "max_level": 25,
+                        "method": {
+                            "name": "gift",
+                            "url": "/api/v2/encounter-method/18/"
+                        },
+                        "min_level": 25
+                    }
+                ],
+                "max_chance": 100,
+                "version": {
+                    "name": "blue",
+                    "url": "/api/v2/version/2/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 100,
+                        "condition_values": [],
+                        "max_level": 25,
+                        "method": {
+                            "name": "gift",
+                            "url": "/api/v2/encounter-method/18/"
+                        },
+                        "min_level": 25
+                    }
+                ],
+                "max_chance": 100,
+                "version": {
+                    "name": "yellow",
+                    "url": "/api/v2/version/3/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 100,
+                        "condition_values": [],
+                        "max_level": 25,
+                        "method": {
+                            "name": "gift",
+                            "url": "/api/v2/encounter-method/18/"
+                        },
+                        "min_level": 25
+                    }
+                ],
+                "max_chance": 100,
+                "version": {
+                    "name": "firered",
+                    "url": "/api/v2/version/10/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 100,
+                        "condition_values": [],
+                        "max_level": 25,
+                        "method": {
+                            "name": "gift",
+                            "url": "/api/v2/encounter-method/18/"
+                        },
+                        "min_level": 25
+                    }
+                ],
+                "max_chance": 100,
+                "version": {
+                    "name": "leafgreen",
+                    "url": "/api/v2/version/11/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "goldenrod-city-bills-house",
+            "url": "/api/v2/location-area/766/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 100,
+                        "condition_values": [],
+                        "max_level": 20,
+                        "method": {
+                            "name": "gift",
+                            "url": "/api/v2/encounter-method/18/"
+                        },
+                        "min_level": 20
+                    }
+                ],
+                "max_chance": 100,
+                "version": {
+                    "name": "gold",
+                    "url": "/api/v2/version/4/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 100,
+                        "condition_values": [],
+                        "max_level": 20,
+                        "method": {
+                            "name": "gift",
+                            "url": "/api/v2/encounter-method/18/"
+                        },
+                        "min_level": 20
+                    }
+                ],
+                "max_chance": 100,
+                "version": {
+                    "name": "silver",
+                    "url": "/api/v2/version/5/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 100,
+                        "condition_values": [],
+                        "max_level": 20,
+                        "method": {
+                            "name": "gift",
+                            "url": "/api/v2/encounter-method/18/"
+                        },
+                        "min_level": 20
+                    }
+                ],
+                "max_chance": 100,
+                "version": {
+                    "name": "crystal",
+                    "url": "/api/v2/version/6/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 100,
+                        "condition_values": [],
+                        "max_level": 5,
+                        "method": {
+                            "name": "gift",
+                            "url": "/api/v2/encounter-method/18/"
+                        },
+                        "min_level": 5
+                    }
+                ],
+                "max_chance": 100,
+                "version": {
+                    "name": "heartgold",
+                    "url": "/api/v2/version/15/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 100,
+                        "condition_values": [],
+                        "max_level": 5,
+                        "method": {
+                            "name": "gift",
+                            "url": "/api/v2/encounter-method/18/"
+                        },
+                        "min_level": 5
+                    }
+                ],
+                "max_chance": 100,
+                "version": {
+                    "name": "soulsilver",
+                    "url": "/api/v2/version/16/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "hearthome-city-area",
+            "url": "/api/v2/location-area/771/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 100,
+                        "condition_values": [],
+                        "max_level": 5,
+                        "method": {
+                            "name": "gift",
+                            "url": "/api/v2/encounter-method/18/"
+                        },
+                        "min_level": 5
+                    }
+                ],
+                "max_chance": 100,
+                "version": {
+                    "name": "diamond",
+                    "url": "/api/v2/version/12/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 100,
+                        "condition_values": [],
+                        "max_level": 5,
+                        "method": {
+                            "name": "gift",
+                            "url": "/api/v2/encounter-method/18/"
+                        },
+                        "min_level": 5
+                    }
+                ],
+                "max_chance": 100,
+                "version": {
+                    "name": "pearl",
+                    "url": "/api/v2/version/13/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 100,
+                        "condition_values": [],
+                        "max_level": 20,
+                        "method": {
+                            "name": "gift",
+                            "url": "/api/v2/encounter-method/18/"
+                        },
+                        "min_level": 20
+                    }
+                ],
+                "max_chance": 100,
+                "version": {
+                    "name": "platinum",
+                    "url": "/api/v2/version/14/"
+                }
+            }
+        ]
+    }
+]

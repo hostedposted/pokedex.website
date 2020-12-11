@@ -110,7 +110,7 @@ fetchPokemon();
 
 const selectPokemon = async(id) => {
     if (!cachedPokemon[id]) {
-        const url = `https://pokeapi.co/api/v2/pokemon/${id}`;
+        const url = `pokemon/${id}/index.json`;
         const res = await fetch(url);
         const pokeman = await res.json();
         const urlf = `/pokemon-species/${id}/index.json`;
