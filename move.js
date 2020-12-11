@@ -60,26 +60,6 @@ const fetchPokemon2 = () => {
     });
 };
 
-const colors = {
-    "ground": "#CC9F4F",
-    "fire": "#EA7A3C",
-    "grass": "#71C558",
-    "fairy": "#E397D1",
-    'normal': "#AAB09F",
-    'fighting': "#CB5F48",
-    'ice': "#70CBD4",
-    'electric': "#E5C531",
-    'flying': "#7DA6DE",
-    'poison': "#B468B7",
-    'bug': "#94BC4A",
-    'dark': "#736C75",
-    'water': "#539AE2",
-    'psychic': "#E5709B",
-    "rock": "#B2A061",
-    "ghost": "#846AB6",
-    "dragon": "#6A7BAF",
-    "steel": "#B7B7CE",
-}
 
 const displayPokemon2 = (moves) => {
     const pokemonHTMLString = moves

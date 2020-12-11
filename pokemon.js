@@ -51,19 +51,52 @@ const fetchPokemon = () => {
                 image: `/pokemon/${result.id}.png`,
                 type: result.types.map((type) => type.type.name).join(', '),
                 id: result.id,
-                ability: result.abilities.map((ability) => ability.ability.name).join(', ') || gen8pokemon[result.id - 808].abilities.join(', ')
+                ability: result.abilities.map((ability) => ability.ability.name).join(', ') || gen8pokemon[result.id - 808].abilities.join(', '),
             }));
             displayPokemon(pokemon);
         });
     });
 };
 
+const colors = {
+    "ground": "#CC9F4F",
+    "fire": "#EA7A3C",
+    "grass": "#71C558",
+    "fairy": "#E397D1",
+    'normal': "#AAB09F",
+    'fighting': "#CB5F48",
+    'ice': "#70CBD4",
+    'electric': "#E5C531",
+    'flying': "#7DA6DE",
+    'poison': "#B468B7",
+    'bug': "#94BC4A",
+    'dark': "#736C75",
+    'water': "#539AE2",
+    'psychic': "#F85888",
+    "rock": "#B2A061",
+    "ghost": "#846AB6",
+    "dragon": "#6A7BAF",
+    "steel": "#B7B7CE",
+}
+
+function getStyle(pokeman) {
+    if (pokeman.type.indexOf(',') < 0) {
+        // This pokemon only has one type
+        return `background: ${colors[pokeman.type]};`
+    } else {
+        const types = pokeman.type.split(', ')
+        const color1 = colors[types[0]]
+        const color2 = colors[types[1]]
+        return `background: linear-gradient(to right, ${color1} 50%, ${color2} 50%);`
+    }
+   }
+   
 
 const displayPokemon = (pokemon) => {
     const pokemonHTMLString = pokemon
         .map(
             (pokeman) => `
-            <li class="card" id = "${pokeman.name}" onclick = "selectPokemon(${pokeman.id})">
+            <li class="card" id = "${pokeman.name}" onclick = "selectPokemon(${pokeman.id})" style="${getStyle(pokeman)}">
                 <img class="card-image" src="${pokeman.image}"/>
                 <h2 class="card-title">${pokeman.id}. ${pokeman.name}</h2>
                 <p class="card-subtitle">Type: ${pokeman.type} <br> Ability: ${pokeman.ability} </p>
