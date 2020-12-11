@@ -8,7 +8,7 @@ self.addEventListener('install', function(event) {
   event.waitUntil(
     caches.open(CACHE_NAME)
       .then(function(cache) {
-        console.log("Opened cache 1.4.1");
+        console.log("Opened cache 1.4.2");
         return cache.addAll(urlsToCache);
       })
   );
