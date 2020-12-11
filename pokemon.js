@@ -74,7 +74,7 @@ const colors = {
     'psychic': "#F95587",
     "rock": "#B2A061",
     "ghost": "#846AB6",
-    "dragon": "#6A7BAF",
+    "dragon": "#7038F8",
     "steel": "#B7B7CE",
 }
 
