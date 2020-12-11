@@ -131,6 +131,18 @@ const selectPokemon = async(id) => {
     }
 };
 
+function getStyleP(pokeman) {
+    if (pokeman.types.map((type) => type.type.name).join(', ').indexOf(',') < 0) {
+        // This pokemon only has one type
+        return `background: ${colors[pokeman.types.map((type) => type.type.name).join(', ')]};`
+    } else {
+        const types = pokeman.types.map((type) => type.type.name).join(', ').split(', ')
+        const color1 = colors[types[0]]
+        const color2 = colors[types[1]]
+        return `background: linear-gradient(to right, ${color1} 50%, ${color2} 50%);`
+    }
+   }
+
 function displayMove(url) {
     fetch(url).then((res) => res.json()).then((move) => {
         const htmlString = move.effect_entries.map((short_effect) => short_effect.short_effect).join(', ').replace('$effect_chance', move.effect_chance).replace('$effect_chance', move.effect_chance);
@@ -172,7 +184,7 @@ const displayPokemanPopup = (pokeman, evolution) => {
         const htmlString = `
             <div class="popup">
                 <button id="closeBtn" onclick="closePopup()">Close</button>
-                <div class="card">
+                <div class="card" style="${getStyleP(pokeman)}">
                     <img class="card-image" src="/pokemon/${pokeman.id}.png"/>
                     <img class="card-image" src="/pokemon/shiny/${pokeman.id}.png"/>
                     <h2 class="card-title">${pokeman.id}. ${pokeman.name}</h2>
