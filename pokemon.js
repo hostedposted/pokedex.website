@@ -140,7 +140,7 @@ function getStyleP(pokeman) {
    }
 
 function displayMove(url) {
-    fetch(url).then((res) => res.json()).then((move) => {
+    fetch(url.replace("https://pokeapi.co/api/v2/move/", "move").replace("/", "/index.json").replace("move", "move/")).then((res) => res.json()).then((move) => {
         const htmlString = move.effect_entries.map((short_effect) => short_effect.short_effect).join(', ').replace('$effect_chance', move.effect_chance).replace('$effect_chance', move.effect_chance);
         const popmove = document.getElementById(move.name)
         if (popmove.innerHTML != '') {
@@ -165,7 +165,7 @@ const displayPokemanPopup = (pokeman, evolution) => {
                                 ).join('<br>');
                                 const movers = pokeman.id < 808 ?
                                     `Moves ${pokeman.name} can learn are: <br> ${pokeman.moves.map((move) =>
-                `${move.move.name} <button id="details" type="button" onclick="displayMove('${move.move.url}')">Details</button><div id = "${move.move.name}"></div>`
+                `${move.move.name} <button id="details" type="button" onclick="displayMove('${move.move.url.replace("https://pokeapi.co/api/v2/move/", "move").replace("/", "/index.json").replace("move", "move/")}')">Details</button><div id = "${move.move.name}"></div>`
             ).join('')}` :  ``
 
         const ability = pokeman.abilities.map((ability) => ability.ability.name).join(', ') || gen8pokemon[pokeman.id-808].abilities.join(', ')
