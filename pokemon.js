@@ -40,7 +40,6 @@ const cachedPokemon = {};
 const cachedEvolution = {};
 let pokemon
 const fetchPokemon = () => {
-    const promises = [];
     const url = 'info.json'
     fetch(url).then((res) => res.json()).then((results) => {
         const url = "gen8.json";
@@ -114,9 +113,6 @@ const selectPokemon = async(id) => {
         const url = `https://pokeapi.co/api/v2/pokemon/${id}`;
         const res = await fetch(url);
         const pokeman = await res.json();
-        const moveUrls = pokeman.moves.map(move => move.move.url);
-        const results = await Promise.all(moveUrls.map(url => fetch(url)));
-        const moves = await Promise.all(results.map(res => res.json()));
         const urlf = `https://pokeapi.co/api/v2/pokemon-species/${id}`;
         const resf = await fetch(urlf);
         const pokemanf = await resf.json();
