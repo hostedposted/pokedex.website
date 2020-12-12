@@ -208,4 +208,4 @@ const displayPokemanPopup = (pokeman, evolution) => {
 window.setTimeout(function(){
     const loader = document.querySelector(".loader");
     loader.className += " hidden";
-}, 3000)
+}, 5000)
