@@ -12,7 +12,7 @@
 }
 
 .loader > img {
-    width: 900px;
+    width: 500px;
 }
 
 .loader.hidden {
