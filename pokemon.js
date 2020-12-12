@@ -106,6 +106,8 @@ const displayPokemon = (pokemon) => {
     pokedex.innerHTML = pokemonHTMLString;
 };
 
+
+
 fetchPokemon();
 
 const selectPokemon = async(id) => {
@@ -202,3 +204,8 @@ const displayPokemanPopup = (pokeman, evolution) => {
     };
 
     fetchPokemon();
+
+window.setTimeout(function(){
+    const loader = document.querySelector(".loader");
+    loader.className += " hidden";
+}, 3000)
