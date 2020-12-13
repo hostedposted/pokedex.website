@@ -22,16 +22,13 @@ var input = document.getElementById("search");
 var i;
 
 input.addEventListener("keyup", function(event) {
-    for (i = 0; i < 226; i++) {
-        if (event.keyCode === i) {
+        if (event.keyCode < 227) {
 
             event.preventDefault();
 
             document.getElementById("searchbut").click();
         };
-    };
-});
-
+    });
 
 
 
@@ -53,6 +50,8 @@ const fetchPokemon = () => {
                 ability: result.abilities.map((ability) => ability.ability.name).join(', ') || gen8pokemon[result.id - 808].abilities.join(', '),
             }));
             displayPokemon(pokemon);
+            const loader = document.querySelector(".loader");
+            loader.className += " hidden";
         });
     });
 };
@@ -204,8 +203,3 @@ const displayPokemanPopup = (pokeman, evolution) => {
     };
 
     fetchPokemon();
-
-window.setTimeout(function(){
-    const loader = document.querySelector(".loader");
-    loader.className += " hidden";
-}, 5000)

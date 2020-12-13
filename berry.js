@@ -48,9 +48,21 @@ const fetchPokemon1 = () => {
             natural_gift_type: result.natural_gift_type.name,
             natural_gift_power: result.natural_gift_power,
             id: result.id,
-            effect_chance: result.effect_chance,
+            effecturl: result.item.url,
         }))
-        displayPokemon1(berries);
+        const effecta = [];
+        for (let i = 0; i <= 63; i++) {
+            effecta.push(fetch(berries[i].effecturl).then((res) => res.json()));
+        }
+        Promise.all(effecta).then((results) => {
+            effects = results.map((result) => ({
+                effect_entries: result.effect_entries[0].short_effect
+            }))
+            effects.forEach((effect, i) => {
+                berries[i].effect = effect.effect_entries
+            });
+            displayPokemon1(berries);
+        })
     });
 };
 
@@ -61,7 +73,7 @@ const displayPokemon1 = (pokemon) => {
                            <li class="card" id = "${pokeman.name}" style = "background-color: ${colors[pokeman.natural_gift_type]};">
                                <img class="card-image" src="https://raw.githubusercontent.com/hostedposted/Pokedex-data/main/${pokeman.id}.png"/>
                                <h2 class="card-title">${pokeman.name}</h2>
-                               <p class="card-subtitle">Firmness: ${pokeman.firmness} <br> Natural Gift Type: ${pokeman.natural_gift_type} <br> Natural Gift Power: ${pokeman.natural_gift_power} </p>
+                               <p class="card-subtitle">Firmness: ${pokeman.firmness} <br> Natural Gift Type: ${pokeman.natural_gift_type} <br> Natural Gift Power: ${pokeman.natural_gift_power} <br> Effect: ${pokeman.effect} </p>
                            </li>
                        `
         )
