@@ -95,7 +95,7 @@ const displayPokemon = (pokemon) => {
     const pokemonHTMLString = pokemon
         .map(
             (pokeman) => `
-            <li class="card" id = "${pokeman.name}" onclick = "selectPokemon(${pokeman.id})" style="${getStyle(pokeman)}">
+            <li class="card" id = "${pokeman.name}" onclick = "selectPokemon(${pokeman.id}); this.onclick=null;" style="${getStyle(pokeman)}">
                 <img class="card-image" src="${pokeman.image}"/>
                 <h2 class="card-title">${pokeman.id}. ${pokeman.name}</h2>
                 <p class="card-subtitle">Type: ${pokeman.type} <br> Ability: ${pokeman.ability} </p>
