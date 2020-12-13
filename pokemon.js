@@ -143,7 +143,7 @@ function getStyleP(pokeman) {
 
 function displayMove(url) {
     fetch(url).then((res) => res.json()).then((move) => {
-        const htmlString = move.effect_entries.map((short_effect) => short_effect.short_effect).join(', ').replace('$effect_chance', move.effect_chance).replace('$effect_chance', move.effect_chance);
+        const htmlString = `Power: ${move.power || 0} <br>Description: ${move.effect_entries.map((short_effect) => short_effect.short_effect).join(', ').replace('$effect_chance', move.effect_chance).replace('$effect_chance', move.effect_chance)}`
         const popmove = document.getElementById(move.name)
         if (popmove.innerHTML != '') {
             popmove.innerHTML = ''
