@@ -71,7 +71,7 @@ const displayPokemon1 = (pokemon) => {
         .map(
             (pokeman) => `
                            <li class="card" id = "${pokeman.name}" style = "background-color: ${colors[pokeman.natural_gift_type]};">
-                               <img class="card-image" src="https://raw.githubusercontent.com/hostedposted/Pokedex-data/main/${pokeman.id}.png"/>
+                               <img class="card-image" src="berry/${pokeman.id}.png"/>
                                <h2 class="card-title">${pokeman.name}</h2>
                                <p class="card-subtitle">Firmness: ${pokeman.firmness} <br> Natural Gift Type: ${pokeman.natural_gift_type} <br> Natural Gift Power: ${pokeman.natural_gift_power} <br> Effect: ${pokeman.effect} </p>
                            </li>
