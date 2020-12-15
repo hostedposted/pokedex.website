@@ -89,17 +89,19 @@
                 </div>
 <script>
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js').then(function(registration) {
-    // registration worked
-    console.log('Registration succeeded.');
+    // Register a service worker hosted at the root of the
+    // site using the default scope.
+    navigator.serviceWorker.register('/sw.js').then(function(registration) {
+        console.log('Service worker registration succeeded');
+    }, /*catch*/ function(error) {
     update.onclick = function() {
-      registration.update();
+        serviceWorkerRegistration.update()
     }
-  }).catch(function(error) {
-    // registration failed
-    console.log('Registration failed with ' + error);
-  });
-};
+    console.log('Service worker registration failed:', error);
+    });
+} else {
+    console.log('Service workers are not supported.');
+}
     var tabButtons=document.querySelectorAll(".tabContainer .buttonContainer button");
     var tabPanels=document.querySelectorAll(".tabContainer  .tabPanel");
     
