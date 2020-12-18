@@ -38,6 +38,15 @@
     <link rel="stylesheet" href="pokemon.css" />
 </head>
 <body style="padding: 20px">
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<label for="inp">Choose background color:</label>
+<input type="color" id="inp" value="#ff6961">
+<script>$(document).on('change','#inp',function(){
+    $(".tabPanel").css('background-color',""+document.getElementById('inp').value);
+    $(".buttonContainer").css('background-color',""+document.getElementById('inp').value);
+    $(".title").css('background-color',""+document.getElementById('inp').value);
+    $("body").css('background-color',""+document.getElementById('inp').value);
+  });</script>
 <h1 class="title">Hostedposted's Pokedex</h1>
 <button id = update>Update To Newest Version, <br>You Will Need To Reload After Using</button>
 <form action="https://github.com/Pokedex-website/Pokedex-website.github.io">
@@ -45,9 +54,9 @@
 </form>
 <div class="tabContainer">
     <div class="buttonContainer">
-        <button onclick="showPanel(0,'#ff6961')">Pokemon</button>
-        <button onclick="showPanel(1,'#ff6961')">Berries</button>
-        <button onclick="showPanel(2,'#ff6961')">Moves</button>
+        <button onclick="showPanel(0,document.getElementById('inp').value)">Pokemon</button>
+        <button onclick="showPanel(1,document.getElementById('inp').value)">Berries</button>
+        <button onclick="showPanel(2,document.getElementById('inp').value)">Moves</button>
     </div>
     <div class="tabPanel"><link
         href="https://fonts.googleapis.com/css?family=Rubik&display=swap"
@@ -118,7 +127,7 @@ if ('serviceWorker' in navigator) {
         tabPanels[panelIndex].style.display="block";
         tabPanels[panelIndex].style.backgroundColor=colorCode;
     }
-    showPanel(0,'#ff6961');</script>
+    showPanel(0,document.getElementById('inp').value);</script>
     <div class="loader">
         <img src="loading.gif" alt="Loading..." />
     </div>

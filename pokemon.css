@@ -55,7 +55,6 @@ p {
 	font-family: sans-serif;
 	color: black;
 	text-align: center;
-	background-color: #ff6961;
 }
 .tabContainer{
 	width: 100%;
@@ -81,7 +80,6 @@ p {
 }
 .tabContainer .tabPanel{
 	height: 85%;
-	background-color: gray;
 	color: white;
 	text-align: center;
 	padding-top: 105px;
