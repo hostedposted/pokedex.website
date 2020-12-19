@@ -179,7 +179,7 @@ const displayPokemanPopup = (pokeman, evolution) => {
             `Evolution chain: ${evolution.chain.species.name}` : evolution.chain.evolves_to[0].evolves_to[0] == undefined ?
             `Evolution chain: ${evolution.chain.species.name}, ${evolution.chain.evolves_to[0].species.name}` : `Evolution chain: ${evolution.chain.species.name}, ${evolution.chain.evolves_to[0].species.name}, ${evolution.chain.evolves_to[0].evolves_to[0].species.name}`
         const htmlString = `
-            <div class="popup">
+            <div class="popup" style="background-color: ${document.getElementById('inp').value}">
                 <button id="closeBtn" onclick="closePopup()">Close</button>
                 <div class="card" style="${getStyleP(pokeman)}">
                     <img class="card-image" src="/pokemon/${pokeman.id}.png"/>
