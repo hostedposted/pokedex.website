@@ -43,7 +43,7 @@
 <input type="color" id="inp" value="#ff6961">
 <script>$(document).on('change','#inp',function(){
     $(".tabPanel").css('background-color',""+document.getElementById('inp').value);
-    $(".buttonContainer").css('background-color',""+document.getElementById('inp').value);
+    $(".tabContainer .buttonContainer button").css('background-color',""+document.getElementById('inp').value);
     $(".title").css('background-color',""+document.getElementById('inp').value);
     $("body").css('background-color',""+document.getElementById('inp').value);
   });</script>
