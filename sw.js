@@ -1,6 +1,12 @@
 var CACHE_NAME = 'example';
 var urlsToCache = [
-  "/"
+  "/",
+  "/api/",
+  "/berry/",
+  "/Favicon/",
+  "/move/",
+  "/pokemon/",
+  "/pokemon-species/"
 ];
 
 self.addEventListener('install', function(event) {
