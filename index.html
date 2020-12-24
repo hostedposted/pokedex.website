@@ -102,19 +102,12 @@
                 </div>
                 </div>
 <script>
-if (navigator.serviceWorker) {
-    navigator.serviceWorker.register('/sw.js', {scope: '/'})
-    console.log("Service worker")
-  }
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('/sw.js', {scope: '/'}).then(function(registration) {
     update.onclick = function() {
         registration.update();
     }
 })
-}
-else {
-    console.log('Service workers are not supported.');
 }
     var tabButtons=document.querySelectorAll(".tabContainer .buttonContainer button");
     var tabPanels=document.querySelectorAll(".tabContainer  .tabPanel");
