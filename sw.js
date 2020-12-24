@@ -25,7 +25,9 @@ self.addEventListener("install", function(event) {
           "/move/",
           "/pokemon/",
           "/pokemon-species/"   
-        ]);
+        ]).catch(function (reason) {
+          return "failed: " + String(reason)
+      });
       })
       .then(function() {
         console.log('WORKER: install completed');
