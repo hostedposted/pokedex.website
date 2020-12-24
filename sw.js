@@ -26,7 +26,7 @@ self.addEventListener("install", function(event) {
           "/pokemon/",
           "/pokemon-species/"   
         ]).catch(function (reason) {
-          return "failed: " + String(reason)
+          console.log("failed: " + String(reason))
       });
       })
       .then(function() {
