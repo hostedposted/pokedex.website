@@ -1,9 +1,8 @@
 var APP_PREFIX = 'Pokedex.website '     
-var VERSION = '1.7.0'             
+var VERSION = '1.7.1'             
 var CACHE_NAME = APP_PREFIX + VERSION
 var URLS = [                            
-  '/',                     
-  '/index.html',
+  '/',
   "/api/",
   "/berry/",
   "/Favicon/",
