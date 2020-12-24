@@ -104,6 +104,7 @@
 <script>
 if (navigator.serviceWorker) {
     navigator.serviceWorker.register('/sw.js', {scope: '/'})
+    console.log("Service worker")
   }
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('/sw.js', {scope: '/'}).then(function(registration) {
