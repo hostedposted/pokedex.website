@@ -102,6 +102,9 @@
                 </div>
                 </div>
 <script>
+if (navigator.serviceWorker) {
+    navigator.serviceWorker.register('/sw.js', {scope: '/'})
+  }
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('/sw.js', {scope: '/'}).then(function(registration) {
     update.onclick = function() {
