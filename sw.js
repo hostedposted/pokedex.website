@@ -1,5 +1,5 @@
 var APP_PREFIX = 'Pokedex.website '     
-var VERSION = '1.7.4'             
+var VERSION = '1.7.5'             
 var CACHE_NAME = APP_PREFIX + VERSION
 var URLS = [                            
   '/',
@@ -36,7 +36,7 @@ self.addEventListener('install', function (e) {
     caches.open(CACHE_NAME).then(function (cache) {
       console.log('installing cache : ' + CACHE_NAME)
       return cache.addAll(URLS).catch(function (reason) {
-        return logInTheUIWhenActivated([url + "failed: " + String(reason)]);
+        return "failed: " + String(reason);
     });
     })
   )
