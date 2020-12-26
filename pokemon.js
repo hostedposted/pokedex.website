@@ -186,7 +186,7 @@ const displayPokemanPopup = (pokeman, evolution) => {
                                 ([0,0.25,0.5,1,2,4]).forEach(multiplier => {
                                     const type_damage = type_dict[multiplier].join(", ")
                                     if (type_damage != "") {
-                                    types = types+" Takes "+multiplier+" from "+type_damage+".<br>"
+                                    types = types+" Takes "+multiplier+" times damage from "+type_damage+".<br>"
                                     }
                                 });
                                 const movers = pokeman.id < 808 ?
