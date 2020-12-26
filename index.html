@@ -43,10 +43,13 @@
     <link rel="stylesheet" href="pokemon.css" />
 </head>
 <body style="padding: 20px">
-<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <label for="inp">Choose background color:</label>
 <input type="color" id="inp" value="#ff6961">
-<script>$(document).on('change','#inp',function(){
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script>
+$(document).on('change','#inp',function(){
+    const bgColor = document.getElementById("inp").value
+    localStorage.setItem("bgColor", bgColor)
     $(".tabPanel").css('background-color',""+document.getElementById('inp').value);
     $(".tabContainer .buttonContainer button").css('background-color',""+document.getElementById('inp').value);
     $(".title").css('background-color',""+document.getElementById('inp').value);
@@ -113,6 +116,9 @@ if ('serviceWorker' in navigator) {
     var tabPanels=document.querySelectorAll(".tabContainer  .tabPanel");
     
     function showPanel(panelIndex,colorCode) {
+        tabButtons.forEach(function(node){
+            node.style.color="";
+        });
         tabButtons[panelIndex].style.backgroundColor=colorCode;
         tabButtons[panelIndex].style.color="white";
         tabPanels.forEach(function(node){
@@ -129,6 +135,15 @@ if ('serviceWorker' in navigator) {
             </div>
         </noscript>
         <img src="loading.gif" alt="Loading..." />
+        <script>
+            const color = localStorage.getItem("bgColor")
+            $(".tabPanel").css('background-color',""+color);
+            $(".tabContainer .buttonContainer button").css('background-color',""+color);
+            $(".title").css('background-color',""+color);
+            $("body").css('background-color',""+color);
+            $(".loader").css('background',""+color);
+            document.getElementById("inp").value = color
+        </script>
     </div>
 </body>
 </html>
