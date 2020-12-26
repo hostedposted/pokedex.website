@@ -1,4 +1,4 @@
-const cacheName = 'pokedex-1.7.8'
+const cacheName = 'pokedex-1.7.9'
 
 // utlity 
 const trace = (x, y) => {
