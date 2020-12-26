@@ -166,7 +166,29 @@ const displayPokemanPopup = (pokeman, evolution) => {
                                 const stats = pokeman.stats.map((stat) =>
                                     `${stat.stat.name}: ${stat.base_stat}`
                                 ).join('<br>');
-                                const types = `Type effectiveness: <br> Takes ${type_chart[pokeman.id-1].normal} times damage from normal. <br> Takes ${type_chart[pokeman.id-1].fire} times damage from fire. <br> Takes ${type_chart[pokeman.id-1].water} times damage from water. <br> Takes ${type_chart[pokeman.id-1].electric} times damage from electric. <br> Takes ${type_chart[pokeman.id-1].grass} times damage from grass. <br> Takes ${type_chart[pokeman.id-1].ice} times damage from ice. <br> Takes ${type_chart[pokeman.id-1].fighting} times damage from fighting. <br> Takes ${type_chart[pokeman.id-1].poison} times damage from poison. <br> Takes ${type_chart[pokeman.id-1].ground} times damage from ground. <br> Takes ${type_chart[pokeman.id-1].flying} times damage from flying. <br> Takes ${type_chart[pokeman.id-1].psychic} times damage from psychic. <br> Takes ${type_chart[pokeman.id-1].bug} times damage from bug. <br> Takes ${type_chart[pokeman.id-1].rock} times damage from rock. <br> Takes ${type_chart[pokeman.id-1].ghost} times damage from ghost. <br> Takes ${type_chart[pokeman.id-1].dragon} times damage from dragon. <br> Takes ${type_chart[pokeman.id-1].dark} times damage from dark. <br> Takes ${type_chart[pokeman.id-1].steel} times damage from steel. <br> Takes ${type_chart[pokeman.id-1].fairy} times damage from fairy.`
+
+                                const type_list = ['normal', 'fire', 'water', 'electric', 'grass', 'ice', 'fighting', 'poison', 'ground', 'flying', 'psychic', 'bug', 'rock', 'ghost', 'dragon', 'dark', 'steel', 'fairy']
+                                const type_dict = {
+                                    0: [],
+                                    0.25: [],
+                                    0.5: [],
+                                    1: [],
+                                    2: [],
+                                    4: []
+                                }
+
+                                for (let i = 0; i<type_list.length; i++) {
+                                    const attack_type = type_list[i]
+                                    const multiplier = type_chart[pokeman.id - 1][attack_type]
+                                    type_dict[multiplier].push(attack_type)
+                                }
+                                var types = "";
+                                ([0,0.25,0.5,1,2,4]).forEach(multiplier => {
+                                    const type_damage = type_dict[multiplier].join(", ")
+                                    if (type_damage != "") {
+                                    types = types+" Takes "+multiplier+" from "+type_damage+".<br>"
+                                    }
+                                });
                                 const movers = pokeman.id < 808 ?
                                     `Moves ${pokeman.name} can learn are: <br> ${pokeman.moves.map((move) =>
                 `${move.move.name} <button id="details" type="button" onclick="displayMove('${move.move.url.replace("/api/v2/move/", "move").replace("/", "/index.json").replace("move", "move/")}')">Details</button><div id = "${move.move.name}"></div>`
