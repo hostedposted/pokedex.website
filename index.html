@@ -136,6 +136,7 @@ if ('serviceWorker' in navigator) {
         </noscript>
         <img src="loading.gif" alt="Loading..." />
         <script>
+        if (localStorage.getItem("bgColor")) {
             const color = localStorage.getItem("bgColor")
             $(".tabPanel").css('background-color',""+color);
             $(".tabContainer .buttonContainer button").css('background-color',""+color);
@@ -143,6 +144,7 @@ if ('serviceWorker' in navigator) {
             $("body").css('background-color',""+color);
             $(".loader").css('background',""+color);
             document.getElementById("inp").value = color
+        }
         </script>
     </div>
 </body>

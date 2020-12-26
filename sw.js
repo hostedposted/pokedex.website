@@ -1,8 +1,7 @@
-const cacheName = 'pokedex-1.8.1'
+const cacheName = 'pokedex-1.8.2'
 
 // utlity 
 const trace = (x, y) => {
-  console.log(x);
   return y;
 }
 
@@ -21,6 +20,7 @@ const urlsToCache = new Set([
 
 self.addEventListener('install', event => {
   console.log('% install', urlsToCache)
+  console.log(cacheName)
   caches.open(cacheName).then(cache =>
     cache.addAll(Array.from(urlsToCache))
   )
@@ -45,7 +45,6 @@ self.addEventListener('activate', event => {
 });
 
 const cacheAResponse = (cache, request, response, log) => {
-  console.log(log, request.url);
   cache.put(request, response.clone());
   return response;
 }
@@ -62,10 +61,8 @@ const tryServingFromCache = request =>
   caches.open(cacheName).then(cache =>
     cache.match(request).then(resp => {
       if(!!resp) {
-        console.log('> from cache', request.url)
         return resp;
       } else {
-        console.log('! not in cache', request.url)
         return fetch(request).then(response => 
           cacheAResponse(cache, request, response, '$ cached ')
         )
