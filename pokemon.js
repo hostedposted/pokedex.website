@@ -194,7 +194,7 @@ const displayPokemanPopup = (pokeman, evolution) => {
                 `${move.move.name} <button id="details" type="button" onclick="displayMove('${move.move.url.replace("/api/v2/move/", "move").replace("/", "/index.json").replace("move", "move/")}')">Details</button><div id = "${move.move.name}"></div>`
             ).join('')}` :  
             `Level Up Moves ${pokeman.name} can learn are: <br> ${gen8pokemon[pokeman.id-808].level_up_moves.map((move) => 
-                `${move[1]}`
+                `${move[1]} can be learned at level ${move[0]}`
             ).join(', <br>')}`
         const ability = pokeman.abilities.map((ability) => ability.ability.name).join(', ') || gen8pokemon[pokeman.id-808].abilities.join(', ')
         const description = pokeman.id < 808 ?
