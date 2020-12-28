@@ -1,4 +1,4 @@
-const cacheName = 'pokedex-1.8.5'
+const cacheName = 'pokedex-1.8.6'
 
 // utlity 
 const trace = (x, y) => {
@@ -19,8 +19,7 @@ const urlsToCache = new Set([
 
 
 self.addEventListener('install', event => {
-  console.log('% install', urlsToCache)
-  console.log(cacheName)
+  console.log(cacheName, 'install', urlsToCache)
   caches.open(cacheName).then(cache =>
     cache.addAll(Array.from(urlsToCache))
   )
