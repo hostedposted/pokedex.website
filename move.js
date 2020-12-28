@@ -38,13 +38,8 @@ let moves;
 
 
 const fetchPokemon2 = () => {
-    const promises = [];
-    for (let i = 1; i <= 784; i++) {
-        const url2 = `/move/${i}/index.json`;
-        promises.push(fetch(url2).then((res) => res.json()));
-    }
-
-    Promise.all(promises).then((results) => {
+    const url = 'move.json'
+    fetch(url).then((res) => res.json()).then((results) => {
         moves = results.map((result) => ({
             name: result.name,
             pp: result.pp,
