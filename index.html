@@ -58,16 +58,22 @@
     </script>
 <label for="inp">Choose background color:</label>
 <input data-jscolor="{onInput:'update(this)', alpha:1.0}" id="inp" value="#ff6961">
-<pre id="colors" style="color: black;position:absolute; top:15px; right:10%;"></pre>
+<button type="button" id="colors" style="color: black;position:absolute; top:15px; right:10%;">See Background Color info</button>
 <script>
+var color_info;
 function update(picker) {
-    document.getElementById('colors').innerHTML = [
+    color_info = [
         'Color of background:',
         'HEX = ' + picker.toHEXString(),
         'RGB = ' + picker.toRGBString(),
         'RGBA = ' + picker.toRGBAString(),
     ].join('\n');
 }
+document.getElementById("colors").addEventListener("click", function(){
+    this.onclick=null;
+    alert(color_info)
+    })
+
 
 jscolor.trigger('input');
 </script>
@@ -77,6 +83,7 @@ $(document).on('change','#inp',function(){
     const bgColor = document.getElementById("inp").value
     localStorage.setItem("bgColor", bgColor)
     $(".tabPanel").css('background-color',""+document.getElementById('inp').value);
+    $("#colors").css('background-color',""+document.getElementById('inp').value);
     $(".tabContainer .buttonContainer button").css('background-color',""+document.getElementById('inp').value);
     $(".title").css('background-color',""+document.getElementById('inp').value);
     $("body").css('background-color',""+document.getElementById('inp').value);
@@ -5557,6 +5564,7 @@ if ('serviceWorker' in navigator) {
             $(".title").css('background',""+color);
             $("body").css('background-color',""+color);
             $("#inp").css('background-color',""+color);
+            $("#colors").css('background-color',""+color);
             document.getElementById("inp").value = color
         }
         </script>
