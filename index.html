@@ -58,7 +58,7 @@
     </script>
 <label for="inp">Choose background color:</label>
 <input data-jscolor="{onInput:'update(this)', alpha:1.0}" id="inp" value="#ff6961">
-<pre id="colors" style="color: black;position:absolute; top:20px; right:10%;"></pre>
+<pre id="colors" style="color: black;position:absolute; top:15px; right:10%;"></pre>
 <script>
 function update(picker) {
     document.getElementById('colors').innerHTML = [
@@ -69,7 +69,7 @@ function update(picker) {
     ].join('\n');
 }
 
-jscolor.trigger('input'); // triggers 'onInput' on all color pickers when they are ready
+jscolor.trigger('input');
 </script>
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <script>
