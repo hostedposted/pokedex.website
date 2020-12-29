@@ -57,7 +57,20 @@
     };
     </script>
 <label for="inp">Choose background color:</label>
-<input data-jscolor="" id="inp" value="#ff6961">
+<input data-jscolor="{onInput:'update(this)', alpha:1.0}" id="inp" value="#ff6961">
+<pre id="colors" style="color: black;position:absolute; top:20px; right:10%;"></pre>
+<script>
+function update(picker) {
+    document.getElementById('colors').innerHTML = [
+        'Color of background:',
+        'HEX = ' + picker.toHEXString(),
+        'RGB = ' + picker.toRGBString(),
+        'RGBA = ' + picker.toRGBAString(),
+    ].join('\n');
+}
+
+jscolor.trigger('input'); // triggers 'onInput' on all color pickers when they are ready
+</script>
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <script>
 $(document).on('change','#inp',function(){
