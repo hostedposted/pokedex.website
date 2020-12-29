@@ -43,8 +43,21 @@
     <link rel="stylesheet" href="pokemon.css" />
 </head>
 <body style="padding: 20px">
+<script src="jscolor.js"></script>
+<script>
+    jscolor.presets.default = {
+        format:'any',
+        palette: [
+        '#000000', '#7d7d7d', '#870014', '#ec1c23', '#ff7e26',
+        '#fef100', '#22b14b', '#00a1e7', '#3f47cc', '#a349a4',
+        '#ffffff', '#c3c3c3', '#b87957', '#feaec9', '#ffc80d',
+        '#eee3af', '#b5e61d', '#99d9ea', '#7092be', '#c8bfe7',
+    ],
+    backgroundColor:'rgb(0,0,0)'
+    };
+    </script>
 <label for="inp">Choose background color:</label>
-<input type="color" id="inp" value="#ff6961">
+<input data-jscolor="" id="inp" value="#ff6961">
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <script>
 $(document).on('change','#inp',function(){
@@ -54,8 +67,9 @@ $(document).on('change','#inp',function(){
     $(".tabContainer .buttonContainer button").css('background-color',""+document.getElementById('inp').value);
     $(".title").css('background-color',""+document.getElementById('inp').value);
     $("body").css('background-color',""+document.getElementById('inp').value);
+    $("#inp").css('background-color',""+document.getElementById('inp').value);
   });</script>
-<h1 class="title">Hostedposted's Pokedex</h1>
+<h1 style="color: black;">Hostedposted's Pokedex</h1>
 <button id = update>Update To Newest Version, <br>You Will Need To Reload After Using</button>
 <form action="https://github.com/Pokedex-website/Pokedex-website.github.io">
     <input type="submit" id = submiter value="Go to Source code" />
@@ -5522,15 +5536,14 @@ if ('serviceWorker' in navigator) {
                 This pokedex requires JavaScript. The pokedex will load if you enable JavaScript.
             </div>
         </noscript>
-        <img src="loading.gif" alt="Loading..." />
         <script>
         if (localStorage.getItem("bgColor")) {
             const color = localStorage.getItem("bgColor")
             $(".tabPanel").css('background-color',""+color);
             $(".tabContainer .buttonContainer button").css('background-color',""+color);
-            $(".title").css('background-color',""+color);
+            $(".title").css('background',""+color);
             $("body").css('background-color',""+color);
-            $(".loader").css('background',""+color);
+            $("#inp").css('background-color',""+color);
             document.getElementById("inp").value = color
         }
         </script>
