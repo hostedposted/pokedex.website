@@ -19,16 +19,11 @@ document.getElementById("clearbut").addEventListener("click", function() {
 
 var input = document.getElementById("search");
 
-var i;
-
 input.addEventListener("keyup", function(event) {
-        if (event.keyCode < 227) {
+    event.preventDefault();
 
-            event.preventDefault();
-
-            document.getElementById("searchbut").click();
-        };
-    });
+    document.getElementById("searchbut").click();
+});
 
 
 
@@ -87,8 +82,8 @@ function getStyle(pokeman) {
         const color2 = colors[types[1]]
         return `background: linear-gradient(to right, ${color1} 50%, ${color2} 50%);`
     }
-   }
-   
+}
+
 
 const displayPokemon = (pokemon) => {
     const pokemonHTMLString = pokemon
@@ -106,8 +101,6 @@ const displayPokemon = (pokemon) => {
 };
 
 
-
-fetchPokemon();
 
 const selectPokemon = async(id) => {
     if (!cachedPokemon[id]) {
@@ -138,7 +131,7 @@ function getStyleP(pokeman) {
         const color2 = colors[types[1]]
         return `background: linear-gradient(to right, ${color1} 50%, ${color2} 50%);`
     }
-   }
+}
 
 function displayMove(url) {
     fetch(url).then((res) => res.json()).then((move) => {
@@ -157,40 +150,40 @@ function displayMove(url) {
 const displayPokemanPopup = (pokeman, evolution) => {
         const url = "gen8.json";
         fetch(url).then((res) => res.json()).then((gen8pokemon) => {
-            const urlt = "types.json";
-            fetch(urlt).then((res) => res.json()).then((type_chart) => {
-                    document.body.style.overflow = 'hidden';
-                    const url7 = "pokedex.json";
-                    fetch(url7).then((res) => res.json()).then((desc) => {
-                                const type = pokeman.types.map((type) => type.type.name).join(', ');
-                                const stats = pokeman.stats.map((stat) =>
-                                    `${stat.stat.name}: ${stat.base_stat}`
-                                ).join('<br>');
+                    const urlt = "types.json";
+                    fetch(urlt).then((res) => res.json()).then((type_chart) => {
+                                document.body.style.overflow = 'hidden';
+                                const url7 = "pokedex.json";
+                                fetch(url7).then((res) => res.json()).then((desc) => {
+                                            const type = pokeman.types.map((type) => type.type.name).join(', ');
+                                            const stats = pokeman.stats.map((stat) =>
+                                                `${stat.stat.name}: ${stat.base_stat}`
+                                            ).join('<br>');
 
-                                const type_list = ['normal', 'fire', 'water', 'electric', 'grass', 'ice', 'fighting', 'poison', 'ground', 'flying', 'psychic', 'bug', 'rock', 'ghost', 'dragon', 'dark', 'steel', 'fairy']
-                                const type_dict = {
-                                    0: [],
-                                    0.25: [],
-                                    0.5: [],
-                                    1: [],
-                                    2: [],
-                                    4: []
-                                }
+                                            const type_list = ['normal', 'fire', 'water', 'electric', 'grass', 'ice', 'fighting', 'poison', 'ground', 'flying', 'psychic', 'bug', 'rock', 'ghost', 'dragon', 'dark', 'steel', 'fairy']
+                                            const type_dict = {
+                                                0: [],
+                                                0.25: [],
+                                                0.5: [],
+                                                1: [],
+                                                2: [],
+                                                4: []
+                                            }
 
-                                for (let i = 0; i<type_list.length; i++) {
-                                    const attack_type = type_list[i]
-                                    const multiplier = type_chart[pokeman.id - 1][attack_type]
-                                    type_dict[multiplier].push(attack_type)
-                                }
-                                var types = "";
-                                ([0,0.25,0.5,1,2,4]).forEach(multiplier => {
-                                    const type_damage = type_dict[multiplier].join(", ")
-                                    if (type_damage != "") {
-                                    types = types+" Takes "+multiplier+" times damage from "+type_damage+".<br>"
-                                    }
-                                });
-                                const movers = pokeman.id < 808 ?
-                                    `Moves ${pokeman.name} can learn are: <br> ${pokeman.moves.map((move) =>
+                                            for (let i = 0; i < type_list.length; i++) {
+                                                const attack_type = type_list[i]
+                                                const multiplier = type_chart[pokeman.id - 1][attack_type]
+                                                type_dict[multiplier].push(attack_type)
+                                            }
+                                            var types = "";
+                                            ([0, 0.25, 0.5, 1, 2, 4]).forEach(multiplier => {
+                                                const type_damage = type_dict[multiplier].join(", ")
+                                                if (type_damage != "") {
+                                                    types = types + " Takes " + multiplier + " times damage from " + type_damage + ".<br>"
+                                                }
+                                            });
+                                            const movers = pokeman.id < 808 ?
+                                                `Moves ${pokeman.name} can learn are: <br> ${pokeman.moves.map((move) =>
                 `${move.move.name} <button id="details" type="button" onclick="displayMove('${move.move.url.replace("/api/v2/move/", "move").replace("/", "/index.json").replace("move", "move/")}')">Details</button><div id = "${move.move.name}"></div>`
             ).join('')}` :  
             `Level Up Moves ${pokeman.name} can learn are: <br> ${gen8pokemon[pokeman.id-808].level_up_moves.map((move) => 
