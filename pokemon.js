@@ -1,6 +1,5 @@
 const pokedex = document.getElementById('pokedex');
 const cachedPokemon = {};
-const cachedEvolution = {};
 
 document.getElementById("searchbut").addEventListener("click", function() {
     var input, filter, ul, li, a, i, value;
@@ -61,17 +60,10 @@ const selectPokemon = async(id) => {
         const url = `pokemon/${id}/index.json`;
         const res = await fetch(url);
         const pokeman = await res.json();
-        const urlf = `/pokemon-species/${id}/index.json`;
-        const resf = await fetch(urlf);
-        const pokemanf = await resf.json();
-        const evoU = `/api/v2/evolution-chain/${pokemanf.evolution_chain.url.replace("/api/v2/evolution-chain/", "").replace("/", "/index.json")}`;
-        const rese = await fetch(evoU);
-        const evolution = await rese.json();
         cachedPokemon[id] = pokeman;
-        cachedEvolution[id] = evolution;
-        displayPokemanPopup(pokeman, evolution);
+        displayPokemanPopup(pokeman);
     } else {
-        displayPokemanPopup(cachedPokemon[id], cachedEvolution[id]);
+        displayPokemanPopup(cachedPokemon[id]);
     }
 };
 
@@ -101,9 +93,13 @@ function displayMove(url) {
 }
 
 
-const displayPokemanPopup = (pokeman, evolution) => {
+const displayPokemanPopup = (pokeman) => {
         const url = "gen8.json";
         fetch(url).then((res) => res.json()).then((gen8pokemon) => {
+            const urls = "evolution.json";
+            fetch(urls).then((res) => res.json()).then((pokemans) => {
+                const urlE = `${pokemans[pokeman.id-1].evolution_chain.url}index.json`
+                fetch(urlE).then((res) => res.json()).then((evolution) => {
                     const urlt = "types.json";
                     fetch(urlt).then((res) => res.json()).then((type_chart) => {
                                 document.body.style.overflow = 'hidden';
@@ -168,6 +164,8 @@ const displayPokemanPopup = (pokeman, evolution) => {
         pokedex.innerHTML = htmlString + pokedex.innerHTML;
         })
         })
+    })
+})
     })
     };
     
