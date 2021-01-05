@@ -1,20 +1,22 @@
+const pokedex = document.getElementById('pokedex');
+const cachedPokemon = {};
+const cachedEvolution = {};
+
 document.getElementById("searchbut").addEventListener("click", function() {
-    const searcher = document.getElementById("search").value.toLowerCase()
-    for (const pokeman of pokemon) {
-        document.getElementById(pokeman.name).style.display = ""
+    var input, filter, ul, li, a, i, value;
+    input = document.getElementById('search');
+    filter = input.value.toUpperCase();
+    ul = pokedex;
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+       a = li[i].getElementsByTagName("t")[0];
+       value = a.textContent || a.innerText;
+       if (value.toUpperCase().indexOf(filter) == 0) {
+          li[i].style.display = "";
+       } else {
+          li[i].style.display = "none";
+       }
     }
-    for (const pokeman of pokemon) {
-        if (!pokeman.name.startsWith(searcher)) {
-            document.getElementById(pokeman.name).style.display = "none"
-        }
-    }
-});
-
-
-
-document.getElementById("clearbut").addEventListener("click", function() {
-    document.getElementById("search").value = "";
-    document.getElementById("searchbut").click();
 });
 
 var input = document.getElementById("search");
@@ -27,29 +29,11 @@ input.addEventListener("keyup", function(event) {
 
 
 
-const pokedex = document.getElementById('pokedex');
-const cachedPokemon = {};
-const cachedEvolution = {};
-let pokemon
-const fetchPokemon = () => {
-    const url = 'info.json'
-    fetch(url).then((res) => res.json()).then((results) => {
-        const url = "gen8.json";
-        fetch(url).then((res) => res.json()).then((gen8pokemon) => {
-            results.sort((a, b) => (a.id - b.id))
-            pokemon = results.map((result) => ({
-                name: result.name,
-                image: `/pokemon/${result.id}.png`,
-                type: result.types.map((type) => type.type.name).join(', '),
-                id: result.id,
-                ability: result.abilities.map((ability) => ability.ability.name).join(', ') || gen8pokemon[result.id - 808].abilities.join(', '),
-            }));
-            displayPokemon(pokemon);
-            const loader = document.querySelector(".loader");
-            loader.className += " hidden";
-        });
-    });
-};
+document.getElementById("clearbut").addEventListener("click", function() {
+    document.getElementById("search").value = "";
+    document.getElementById("searchbut").click();
+});
+
 
 const colors = {
     "normal": "#A8A878",
@@ -71,36 +55,6 @@ const colors = {
     "dark": "#705848",
     "fairy": "#EE99AC",
 }
-
-function getStyle(pokeman) {
-    if (pokeman.type.indexOf(',') < 0) {
-        // This pokemon only has one type
-        return `background: ${colors[pokeman.type]};`
-    } else {
-        const types = pokeman.type.split(', ')
-        const color1 = colors[types[0]]
-        const color2 = colors[types[1]]
-        return `background: linear-gradient(to right, ${color1} 50%, ${color2} 50%);`
-    }
-}
-
-
-const displayPokemon = (pokemon) => {
-    const pokemonHTMLString = pokemon
-        .map(
-            (pokeman) => `
-            <li class="card" id = "${pokeman.name}" onclick = "selectPokemon(${pokeman.id}); this.onclick=null;" style="${getStyle(pokeman)}">
-                <img class="card-image" src="${pokeman.image}"/>
-                <h2 class="card-title">${pokeman.id}. ${pokeman.name}</h2>
-                <p class="card-subtitle">Type: ${pokeman.type} <br> Ability: ${pokeman.ability} </p>
-            </li>
-        `
-        )
-        .join('');
-    pokedex.innerHTML = pokemonHTMLString;
-};
-
-
 
 const selectPokemon = async(id) => {
     if (!cachedPokemon[id]) {
@@ -222,5 +176,3 @@ const displayPokemanPopup = (pokeman, evolution) => {
         const popup = document.querySelector('.popup');
         popup.parentElement.removeChild(popup);
     };
-
-    fetchPokemon();
