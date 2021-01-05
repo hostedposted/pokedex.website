@@ -87,7 +87,7 @@ $(document).on('change','#inp',function(){
     $("#inp").css('background-color',""+document.getElementById('inp').value);
   });</script>
 <h1 style="color: black;">Hostedposted's Pokedex</h1>
-<button id = update>Update To Newest Version, <br>You Will Need To Reload After Using</button>
+<button id = update>Make offline capable, <br> only recommended if you have 16 or more GB RAM.</button>
 <form action="https://github.com/Pokedex-website/Pokedex-website.github.io">
     <input type="submit" id = submiter value="Go to Source code" />
 </form>
@@ -11573,13 +11573,12 @@ $(document).on('change','#inp',function(){
                 </div>
                 </div>
 <script>
+update.onclick = function() {
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/sw.js', {scope: '/'}).then(function(registration) {
-    update.onclick = function() {
-        registration.update();
-    }
-})
-}
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js');
+  });
+}}
     var tabButtons=document.querySelectorAll(".tabContainer .buttonContainer button");
     var tabPanels=document.querySelectorAll(".tabContainer  .tabPanel");
     
