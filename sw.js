@@ -1,4 +1,4 @@
-const cacheName = 'pokedex-1.9.9'
+const cacheName = 'pokedex-2.0.0'
 
 // utlity 
 const trace = (x, y) => {
@@ -12,6 +12,12 @@ const urlsToCache = new Set([
   "/Favicon/",
   "/move/",
   "/pokemon/",
+  "/pokemon.js",
+  "/pokemon.css",
+  "/move.js",
+  "/berry.js",
+  "/jscolor.js",
+  "/index.html",
   self.location.href
 ].map(u => new URL(u, self.location.href).href))
 
