@@ -7,10 +7,8 @@ const trace = (x, y) => {
 
 const urlsToCache = new Set([
   "/",
-  "/api/",
   "/berry/",
   "/Favicon/",
-  "/move/",
   "/pokemon/",
   "/pokemon.js",
   "/pokemon.css",
