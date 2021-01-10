@@ -11599,7 +11599,9 @@ var moveList = new List('movePokedex', move_options)
                 </div>
 <script>
 if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/sw.js');
+    navigator.serviceWorker.register('/sw.js').then(function(registration) {
+        registration.update();
+    })
 }
     var tabButtons=document.querySelectorAll(".tabContainer .buttonContainer button");
     var tabPanels=document.querySelectorAll(".tabContainer  .tabPanel");
