@@ -42,6 +42,7 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
     <title>Hostedposted's Pokedex</title>
     <link rel="stylesheet" href="pokemon.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css" />
 </head>
 <body style="padding: 20px">
 <script src="jscolor.js"></script>
@@ -89,9 +90,7 @@ $(document).on('change','#inp',function(){
     $("#inp").css('background-color',""+document.getElementById('inp').value);
   });</script>
 <h1 style="color: black;">Hostedposted's Pokedex</h1>
-<form action="https://github.com/Pokedex-website/Pokedex-website.github.io">
-    <input type="submit" id = submiter value="Go to Source code" />
-</form>
+<a class="github-fork-ribbon" href="https://github.com/Pokedex-website/Pokedex-website.github.io" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
 <div class="tabContainer">
     <div class="buttonContainer">
         <button onclick="showPanel(0,document.getElementById('inp').value)">Pokemon</button>
