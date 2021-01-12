@@ -45,6 +45,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css" />
 </head>
 <body style="padding: 20px">
+<div id="page">
 <script src="jscolor.js"></script>
 <script>
     jscolor.presets.default = {
@@ -11598,10 +11599,8 @@ var moveList = new List('movePokedex', move_options)
                 </div>
 <script>
 if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
     navigator.serviceWorker.register('/sw.js')
     console.log("SW init")
-    })
 }
     var tabButtons=document.querySelectorAll(".tabContainer .buttonContainer button");
     var tabPanels=document.querySelectorAll(".tabContainer  .tabPanel");
@@ -11619,13 +11618,35 @@ if ('serviceWorker' in navigator) {
         tabPanels[panelIndex].style.backgroundColor=colorCode;
     }
     showPanel(0,document.getElementById('inp').value);</script>
-    <div class="loader">
+    </div>
+    <div id="loading">
         <noscript>
             <div class="awesome-fancy-styling">
                 This pokedex requires JavaScript. Please turn on JavaScript so the pokedex will load.
             </div>
         </noscript>
+        <h1>Our pokedex is currently loading.</h1>
+        <h1>Please wait.</h1>
         <script>
+            function onReady(callback) {
+    var intervalID = window.setInterval(checkReady, 1000);
+
+    function checkReady() {
+        if (document.getElementsByTagName('body')[0] !== undefined) {
+            window.clearInterval(intervalID);
+            callback.call(this);
+        }
+    }
+}
+
+function show(id, value) {
+    document.getElementById(id).style.display = value ? 'block' : 'none';
+}
+
+onReady(function () {
+    show('page', true);
+    show('loading', false);
+});
         if (localStorage.getItem("bgColor")) {
             const color = localStorage.getItem("bgColor")
             $(".tabPanel").css('background-color',""+color);
@@ -11634,6 +11655,7 @@ if ('serviceWorker' in navigator) {
             $("body").css('background-color',""+color);
             $("#inp").css('background-color',""+color);
             $("#colors").css('background-color',""+color);
+            $("#loading").css('background-color',""+color);
             document.getElementById("inp").value = color
         }
         </script>

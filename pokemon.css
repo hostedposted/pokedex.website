@@ -10,22 +10,19 @@ t {
     background-color: #ff6961;
 }
 
-.loader.hidden {
-    animation: fadeOut 1s;
-    animation-fill-mode: forwards;
+#page {
+    display: none;
 }
-
-@keyframes fadeOut {
-    100% {
-        opacity: 0;
-        visibility: hidden;
-    }
-}
-
-.thumb {
-    height: 100px;
-    border: 1px solid black;
-    margin: 10px;
+#loading {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 body {
